@@ -18,8 +18,11 @@ body {
 }
 
 body {
-	background: black;
 	-webkit-overflow-scrolling: touch; 
+
+	@include sm-down {
+		background: blue;
+   }
 }  
 
 .page {
