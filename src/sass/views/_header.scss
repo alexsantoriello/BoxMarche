@@ -1,5 +1,5 @@
 .header {
-    padding: 10px 0 40px;
+    padding: 10px 0 50px;
     position: relative;
 
     .header__logo {
@@ -55,11 +55,27 @@
     }
 
     .nav-link {
-        padding: 0 10px !important;
+        padding: 0 30px !important;
+        position: relative;
 
         &:hover {
             color: #d11726 !important;
         }
+
+        &.dropdown-toggle::after {
+            position: absolute;
+            bottom: -15px;
+            left: 45%;
+            margin-left: 0;
+            display: none;
+        }
+
+        i.fas {
+            position: absolute;
+            bottom: -23px;
+            left: 45%;
+        }
+
     }
 
     .nav-item:last-child .nav-link {
@@ -69,6 +85,90 @@
     .navbar-nav {
         position: absolute;
         right: 0;
+
+        // SUBNAV
+        .dropdown-menu {
+            top: 59px !important;
+            left: 12px;
+            border: 0;
+            border-radius: 0;
+            padding: 0;
+
+            a.dropdown-item {
+                padding: 10px 20px !important;
+                font-size: 13px;
+
+                a.dropdown-item:hover {}
+            }
+
+        }
+
+    }
+
+    .nav-item.link-yellow {
+
+        i.fas {
+            color: $yellow !important;
+        }
+
+        & .nav-link:hover {
+            color: $yellow !important;
+        }
+
+        a.dropdown-item:hover,
+        a.dropdown-item:focus {
+            background: $bg-yellow;
+            color: #fff !important;
+        }
+
+        &.show .nav-link {
+            color: $yellow !important;
+        }
+
+    }
+
+    .nav-item.link-blue {
+
+        i.fas {
+            color: $blue !important;
+        }
+
+        & .nav-link:hover {
+            color: $blue !important;
+        }
+
+        a.dropdown-item:hover,
+        a.dropdown-item:focus {
+            background: $bg-blue;
+            color: #fff !important;
+        }
+
+        &.show .nav-link {
+            color: $blue !important;
+        }
+
+    }
+
+    .nav-item.link-red {
+
+        i.fas {
+            color: $red !important;
+        }
+
+        & .nav-link:hover {
+            color: $red !important;
+        }
+
+        a.dropdown-item:hover,
+        a.dropdown-item:focus {
+            background: $bg-red;
+            color: #fff !important;
+        }
+
+        &.show .nav-link {
+            color: $red !important;
+        }
+
     }
 
 }

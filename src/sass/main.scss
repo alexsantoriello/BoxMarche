@@ -8,6 +8,10 @@
 
 @import "views/header";
 @import "views/hero";
+@import "views/showreel";
+@import "views/section";
+@import "views/form";
+@import "views/footer";
 
 html,
 body {
@@ -15,15 +19,16 @@ body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	color: #000;
 }
 
 body {
-	-webkit-overflow-scrolling: touch; 
+	-webkit-overflow-scrolling: touch;
 
 	@include sm-down {
 		background: blue;
-   }
-}  
+	}
+}
 
 .page {
 	min-height: 100vh;

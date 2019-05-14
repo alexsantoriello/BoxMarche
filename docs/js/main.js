@@ -32,16 +32,61 @@ function () {
       _dom.default.detect(body);
 
       body.classList.add('ready');
-      app.slider();
+      app.slider_main();
+      app.slider_lob();
+      app.slider_case();
     }
   }, {
-    key: "slider",
-    value: function slider() {
-      var swiper = new Swiper('.swiper-container', {
+    key: "slider_main",
+    value: function slider_main() {
+      var swiper = new Swiper('.showreel-main', {
         spaceBetween: 0,
         centeredSlides: true,
+        speed: 600,
         autoplay: {
-          delay: 4000,
+          delay: 8000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    }
+  }, {
+    key: "slider_lob",
+    value: function slider_lob() {
+      var swiper = new Swiper('.showreel-lob', {
+        spaceBetween: 0,
+        centeredSlides: true,
+        speed: 600,
+        autoplay: {
+          delay: 8000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    }
+  }, {
+    key: "slider_case",
+    value: function slider_case() {
+      var swiper = new Swiper('.showreel-case', {
+        spaceBetween: 0,
+        centeredSlides: true,
+        speed: 600,
+        autoplay: {
+          delay: 8000,
           disableOnInteraction: false
         },
         pagination: {

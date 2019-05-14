@@ -1,0 +1,73 @@
+// Contattaci
+.section--contattaci {
+
+    h3 {
+        font-size: 81px;
+        line-height: 110%;
+        font-weight: 800;
+        color: #003b89;
+        width: 100%;
+
+        span {
+            padding-left: 12%;
+            display: inline-block;
+            width: 100%;
+        }
+
+        & .border {
+            width: 100%;
+            display: inline-block;
+            border: 0 !important;
+            border-bottom: 3px solid #003b89 !important;
+            display: block;
+            margin-top: 30px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 10%;
+                height: 25px;
+                background: #003b89;
+                display: inline-block;
+                border-bottom: 0 !important;
+                display: block;
+                margin-top: -25px;
+            }
+        }
+
+    }
+
+    .wrap-conttataci {
+        background: #003b89;
+        color: #fff;
+        padding: 90px 0;
+
+        .conttataci-sx {
+            .tit {
+                font-size: 40px;
+                line-height: 130%;
+                font-weight: 800;
+                padding-bottom: 25px;
+            }
+
+            .tel {
+                font-size: 30px;
+                line-height: 100%;
+                font-weight: 800;
+            }
+        }
+
+        .conttataci-dx {}
+    }
+
+}
+
+// Footer
+footer {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 13px;
+}

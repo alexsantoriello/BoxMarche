@@ -1,0 +1,425 @@
+.section {
+    padding-bottom: 120px;
+
+    img {
+        max-width: 100%;
+        ;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+}
+
+.cta-all {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+// Box Azienda
+.section--azienda {
+
+    &__right {
+        padding-right: 0 !important;
+
+        h1 {
+            font-size: 81px;
+            line-height: 110%;
+            font-weight: 800;
+            color: $yellow;
+            margin-top: 60px;
+
+            span {
+                padding-right: 20%;
+            }
+
+            & .border {
+                width: 100%;
+                display: inline-block;
+                border: 0 !important;
+                border-bottom: 3px solid $yellow !important;
+                display: block;
+                margin-top: 30px;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    width: 30%;
+                    height: 25px;
+                    background: $yellow;
+                    display: inline-block;
+                    border-bottom: 0 !important;
+                    display: block;
+                    margin-top: -25px;
+                }
+            }
+
+        }
+
+        h2 {
+            font-size: 22px;
+            line-height: 140%;
+            font-weight: 300;
+            padding: 30px 0;
+            padding-right: 40%;
+        }
+
+    }
+}
+
+// Box Packaging
+.section--packaging {
+
+    h3 {
+        font-size: 81px;
+        line-height: 110%;
+        font-weight: 800;
+        color: $red;
+        width: 60%;
+
+        span {
+            padding-left: 12%;
+            display: inline-block;
+            width: 100%;
+        }
+
+        & .border {
+            width: 100%;
+            display: inline-block;
+            border: 0 !important;
+            border-bottom: 3px solid $red !important;
+            display: block;
+            margin-top: 30px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 10%;
+                height: 25px;
+                background: $red;
+                display: inline-block;
+                border-bottom: 0 !important;
+                display: block;
+                margin-top: -25px;
+            }
+        }
+
+    }
+
+    .picture {
+        float: left;
+        position: relative;
+        overflow: hidden;
+
+        a {
+            display: inline-block;
+            width: 100&;
+        }
+
+        .label {
+            position: absolute;
+            background: $red;
+            bottom: 0;
+            font-weight: 800;
+            font-size: 36px;
+            color: #fff;
+            padding: 20px 25px;
+        }
+
+    }
+}
+
+// Box Living Outside the Box
+.section--lob {
+    color: #fff;
+
+    h3 {
+        font-size: 81px;
+        line-height: 110%;
+        font-weight: 800;
+        color: $blue;
+        width: 100%;
+
+        span {
+            padding-right: 12%;
+            display: inline-block;
+            text-align: right;
+            width: 100%;
+        }
+
+        & .border {
+            width: 100%;
+            display: inline-block;
+            border: 0 !important;
+            border-bottom: 3px solid $blue !important;
+            display: block;
+            margin-top: 30px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                width: 10%;
+                height: 25px;
+                background: $blue;
+                display: inline-block;
+                border-bottom: 0 !important;
+                display: block;
+                margin-top: -25px;
+            }
+        }
+
+    }
+
+    .row {
+        background: $blue;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .section--lob__left {
+        font-weight: 300;
+        float: left;
+        font-size: 24px;
+        line-height: 140%;
+
+        strong {
+            font-weight: 800;
+        }
+    }
+
+    .section--lob__right {
+        font-weight: 300;
+        float: left;
+        font-size: 52px;
+        line-height: 110%;
+
+        strong {
+            font-weight: 800;
+        }
+    }
+
+    .showreel {
+        padding-bottom: 0;
+        padding-top: 25px;
+
+        .swiper-slide {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: #fff !important;
+        }
+
+    }
+
+    .cta {
+        text-align: center;
+    }
+
+}
+
+// Case Studies
+.section--case {
+
+    h3 {
+        font-size: 81px;
+        line-height: 110%;
+        font-weight: 800;
+        color: $red;
+        width: 45%;
+
+        span {
+            padding-left: 12%;
+            display: inline-block;
+            width: 100%;
+        }
+
+        & .border {
+            width: 100%;
+            display: inline-block;
+            border: 0 !important;
+            border-bottom: 3px solid $red !important;
+            display: block;
+            margin-top: 30px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 10%;
+                height: 25px;
+                background: $red;
+                display: inline-block;
+                border-bottom: 0 !important;
+                display: block;
+                margin-top: -25px;
+            }
+        }
+
+    }
+
+    .swiper-slide {
+        background: $bg-red;
+
+        .copy,
+        .img {
+            float: left;
+            width: 50%;
+        }
+
+        .cta {
+            position: absolute;
+            bottom: -52px;
+        }
+
+        .cat {
+            background: #ac121e;
+            padding: 10px 35px;
+            width: auto;
+            display: inline-block;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .wrap-copy {
+            padding: 35px;
+            padding-right: 220px;
+            color: #fff;
+
+            .tit {
+                font-weight: 800;
+                font-size: 45px;
+                line-height: 100%;
+                padding-bottom: 30px;
+            }
+
+            .txt {
+                font-size: 20px;
+                line-height: 140%;
+                padding-bottom: 30px;
+            }
+
+            .partners {
+                .tit-partners {
+                    float: left;
+                    padding: 46px 15px 0 0;
+                }
+
+                img {
+                    margin-right: 15px;
+                }
+
+            }
+
+        }
+
+
+    }
+
+}
+
+// Blog
+.section--blog {
+
+    h3 {
+        font-size: 81px;
+        line-height: 110%;
+        font-weight: 800;
+        color: $purple;
+        width: 60%;
+        text-align: left;
+        float: right;
+
+        span {
+            padding-right: 12%;
+            display: inline-block;
+            text-align: left;
+            width: 100%;
+        }
+
+        & .border {
+            width: 100%;
+            display: inline-block;
+            border: 0 !important;
+            border-bottom: 3px solid $purple !important;
+            display: block;
+            margin-top: 30px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                width: 10%;
+                height: 25px;
+                background: $purple;
+                display: inline-block;
+                border-bottom: 0 !important;
+                display: block;
+                margin-top: -25px;
+            }
+        }
+
+    }
+
+    .container-blog {
+        max-width: 1600px;
+        margin: 0 auto;
+
+        .single-blog {
+
+            .img {
+                position: relative;
+
+                .cat {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: $purple;
+                    color: #fff;
+                    font-weight: 800;
+                    padding: 2px 20px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .copy {
+                padding: 25px 35px;
+
+                .tit {
+                    font-size: 40px;
+                    line-height: 100%;
+                    font-weight: 800;
+                }
+
+                .abstract {
+                    padding: 15px 0;
+                    line-height: 130%;
+                    font-size: 20px;
+                    line-height: 130%;
+                }
+
+            }
+        }
+    }
+
+
+}

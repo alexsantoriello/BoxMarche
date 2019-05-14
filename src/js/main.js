@@ -12,15 +12,58 @@ export default class App {
         const page = document.querySelector('.page');
         Dom.detect(body);
         body.classList.add('ready');
-        app.slider();
+        app.slider_main();
+        app.slider_lob();
+        app.slider_case();
     }
 
-    slider() {
-        var swiper = new Swiper('.swiper-container', {
+    slider_main() {
+        var swiper = new Swiper('.showreel-main', {
             spaceBetween: 0,
             centeredSlides: true,
+            speed: 600,
             autoplay: {
-                delay: 4000,
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    }
+
+    slider_lob() {
+        var swiper = new Swiper('.showreel-lob', {
+            spaceBetween: 0,
+            centeredSlides: true,
+            speed: 600,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    }
+
+    slider_case() {
+        var swiper = new Swiper('.showreel-case', {
+            spaceBetween: 0,
+            centeredSlides: true,
+            speed: 600,
+            autoplay: {
+                delay: 8000,
                 disableOnInteraction: false,
             },
             pagination: {
