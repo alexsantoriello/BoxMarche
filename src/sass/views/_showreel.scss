@@ -19,14 +19,17 @@
         border-bottom: 3px solid$red;
         opacity: 1;
 
-        &:hover {
+        &:hover,
+        &:focus {
             border-color: #000;
+            box-shadow: none;
         }
     }
 
     .swiper-pagination-bullet-active {
         height: 15px;
         border-bottom: 6px solid $red;
+        box-shadow: none;
     }
 
     .parallax-bg {
@@ -49,6 +52,10 @@
             bottom: -52px;
             width: 40%;
 
+            @include xl-down {
+                width: 50%;
+            }
+
             .box {
 
                 color: #fff;
@@ -56,6 +63,10 @@
                 .wrap-copy {
                     background: $red;
                     padding: 35px 260px 35px 35px;
+
+                    @include xl-down {
+                        padding: 35px;
+                    }
 
                     .tit {
                         font-size: 44px;

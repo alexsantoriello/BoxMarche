@@ -25,15 +25,14 @@ body {
 body {
 	-webkit-overflow-scrolling: touch;
 
-	@include sm-down {
-		background: blue;
-	}
+	@include sm-down {}
 }
 
 .page {
 	min-height: 100vh;
 	margin: 0;
-	padding: 0;
+	padding: 107px 0 0 0;
+	overflow: hidden;
 }
 
 .wrapper {

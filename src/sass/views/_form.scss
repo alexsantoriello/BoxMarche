@@ -1,6 +1,62 @@
 // Form
-.form-horizontal.form-white {
+.form-horizontal {
 
+
+    .obbl_fields {
+        font-size: 12px;
+    }
+
+    input,
+    input:focus {
+        border: 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+        background: none;
+        padding-left: 0;
+        font-size: 15px;
+        outline: none;
+    }
+
+    textarea,
+    textarea:focus {
+        border: 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+        background: none;
+        padding-left: 0;
+        font-size: 15px;
+        outline: none;
+    }
+
+    select,
+    select:focus {
+        width: 100%;
+        color: #fff;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+        background: #003b89;
+        padding-left: 0;
+        padding-bottom: 10px;
+        font-size: 15px;
+        outline: none;
+    }
+
+    button.btn {
+        width: 100%;
+        color: #003b89 !important;
+        background: #fff;
+
+        &:hover {
+            background: #000;
+            color: #fff !important;
+        }
+    }
+
+}
+
+// Form su bg blu
+.form-white {
     a {
         color: #fff;
         text-decoration: underline;
@@ -8,10 +64,6 @@
         &:hover {
             text-decoration: none;
         }
-    }
-
-    .obbl_fields {
-        font-size: 12px;
     }
 
     .form-control::-webkit-input-placeholder {
@@ -68,12 +120,93 @@
         padding-bottom: 10px;
         font-size: 15px;
         outline: none;
+        margin-top: 5px;
     }
 
     button.btn {
         width: 100%;
         color: #003b89 !important;
         background: #fff;
+
+        &:hover {
+            background: #000;
+            color: #fff !important;
+        }
+    }
+}
+
+// Form su bg bianco
+.form-blu {
+
+    a {
+        color: #003b89;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .form-control::-webkit-input-placeholder {
+        color: #003b89;
+    }
+
+    .form-control:-moz-placeholder {
+        color: #003b89;
+    }
+
+    .form-control::-moz-placeholder {
+        color: #003b89;
+    }
+
+    .form-control:-ms-input-placeholder {
+        color: #003b89;
+    }
+
+    .form-group label {
+        display: none;
+    }
+
+    input,
+    input:focus {
+        border: 0;
+        border-bottom: 1px solid #003b89;
+        border-radius: 0;
+        background: none;
+        padding-left: 0;
+        font-size: 15px;
+        outline: none;
+    }
+
+    textarea,
+    textarea:focus {
+        border: 0;
+        border-bottom: 1px solid #003b89;
+        border-radius: 0;
+        background: none;
+        padding-left: 0;
+        font-size: 15px;
+        outline: none;
+    }
+
+    select,
+    select:focus {
+        width: 100%;
+        color: #003b89;
+        border: 0;
+        border-bottom: 1px solid #003b89;
+        border-radius: 0;
+        background: #003b89;
+        padding-left: 0;
+        padding-bottom: 10px;
+        font-size: 15px;
+        outline: none;
+    }
+
+    button.btn {
+        width: 100%;
+        color: #fff !important;
+        background: #003b89;
 
         &:hover {
             background: #000;

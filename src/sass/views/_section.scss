@@ -1,5 +1,152 @@
+// Titolo
+.wrap-title {
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 15%;
+        height: 30px;
+
+        @media (max-width: 1680px) {
+            width: 10%;
+        }
+
+        @include xl-down {
+            width: 5%;
+        }
+
+        @media (max-width: 1024px) {
+            width: 30px;
+        }
+
+    }
+
+    .container-title {
+        position: relative;
+
+        h3 {
+            font-size: 81px;
+            line-height: 110%;
+            font-weight: 800;
+            padding-bottom: 40px;
+            width: auto;
+            display: inline-block;
+
+            @media (max-width: 1024px) {
+                font-size: 60px;
+            }
+
+            &:after {
+                content: '';
+                position: relative;
+                bottom: -40px;
+                left: -315px;
+                display: block;
+                width: calc(100% + 315px);
+                /*width: 100%;*/
+                height: 3px;
+            }
+
+        }
+
+    }
+
+    // Titolo allineato a destra
+    &.title-right {
+
+        &:after {
+            left: auto !important;
+            right: 0;
+        }
+
+        .container-title {
+            text-align: right;
+
+            h3 {
+
+
+                &:after {
+                    left: auto !important;
+                }
+
+            }
+        }
+
+    }
+
+    // Gestione colori
+    &.tit-red {
+        &:after {
+            background: $red;
+        }
+
+        h3 {
+            color: $red;
+
+            &:after {
+                background: $red;
+            }
+        }
+    }
+
+    &.tit-purple {
+        &:after {
+            background: $purple;
+        }
+
+        h3 {
+            color: $purple;
+
+            &:after {
+                background: $purple;
+            }
+        }
+    }
+
+    &.tit-blue {
+        &:after {
+            background: $blue;
+        }
+
+        h3 {
+            color: $blue;
+
+            &:after {
+                background: $blue;
+            }
+        }
+
+    }
+
+    &.tit-default {
+        &:after {
+            background: #003b89;
+        }
+
+        h3 {
+            color: #003b89;
+
+            &:after {
+                background: #003b89;
+            }
+        }
+    }
+
+}
+
+// Section general
 .section {
     padding-bottom: 120px;
+
+    h3 {
+        word-spacing: normal;
+        display: inline-block;
+        width: auto;
+    }
 
     img {
         max-width: 100%;
@@ -38,6 +185,10 @@
             color: $yellow;
             margin-top: 60px;
 
+            @media (max-width: 1024px) {
+                font-size: 60px;
+            }
+
             span {
                 padding-right: 20%;
             }
@@ -62,6 +213,18 @@
                     border-bottom: 0 !important;
                     display: block;
                     margin-top: -25px;
+
+                    @media (max-width: 1680px) {
+                        width: 20%;
+                    }
+
+                    @include xl-down {
+                        width: 5%;
+                    }
+
+                    @media (max-width: 1024px) {
+                        width: 30px;
+                    }
                 }
             }
 
@@ -81,62 +244,81 @@
 // Box Packaging
 .section--packaging {
 
-    h3 {
-        font-size: 81px;
-        line-height: 110%;
-        font-weight: 800;
-        color: $red;
-        width: 60%;
-
-        span {
-            padding-left: 12%;
-            display: inline-block;
-            width: 100%;
-        }
-
-        & .border {
-            width: 100%;
-            display: inline-block;
-            border: 0 !important;
-            border-bottom: 3px solid $red !important;
-            display: block;
-            margin-top: 30px;
-            position: relative;
-
-            &::after {
-                content: '';
-                position: absolute;
-                left: 0;
-                width: 10%;
-                height: 25px;
-                background: $red;
-                display: inline-block;
-                border-bottom: 0 !important;
-                display: block;
-                margin-top: -25px;
-            }
-        }
-
-    }
-
     .picture {
         float: left;
-        position: relative;
-        overflow: hidden;
+        padding: 0;
 
         a {
             display: inline-block;
-            width: 100&;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+
+            .copy {
+                position: absolute;
+                background: $red;
+                padding: 30px 25px 20px 25px;
+                width: 70%;
+                bottom: -20px;
+
+                @media (max-width: 1024px) {
+                    width: 85%;
+                }
+
+                .label {
+
+                    font-weight: 800;
+                    font-size: 36px;
+                    line-height: 110%;
+                    color: #fff;
+                    padding-bottom: 20px;
+
+                    @media (max-width: 1024px) {
+                        font-size: 30px;
+                    }
+
+                }
+
+                .abstract {
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 130%;
+                    color: #fff;
+
+                    max-height: 0;
+                    -webkit-transition: max-height 0.9s;
+                    -moz-transition: max-height 0.9s;
+                    transition: max-height 0.9s;
+
+                    @media (max-width: 1024px) {
+                        font-size: 14px;
+                    }
+                }
+
+                .abstract::after {
+                    content: '';
+                    display: inline-block;
+                    height: 20px;
+                    width: 100%;
+                }
+
+            }
+
+            &:hover {
+
+                .abstract {
+                    max-height: 200px;
+                }
+            }
+
         }
 
-        .label {
-            position: absolute;
-            background: $red;
-            bottom: 0;
-            font-weight: 800;
-            font-size: 36px;
-            color: #fff;
-            padding: 20px 25px;
+        .cta {
+            margin-top: -5px;
+        }
+
+        .cta .btn.btn-red {
+            width: auto !important;
         }
 
     }
@@ -145,45 +327,6 @@
 // Box Living Outside the Box
 .section--lob {
     color: #fff;
-
-    h3 {
-        font-size: 81px;
-        line-height: 110%;
-        font-weight: 800;
-        color: $blue;
-        width: 100%;
-
-        span {
-            padding-right: 12%;
-            display: inline-block;
-            text-align: right;
-            width: 100%;
-        }
-
-        & .border {
-            width: 100%;
-            display: inline-block;
-            border: 0 !important;
-            border-bottom: 3px solid $blue !important;
-            display: block;
-            margin-top: 30px;
-            position: relative;
-
-            &::after {
-                content: '';
-                position: absolute;
-                right: 0;
-                width: 10%;
-                height: 25px;
-                background: $blue;
-                display: inline-block;
-                border-bottom: 0 !important;
-                display: block;
-                margin-top: -25px;
-            }
-        }
-
-    }
 
     .row {
         background: $blue;
@@ -238,44 +381,6 @@
 // Case Studies
 .section--case {
 
-    h3 {
-        font-size: 81px;
-        line-height: 110%;
-        font-weight: 800;
-        color: $red;
-        width: 45%;
-
-        span {
-            padding-left: 12%;
-            display: inline-block;
-            width: 100%;
-        }
-
-        & .border {
-            width: 100%;
-            display: inline-block;
-            border: 0 !important;
-            border-bottom: 3px solid $red !important;
-            display: block;
-            margin-top: 30px;
-            position: relative;
-
-            &::after {
-                content: '';
-                position: absolute;
-                left: 0;
-                width: 10%;
-                height: 25px;
-                background: $red;
-                display: inline-block;
-                border-bottom: 0 !important;
-                display: block;
-                margin-top: -25px;
-            }
-        }
-
-    }
-
     .swiper-slide {
         background: $bg-red;
 
@@ -303,6 +408,10 @@
             padding: 35px;
             padding-right: 220px;
             color: #fff;
+
+            @include xl-down {
+                padding: 35px;
+            }
 
             .tit {
                 font-weight: 800;
@@ -339,47 +448,6 @@
 // Blog
 .section--blog {
 
-    h3 {
-        font-size: 81px;
-        line-height: 110%;
-        font-weight: 800;
-        color: $purple;
-        width: 60%;
-        text-align: left;
-        float: right;
-
-        span {
-            padding-right: 12%;
-            display: inline-block;
-            text-align: left;
-            width: 100%;
-        }
-
-        & .border {
-            width: 100%;
-            display: inline-block;
-            border: 0 !important;
-            border-bottom: 3px solid $purple !important;
-            display: block;
-            margin-top: 30px;
-            position: relative;
-
-            &::after {
-                content: '';
-                position: absolute;
-                right: 0;
-                width: 10%;
-                height: 25px;
-                background: $purple;
-                display: inline-block;
-                border-bottom: 0 !important;
-                display: block;
-                margin-top: -25px;
-            }
-        }
-
-    }
-
     .container-blog {
         max-width: 1600px;
         margin: 0 auto;
@@ -396,7 +464,7 @@
                     background: $purple;
                     color: #fff;
                     font-weight: 800;
-                    padding: 2px 20px;
+                    padding: 10px 35px;
                     text-transform: uppercase;
                 }
             }
