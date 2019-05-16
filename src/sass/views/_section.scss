@@ -142,6 +142,10 @@
 .section {
     padding-bottom: 120px;
 
+    @media (max-width: 767px) {
+        padding-bottom: 60px;
+    }
+
     h3 {
         word-spacing: normal;
         display: inline-block;
@@ -174,6 +178,10 @@
 
 // Box Azienda
 .section--azienda {
+
+    &__left {
+        padding-left: 35px;
+    }
 
     &__right {
         padding-right: 0 !important;
@@ -236,6 +244,23 @@
             font-weight: 300;
             padding: 30px 0;
             padding-right: 40%;
+        }
+
+    }
+
+    @media (max-width: 768px) {
+
+        &__right,
+        &__left {
+            width: 100%;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        &__left {
+            padding-right: 35px;
         }
 
     }
@@ -340,6 +365,10 @@
         font-size: 24px;
         line-height: 140%;
 
+        @media (max-width: 1024px) {
+            font-size: 18px;
+        }
+
         strong {
             font-weight: 800;
         }
@@ -350,6 +379,10 @@
         float: left;
         font-size: 52px;
         line-height: 110%;
+
+        @media (max-width: 1024px) {
+            font-size: 40px;
+        }
 
         strong {
             font-weight: 800;
@@ -388,6 +421,10 @@
         .img {
             float: left;
             width: 50%;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
         }
 
         .cta {
@@ -483,6 +520,7 @@
                     line-height: 130%;
                     font-size: 20px;
                     line-height: 130%;
+                    color: #454545;
                 }
 
             }

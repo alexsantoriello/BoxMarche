@@ -15,6 +15,8 @@ export default class App {
         app.slider_main();
         app.slider_lob();
         app.slider_case();
+        app.hamburgers();
+        app.subnav();
     }
 
     slider_main() {
@@ -22,6 +24,7 @@ export default class App {
             spaceBetween: 0,
             centeredSlides: true,
             speed: 600,
+            loop: true,
             autoplay: {
                 delay: 8000,
                 disableOnInteraction: false,
@@ -42,6 +45,7 @@ export default class App {
             spaceBetween: 0,
             centeredSlides: true,
             speed: 600,
+            loop: true,
             autoplay: {
                 delay: 8000,
                 disableOnInteraction: false,
@@ -61,6 +65,7 @@ export default class App {
         var swiper = new Swiper('.showreel-case', {
             spaceBetween: 0,
             centeredSlides: true,
+            loop: true,
             speed: 600,
             autoplay: {
                 delay: 8000,
@@ -74,6 +79,47 @@ export default class App {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+        });
+    }
+
+    hamburgers() {
+        /* $(document).on('click', '.hamburger', function () {
+            //$hamburger.on("click", function (e) {
+            $(".hamburger").toggleClass("is-active");
+            // Do something else, like open/close menu
+            $('#nav-mobile').slideToggle("slow", function () {
+                // Animation complete. 
+            });
+        });*/
+
+        var $hamburger = $('.hamburger');
+        /* $hamburger.on("click", function (e) {*/
+        $($hamburger).click(function () {
+            $hamburger.toggleClass("is-active");
+            // Do something else, like open/close menu
+            $('#nav-mobile').slideToggle("fast", function () {
+                // Animation complete. 
+            });
+        });
+    }
+
+    subnav() {
+        // https://codepen.io/brenden/pen/Kwbpyj
+
+        $('.nav-toggle').click(function (e) {
+            e.preventDefault();
+
+            var $this = $(this);
+
+            if ($this.next().hasClass('show')) {
+                $this.next().removeClass('show');
+                $this.next().slideUp(250);
+            } else {
+                $this.parent().parent().find('li .inner').removeClass('show');
+                $this.parent().parent().find('li .inner').slideUp(250);
+                $this.next().toggleClass('show');
+                $this.next().slideToggle(250);
+            }
         });
     }
 

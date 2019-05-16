@@ -17,7 +17,8 @@
 			"bundle": [{
 				"input": [
 					"node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css",
-					"node_modules/swiper/dist/css/swiper.css"
+					"node_modules/swiper/dist/css/swiper.css",
+					"node_modules/hamburgers/dist/hamburgers.css"
 				],
 				"output": "docs/css/vendors.css",
 				"minify": true

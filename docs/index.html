@@ -22,7 +22,208 @@
 
 <body>
 
-	<ng-include src="'partials/header.html'"></ng-include>
+	<!--<ng-include src="'partials/header.html'"></ng-include>-->
+
+	<!-- Header -->
+	<div class="wrap-header">
+		<header class="header clearfix">
+			<div class="header__logo">
+				<a href="index.html" title="BOXMARCHE - Idee & Packaging">
+					<img src="/imgs/logo.png" alt="BOXMARCHE - Idee & Packaging">
+				</a>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 header__nav-wrapper clearfix">
+						<!-- menu service -->
+						<div class="header__wrap-service clearfix">
+							<ul class="header__service-menu">
+								<!-- languages list -->
+								<li>
+									<div class="dropdown dd-lang">
+										<button class="btn btn-secondary dropdown-toggle" type="button"
+											id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											it
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">en</a>
+											<a class="dropdown-item" href="#">fr</a>
+											<a class="dropdown-item" href="#">de</a>
+										</div>
+									</div>
+								</li>
+								<!-- /languages list -->
+								<!-- site search -->
+								<li>
+									<form action="#" method="post" class="navbar-form search" role="search"
+										novalidate="novalidate">
+										<input type="search" id="search-input" name="txtSiteSearch"
+											class="form-control required" placeholder="Cerca nel sito">
+										<button type="submit" class="btn btn-default btn-submit icon-right-open"><i
+												class="fa fa-search" aria-hidden="true"></i></button>
+									</form>
+								</li>
+								<!-- /site search -->
+							</ul>
+						</div>
+						<!-- /menu service -->
+						<!-- menu -->
+						<nav id="menu"
+							class="header__main-nav navbar navbar-expand-lg navbar-light pull-right clearfix">
+							<div class="collapse navbar-collapse" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<!--<li class="nav-item active">
+									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>-->
+									<li class="nav-item dropdown link-yellow">
+										<a class="nav-link dropdown-toggle" href="chisiamo.html"
+											id="navbarDropdownMenuLink01" role="button" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false"><span>Chi siamo</span> <i
+												class="fas fa-chevron-down"></i></a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink01">
+											<a class="dropdown-item" href="#">Azienda</a>
+											<a class="dropdown-item" href="#">Storia</a>
+											<a class="dropdown-item" href="#">Mission</a>
+											<a class="dropdown-item" href="#">Certificazione e Awards</a>
+											<a class="dropdown-item" href="#">Living Company Report</a>
+											<a class="dropdown-item" href="#">Responsabilità sociale di impresa</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown link-blue">
+										<a class="nav-link dropdown-toggle" href="lob.html"
+											id="navbarDropdownMenuLink02" role="button" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false"><span>Living Outside the
+												Box</span> <i class="fas fa-chevron-down"></i></a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink02">
+											<a class="dropdown-item" href="#">No clienti. Solo partner.</a>
+											<a class="dropdown-item" href="#">Superfici ali solo per piacere</a>
+											<a class="dropdown-item" href="#">Giochiamo con le carte. Scommettiamo sulla
+												fantasia</a>
+											<a class="dropdown-item" href="#">La nostra materia prima e anche dopo</a>
+											<a class="dropdown-item" href="#">La forma è la nostra sostanza</a>
+											<a class="dropdown-item" href="#">Best Case Studies</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown link-red">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink03"
+											role="button" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											<span>Packaging Solutions</span> <i class="fas fa-chevron-down"></i>
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink03">
+											<a class="dropdown-item" href="#">Prodotti "tradizionali"</a>
+											<a class="dropdown-item" href="#">Best Case Studies</a>
+											<a class="dropdown-item" href="#">Ecobox</a>
+											<a class="dropdown-item" href="#">Speciali</a>
+											<a class="dropdown-item" href="#">Idee</a>
+											<a class="dropdown-item" href="#">Glossario del packaging</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="blog.html"><span>Blog</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contatti.html"><span>Contatti</span></a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<!-- /menu -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- hamburger -->
+		<div class="hamburger-wrap">
+			<button class="hamburger hamburger--spin hamburger--accessible js-hamburger" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</div>
+		<!-- /hamburger -->
+		<!-- nav mobile -->
+		<div id="nav-mobile">
+			<!--navigation -->
+			<ul class="subnav-mobile">
+				<li>
+					<a class="nav-toggle link-yellow" href="javascript:void(0);">Chi siamo</a>
+					<ul class="inner">
+						<li><a href="#">Azienda</a></li>
+						<li><a href="#">Storia</a></li>
+						<li><a href="#">Mission</a></li>
+						<li><a href="#">Certificazione e Awards</a></li>
+						<li><a href="#">Living Company Report</a></li>
+						<li><a href="#">Responsabilità sociale di impresa</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="nav-toggle link-blue" href="javascript:void(0);">Living Outside the Box</a>
+					<ul class="inner">
+						<li><a href="#">No clienti. Solo partner.</a></li>
+						<li><a href="#">Superfici ali solo per piacere</a></li>
+						<li><a href="#">Giochiamo con le carte. Scommettiamo sulla fantasia</a></li>
+						<li><a href="#">La nostra materia prima e anche dopo</a></li>
+						<li><a href="#">La forma è la nostra sostanza</a></li>
+						<li><a href="#">Best Case Studies</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="nav-toggle link-red" href="javascript:void(0);">Packaging Solutions</a>
+					<ul class="inner">
+						<li><a href="#">Prodotti "tradizionali"</a></li>
+						<li><a href="#">Best Case Studies</a></li>
+						<li><a href="#">Ecobox</a></li>
+						<li><a href="#">Speciali</a></li>
+						<li><a href="#">Idee</a></li>
+						<li><a href="#">Glossario del packaging</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="" href="#">Blog</a>
+				</li>
+				<li>
+					<a class="" href="#">Contatti</a>
+				</li>
+			</ul>
+			<!-- /navigation -->
+			<!-- menu service -->
+			<div class="nav__wrap-service clearfix">
+				<ul class="nav__service-menu">
+					<!-- languages list -->
+					<li>
+						<div class="dropdown dd-lang">
+							<span>Seleziona la lingua</span>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								it
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">en</a>
+								<a class="dropdown-item" href="#">fr</a>
+								<a class="dropdown-item" href="#">de</a>
+							</div>
+						</div>
+					</li>
+					<!-- /languages list -->
+					<!-- site search -->
+					<li>
+						<form action="#" method="post" class="navbar-form search" role="search" novalidate="novalidate">
+							<input type="search" id="search-input" name="txtSiteSearch" class="form-control required"
+								placeholder="Cerca nel sito">
+							<button type="submit" class="btn btn-default btn-submit icon-right-open"><i
+									class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</li>
+					<!-- /site search -->
+				</ul>
+			</div>
+			<!-- /menu service -->
+		</div>
+		<!-- nav mobile -->
+	</div>
+	<!-- /Header -->
 
 	<div class="page">
 		<!-- HERO -->
