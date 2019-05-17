@@ -22,8 +22,15 @@
         background: #000;
     }
 
-    .swiper-pagination {
+    .swiper-pagination-main {
         bottom: 10px;
+        text-align: center;
+        position: absolute;
+
+        @media (max-width: 767px) {
+            bottom: 50px;
+        }
+
     }
 
     .swiper-pagination-bullet {

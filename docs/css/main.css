@@ -412,6 +412,10 @@ h6 {
           #nav-mobile .nav__wrap-service .nav__service-menu .dd-lang .dropdown-menu a {
             font-size: 14px; } }
 
+@media (max-width: 767px) {
+  .section--hero {
+    padding-bottom: 20px !important; } }
+
 .showreel {
   padding-bottom: 100px; }
   .showreel .swiper-button-next,
@@ -430,8 +434,13 @@ h6 {
     width: 100%;
     height: 100%;
     background: #000; }
-  .showreel .swiper-pagination {
-    bottom: 10px; }
+  .showreel .swiper-pagination-main {
+    bottom: 10px;
+    text-align: center;
+    position: absolute; }
+    @media (max-width: 767px) {
+      .showreel .swiper-pagination-main {
+        bottom: 50px; } }
   .showreel .swiper-pagination-bullet {
     border-radius: 0;
     width: 45px;
@@ -592,6 +601,9 @@ h6 {
 .cta-all {
   text-align: center;
   margin-top: 40px; }
+  @media (max-width: 767px) {
+    .cta-all {
+      margin-top: 15px; } }
 
 .clear {
   clear: both; }
@@ -879,6 +891,10 @@ h6 {
       .section--blog .container-blog .single-blog .copy .abstract {
         font-size: 16px;
         line-height: 140%; } }
+
+@media (max-width: 767px) {
+  .section--blog .cta-all {
+    margin-top: 0; } }
 
 .form-horizontal .obbl_fields {
   font-size: 12px; }

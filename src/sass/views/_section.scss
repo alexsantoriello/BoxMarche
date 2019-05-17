@@ -168,6 +168,10 @@
 .cta-all {
     text-align: center;
     margin-top: 40px;
+
+    @media (max-width: 767px) {
+        margin-top: 15px;
+    }
 }
 
 .clear {
@@ -626,5 +630,10 @@
         }
     }
 
+    @media (max-width: 767px) {
+        .cta-all {
+            margin-top: 0;
+        }
+    }
 
 }

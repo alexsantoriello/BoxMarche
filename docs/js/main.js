@@ -51,7 +51,7 @@ function () {
           disableOnInteraction: false
         },
         pagination: {
-          el: '.swiper-pagination',
+          el: '.swiper-pagination-main',
           clickable: true
         },
         navigation: {
