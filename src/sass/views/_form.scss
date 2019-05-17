@@ -1,7 +1,6 @@
 // Form
 .form-horizontal {
 
-
     .obbl_fields {
         font-size: 12px;
     }
@@ -133,6 +132,17 @@
             color: #fff !important;
         }
     }
+
+    @media (max-width: 767px) {
+        .form-group {
+            margin-bottom: 0;
+        }
+
+        textarea {
+            margin-bottom: 15px;
+        }
+    }
+
 }
 
 // Form su bg bianco
@@ -211,6 +221,16 @@
         &:hover {
             background: #000;
             color: #fff !important;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .form-group {
+            margin-bottom: 0;
+        }
+
+        .checkbox {
+            margin-top: 15px;
         }
     }
 

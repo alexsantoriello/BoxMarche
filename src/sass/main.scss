@@ -45,3 +45,13 @@ body {
 .section {
 	position: relative;
 }
+
+// layout solo su mobile
+@media (max-width: 767px) {
+
+	.container,
+	.container-fluid {
+		padding-right: 35px;
+		padding-left: 35px;
+	}
+}

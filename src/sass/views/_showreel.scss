@@ -8,6 +8,12 @@
         border: 0;
         box-shadow: none;
         border-radius: 0;
+
+        @media (max-width: 767px) {
+            background-size: 12px 44px;
+            top: 65%;
+        }
+
     }
 
     .swiper-container {
@@ -115,10 +121,13 @@
                         }
                     }
 
+
+
                 }
 
             }
         }
+
     }
 
 

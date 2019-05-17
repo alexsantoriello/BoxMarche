@@ -104,6 +104,10 @@ h6 {
         border-radius: 0;
         outline: none;
 
+        @media (max-width: 767px) {
+            font-size: 12px;
+        }
+
         .fas {
             margin-left: 7px;
         }

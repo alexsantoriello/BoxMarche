@@ -76,6 +76,9 @@ h6 {
   padding: 15px 35px;
   border-radius: 0;
   outline: none; }
+  @media (max-width: 767px) {
+    .cta .btn {
+      font-size: 12px; } }
   .cta .btn .fas {
     margin-left: 7px; }
   .cta .btn:hover, .cta .btn:focus {
@@ -308,9 +311,9 @@ h6 {
     padding: 10px 0 35px; }
     #nav-mobile ul.subnav-mobile {
       list-style: none;
-      padding: 25px 0 15px 0; }
+      padding: 15px 0 15px 0; }
       #nav-mobile ul.subnav-mobile .inner {
-        padding: 0 0 15px;
+        padding: 0 25px 15px 25px;
         overflow: hidden;
         display: none;
         list-style: none; }
@@ -418,6 +421,11 @@ h6 {
     -webkit-box-shadow: none;
             box-shadow: none;
     border-radius: 0; }
+    @media (max-width: 767px) {
+      .showreel .swiper-button-next,
+      .showreel .swiper-button-prev {
+        background-size: 12px 44px;
+        top: 65%; } }
   .showreel .swiper-container {
     width: 100%;
     height: 100%;
@@ -523,6 +531,9 @@ h6 {
       @media (max-width: 1024px) {
         .wrap-title .container-title h3 {
           font-size: 60px; } }
+      @media (max-width: 767px) {
+        .wrap-title .container-title h3 {
+          font-size: 40px; } }
       .wrap-title .container-title h3:after {
         content: '';
         position: relative;
@@ -601,7 +612,11 @@ h6 {
     margin-top: 60px; }
     @media (max-width: 1024px) {
       .section--azienda__right h1 {
-        font-size: 60px; } }
+        font-size: 60px;
+        margin-top: 20px; } }
+    @media (max-width: 767px) {
+      .section--azienda__right h1 {
+        font-size: 40px; } }
     .section--azienda__right h1 span {
       padding-right: 20%; }
     .section--azienda__right h1 .border {
@@ -648,6 +663,15 @@ h6 {
     max-width: 100%; }
   .section--azienda__left {
     padding-right: 35px; } }
+
+@media (max-width: 767px) {
+  .section--azienda__right {
+    padding-left: 35px; }
+    .section--azienda__right h1 {
+      margin-top: 30px; }
+    .section--azienda__right h2 {
+      padding: 30px 35px 30px 0;
+      font-size: 16px; } }
 
 .section--packaging .picture {
   float: left;
@@ -700,6 +724,9 @@ h6 {
 
 .section--lob {
   color: #fff; }
+  @media (max-width: 767px) {
+    .section--lob .showreel-lob {
+      display: none; } }
   .section--lob .row {
     background: #0094b8;
     padding-bottom: 50px;
@@ -712,6 +739,12 @@ h6 {
     @media (max-width: 1024px) {
       .section--lob .section--lob__left {
         font-size: 18px; } }
+    @media (max-width: 767px) {
+      .section--lob .section--lob__left {
+        font-size: 16px;
+        line-height: 140%;
+        padding-left: 0;
+        padding-right: 0; } }
     .section--lob .section--lob__left strong {
       font-weight: 800; }
   .section--lob .section--lob__right {
@@ -722,6 +755,14 @@ h6 {
     @media (max-width: 1024px) {
       .section--lob .section--lob__right {
         font-size: 40px; } }
+    @media (max-width: 767px) {
+      .section--lob .section--lob__right {
+        font-size: 24px;
+        line-height: 130%;
+        padding-left: 0;
+        padding-right: 0; }
+        .section--lob .section--lob__right .showreel-lob {
+          display: none; } }
     .section--lob .section--lob__right strong {
       font-weight: 800; }
   .section--lob .showreel {
@@ -749,6 +790,9 @@ h6 {
   .section--case .swiper-slide .cta {
     position: absolute;
     bottom: -52px; }
+    @media (max-width: 767px) {
+      .section--case .swiper-slide .cta {
+        bottom: -47px; } }
   .section--case .swiper-slide .cat {
     background: #ac121e;
     padding: 10px 35px;
@@ -768,15 +812,33 @@ h6 {
       font-size: 45px;
       line-height: 100%;
       padding-bottom: 30px; }
+      @media (max-width: 767px) {
+        .section--case .swiper-slide .wrap-copy .tit {
+          font-size: 40px;
+          line-height: 120%; } }
     .section--case .swiper-slide .wrap-copy .txt {
       font-size: 20px;
       line-height: 140%;
       padding-bottom: 30px; }
+      @media (max-width: 767px) {
+        .section--case .swiper-slide .wrap-copy .txt {
+          font-size: 16px; } }
     .section--case .swiper-slide .wrap-copy .partners .tit-partners {
       float: left;
       padding: 46px 15px 0 0; }
     .section--case .swiper-slide .wrap-copy .partners img {
       margin-right: 15px; }
+
+@media (max-width: 1024px) {
+  .section--case .block-center {
+    width: 100%;
+    max-width: 100%;
+    padding: 0; } }
+
+@media (max-width: 767px) {
+  .section--case .block-center {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
 
 .section--blog .container-blog {
   max-width: 1600px;
@@ -800,10 +862,23 @@ h6 {
       font-weight: 800; }
     .section--blog .container-blog .single-blog .copy .abstract {
       padding: 15px 0;
-      line-height: 130%;
       font-size: 20px;
       line-height: 130%;
       color: #454545; }
+  @media (max-width: 768px) {
+    .section--blog .container-blog .block-center {
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+    .section--blog .container-blog .single-blog {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding-bottom: 25px; }
+      .section--blog .container-blog .single-blog .copy .tit {
+        font-size: 40px;
+        line-height: 120%; }
+      .section--blog .container-blog .single-blog .copy .abstract {
+        font-size: 16px;
+        line-height: 140%; } }
 
 .form-horizontal .obbl_fields {
   font-size: 12px; }
@@ -912,6 +987,12 @@ h6 {
     background: #000;
     color: #fff !important; }
 
+@media (max-width: 767px) {
+  .form-white .form-group {
+    margin-bottom: 0; }
+  .form-white textarea {
+    margin-bottom: 15px; } }
+
 .form-blu a {
   color: #003b89;
   text-decoration: underline; }
@@ -974,12 +1055,21 @@ h6 {
     background: #000;
     color: #fff !important; }
 
+@media (max-width: 767px) {
+  .form-blu .form-group {
+    margin-bottom: 0; }
+  .form-blu .checkbox {
+    margin-top: 15px; } }
+
 .section--contattaci {
   padding-bottom: 30px; }
   .section--contattaci .wrap-conttataci {
     background: #003b89;
     color: #fff;
     padding: 90px 0; }
+    @media (max-width: 768px) {
+      .section--contattaci .wrap-conttataci {
+        padding: 40px 0; } }
     .section--contattaci .wrap-conttataci .conttataci-sx .tit {
       font-size: 40px;
       line-height: 130%;
@@ -989,6 +1079,21 @@ h6 {
       font-size: 30px;
       line-height: 100%;
       font-weight: 800; }
+    @media (max-width: 767px) {
+      .section--contattaci .wrap-conttataci .conttataci-dx {
+        width: 120%; } }
+    @media (max-width: 767px) {
+      .section--contattaci .wrap-conttataci .conttataci-sx,
+      .section--contattaci .wrap-conttataci .conttataci-dx {
+        padding-left: 0;
+        padding-right: 0; }
+      .section--contattaci .wrap-conttataci .conttataci-sx {
+        padding-bottom: 35px; }
+        .section--contattaci .wrap-conttataci .conttataci-sx .tit {
+          font-size: 24px; }
+      .section--contattaci .wrap-conttataci .conttataci-dx {
+        margin-left: -15px !important;
+        margin-right: -15px !important; } }
 
 .section--prefooter .logo-prefooter {
   width: 50%;
@@ -1054,6 +1159,11 @@ h6 {
     line-height: 120%;
     font-weight: 800; }
   @media (max-width: 768px) {
+    .section--prefooter__sx .col-md-4 {
+      -webkit-box-flex: 0;
+          -ms-flex: none;
+              flex: none;
+      max-width: 100%; }
     .section--prefooter__sx .link-purple,
     .section--prefooter__sx .link-blu,
     .section--prefooter__sx .link-default {
@@ -1077,6 +1187,29 @@ h6 {
       background: #40bbf0; }
     .section--prefooter__sx .social a:hover {
       background: #000; }
+
+@media (max-width: 768px) {
+  .section--prefooter__sx ul li a {
+    padding-bottom: 14px; }
+  .section--prefooter h5 {
+    padding-bottom: 8px; } }
+
+@media (max-width: 767px) {
+  .section--prefooter .col-md-6 {
+    padding-left: 0;
+    padding-right: 0; }
+  .section--prefooter .col-md-4 {
+    padding-left: 0;
+    padding-right: 0; }
+  .section--prefooter .social {
+    margin-bottom: 35px; }
+  .section--prefooter__dx {
+    margin-left: -15px;
+    margin-right: -15px; }
+  .section--prefooter__sx ul li a {
+    padding-bottom: 14px; }
+  .section--prefooter h5 {
+    padding-bottom: 8px; } }
 
 footer {
   background: #000;
@@ -1108,3 +1241,9 @@ body {
 
 .section {
   position: relative; }
+
+@media (max-width: 767px) {
+  .container,
+  .container-fluid {
+    padding-right: 35px;
+    padding-left: 35px; } }
