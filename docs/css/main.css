@@ -417,7 +417,7 @@ h6 {
 
 @media (max-width: 767px) {
   .section--hero {
-    padding-bottom: 20px !important; } }
+    padding-bottom: 0 !important; } }
 
 .showreel {
   padding-bottom: 100px; }
@@ -514,6 +514,9 @@ h6 {
 
 .wrap-title {
   position: relative; }
+  @media (max-width: 767px) {
+    .wrap-title .container {
+      padding-right: 0; } }
   .wrap-title:after {
     content: '';
     position: absolute;
@@ -531,6 +534,10 @@ h6 {
     @media (max-width: 1024px) {
       .wrap-title:after {
         width: 30px; } }
+    @media (max-width: 767px) {
+      .wrap-title:after {
+        width: 30px;
+        height: 30px; } }
   .wrap-title .container-title {
     position: relative; }
     .wrap-title .container-title h3 {
@@ -546,6 +553,11 @@ h6 {
       @media (max-width: 767px) {
         .wrap-title .container-title h3 {
           font-size: 40px; } }
+      @media (max-width: 767px) {
+        .wrap-title .container-title h3 {
+          padding-left: 5px;
+          width: 100%;
+          padding-bottom: 5px; } }
       .wrap-title .container-title h3:after {
         content: '';
         position: relative;
@@ -555,11 +567,22 @@ h6 {
         width: calc(100% + 315px);
         /*width: 100%;*/
         height: 3px; }
+        @media (max-width: 767px) {
+          .wrap-title .container-title h3:after {
+            bottom: -5px; } }
+  @media (max-width: 767px) {
+    .wrap-title.title-right .container {
+      padding-right: 35px;
+      padding-left: 0; } }
   .wrap-title.title-right:after {
     left: auto !important;
     right: 0; }
   .wrap-title.title-right .container-title {
     text-align: right; }
+    @media (max-width: 767px) {
+      .wrap-title.title-right .container-title h3 {
+        padding-right: 5px;
+        padding-left: 0; } }
     .wrap-title.title-right .container-title h3:after {
       left: auto !important; }
   .wrap-title.tit-red:after {
@@ -614,6 +637,13 @@ h6 {
 .block-center {
   margin: 0 auto; }
 
+.section--azienda .section--azienda__mobile {
+  display: none; }
+  @media (max-width: 767px) {
+    .section--azienda .section--azienda__mobile {
+      padding-top: 0;
+      display: block; } }
+
 .section--azienda__left {
   padding-left: 35px; }
 
@@ -631,9 +661,15 @@ h6 {
         margin-top: 20px; } }
     @media (max-width: 767px) {
       .section--azienda__right h1 {
-        font-size: 40px; } }
+        margin-top: 0;
+        font-size: 40px;
+        text-align: right; } }
     .section--azienda__right h1 span {
       padding-right: 20%; }
+      @media (max-width: 767px) {
+        .section--azienda__right h1 span {
+          padding-right: 32px;
+          display: inline-block; } }
     .section--azienda__right h1 .border {
       width: 100%;
       display: inline-block;
@@ -642,6 +678,9 @@ h6 {
       display: block;
       margin-top: 30px;
       position: relative; }
+      @media (max-width: 767px) {
+        .section--azienda__right h1 .border {
+          margin-top: 4px; } }
       .section--azienda__right h1 .border::after {
         content: '';
         position: absolute;
@@ -662,6 +701,10 @@ h6 {
         @media (max-width: 1024px) {
           .section--azienda__right h1 .border::after {
             width: 30px; } }
+        @media (max-width: 767px) {
+          .section--azienda__right h1 .border::after {
+            width: 25px;
+            height: 25px; } }
   .section--azienda__right h2 {
     font-size: 22px;
     line-height: 140%;
@@ -677,16 +720,19 @@ h6 {
     flex: 0 0 100%;
     max-width: 100%; }
   .section--azienda__left {
-    padding-right: 35px; } }
+    padding-right: 35px;
+    display: none; } }
 
 @media (max-width: 767px) {
   .section--azienda__right {
-    padding-left: 35px; }
+    padding-left: 0; }
     .section--azienda__right h1 {
-      margin-top: 30px; }
+      margin-top: 0; }
     .section--azienda__right h2 {
-      padding: 30px 35px 30px 0;
-      font-size: 16px; } }
+      padding: 30px 35px;
+      font-size: 16px; }
+    .section--azienda__right .cta {
+      text-align: center; } }
 
 .section--packaging .picture {
   float: left;
@@ -1078,7 +1124,9 @@ h6 {
   .form-blu .form-group {
     margin-bottom: 0; }
   .form-blu .checkbox {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .form-blu .col-md-12 {
+    padding-right: 0px; } }
 
 .section--contattaci {
   padding-bottom: 30px; }
