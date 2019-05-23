@@ -98,6 +98,14 @@
                     color: #000;
                     font-size: 20px;
                     font-weight: 800;
+
+                    &.link-purple {
+                        color: $purple;
+                    }
+
+                    &.link-lightblu {
+                        color: $lightblu;
+                    }
                 }
 
                 a.toggle {
@@ -133,7 +141,6 @@
                         text-decoration: none;
                     }
                 }
-
 
             }
         }

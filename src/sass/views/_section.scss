@@ -221,7 +221,7 @@
     .section--azienda__mobile {
         display: none;
 
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             padding-top: 0;
             display: block;
         }
@@ -443,8 +443,27 @@
 .section--lob {
     color: #fff;
 
+    // showreel su mobile
     @media (max-width: 767px) {
-        .showreel-lob {
+
+        .section--lob__left {
+            display: none;
+        }
+
+        .wrap-showreel-lob .col-sm-12 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .showreel .swiper-slide {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .showreel-lob {}
+
+        .swiper-button-prev,
+        .swiper-button-next {
             display: none;
         }
     }

@@ -137,5 +137,21 @@
 
     }
 
+    &.showreel-main {
+        .img-mobile {
+            display: none;
+        }
+
+        @media (max-width: 767px) {
+            .img-mobile {
+                display: block;
+            }
+
+            .img-desc {
+                display: none;
+            }
+        }
+    }
+
 
 }

@@ -92,6 +92,8 @@ h6 {
     background-color: #0094b8; }
   .cta .btn.btn-purple {
     background-color: #9b3b87; }
+  .cta .btn.btn-lightblu {
+    background-color: #9b3b87; }
   .cta .btn.btn-small {
     font-size: 13px;
     padding: 10px 25px; }
@@ -268,6 +270,10 @@ h6 {
       color: #fff !important; }
     .wrap-header .header .nav-item.link-red.show .nav-link {
       color: #D11726 !important; }
+    .wrap-header .header .nav-item.link-purple .nav-link:hover {
+      color: #9b3b87 !important; }
+    .wrap-header .header .nav-item.link-lightblu .nav-link:hover {
+      color: #003b89 !important; }
 
 .hamburger-wrap,
 #nav-mobile {
@@ -332,6 +338,10 @@ h6 {
           color: #000;
           font-size: 20px;
           font-weight: 800; }
+          #nav-mobile ul.subnav-mobile li a.link-purple {
+            color: #9b3b87; }
+          #nav-mobile ul.subnav-mobile li a.link-lightblu {
+            color: #003b89; }
         #nav-mobile ul.subnav-mobile li a.toggle {
           width: 100%;
           display: block;
@@ -511,6 +521,13 @@ h6 {
               font-size: 24px; }
             .showreel .swiper-slide .vertical-wrap .box .wrap-copy .txt {
               font-size: 16px; } }
+  .showreel.showreel-main .img-mobile {
+    display: none; }
+  @media (max-width: 767px) {
+    .showreel.showreel-main .img-mobile {
+      display: block; }
+    .showreel.showreel-main .img-desc {
+      display: none; } }
 
 .wrap-title {
   position: relative; }
@@ -639,7 +656,7 @@ h6 {
 
 .section--azienda .section--azienda__mobile {
   display: none; }
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     .section--azienda .section--azienda__mobile {
       padding-top: 0;
       display: block; } }
@@ -786,7 +803,16 @@ h6 {
 .section--lob {
   color: #fff; }
   @media (max-width: 767px) {
-    .section--lob .showreel-lob {
+    .section--lob .section--lob__left {
+      display: none; }
+    .section--lob .wrap-showreel-lob .col-sm-12 {
+      margin: 0;
+      padding: 0; }
+    .section--lob .showreel .swiper-slide {
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+    .section--lob .swiper-button-prev,
+    .section--lob .swiper-button-next {
       display: none; } }
   .section--lob .row {
     background: #0094b8;

@@ -298,5 +298,21 @@
 
         }
 
+        .nav-item.link-purple {
+
+            & .nav-link:hover {
+                color: $purple !important;
+            }
+
+        }
+
+        .nav-item.link-lightblu {
+
+            & .nav-link:hover {
+                color: $lightblu !important;
+            }
+
+        }
+
     }
 }
