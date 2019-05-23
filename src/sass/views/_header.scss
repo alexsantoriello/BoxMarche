@@ -185,8 +185,10 @@
 
             @include xl-down {}
 
-            &:hover {
+            &:hover,
+            &:focus {
                 color: #d11726 !important;
+                outline: none;
             }
 
             &.dropdown-toggle::after {

@@ -214,8 +214,9 @@ h6 {
       @media (max-width: 991px) {
         .wrap-header .header .nav-link {
           padding: 0 15px !important; } }
-      .wrap-header .header .nav-link:hover {
-        color: #d11726 !important; }
+      .wrap-header .header .nav-link:hover, .wrap-header .header .nav-link:focus {
+        color: #d11726 !important;
+        outline: none; }
       .wrap-header .header .nav-link.dropdown-toggle::after {
         position: absolute;
         bottom: -15px;
