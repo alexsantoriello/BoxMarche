@@ -128,37 +128,37 @@ $blue-dark: #002960;
     }
 }
 
-/* - - - - - - - - - - - - - - - - - - - - - -> Blue */
-.page-blue {
+/* - - - - - - - - - - - - - - - - - - - - - -> Lightblue */
+.page-lightblue {
 
     /* Titoli */
     .wrap-title {
         &:after {
-            background: $blue;
+            background: $lightblue;
         }
 
         h3 {
-            color: $blue;
+            color: $lightblue;
 
             &:after {
-                background: $blue;
+                background: $lightblue;
             }
         }
     }
 
     /* Cta */
     .btn {
-        background: $blue !important;
+        background: $lightblue !important;
     }
 
     /* Cover pagine interne */
     .section--cover .wrap-cover {
-        background: $blue;
+        background: $lightblue;
     }
 
     /* Foto pagine interne */
     .section--foto ._txt ._wrap-copy .tit {
-        color: $blue;
+        color: $lightblue;
     }
 
     /* Filtri */
@@ -172,13 +172,24 @@ $blue-dark: #002960;
         }
 
         .cta.active .btn {
-            background: $blue !important;
+            background: $lightblue !important;
         }
 
         .drop-filtri {
+
+            button {
+
+                &:hover,
+                &:focus {
+                    background: #000 !important;
+                    outline: none;
+                }
+            }
+
             .dropdown-item {
+
                 &:hover {
-                    background: $blue;
+                    background: $lightblue;
                 }
             }
 
@@ -188,10 +199,10 @@ $blue-dark: #002960;
 
     /* Foto pagine interne colorate */
     .section--foto--color .wrap-cover {
-        background: $blue;
+        background: $lightblue;
 
         .years {
-            background: $blue-dark;
+            background: $lightblue-dark;
 
         }
     }
@@ -199,13 +210,13 @@ $blue-dark: #002960;
     /* Sezione listing */
     .section--mix {
         .thumb .wrap-thumb-content {
-            background: $blue;
+            background: $lightblue;
 
 
         }
 
         .years {
-            background: $blue-dark;
+            background: $lightblue-dark;
         }
     }
 }

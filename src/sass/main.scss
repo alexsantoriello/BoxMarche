@@ -10,8 +10,10 @@
 @import "views/menu-mobile";
 @import "views/hero";
 @import "views/showreel";
+@import "views/homepage";
 @import "views/section";
 @import "views/form";
+@import "views/contatti";
 @import "views/footer";
 
 html,
@@ -44,6 +46,12 @@ body {
 
 .section {
 	position: relative;
+}
+
+.divider {
+	display: block;
+	width: 100%;
+	padding: 40px 0;
 }
 
 .btn.focus,

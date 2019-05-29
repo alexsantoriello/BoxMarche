@@ -42,8 +42,8 @@
   .page-yellow .section--mix .years {
     background: #cc8000; }
 
-/* - - - - - - - - - - - - - - - - - - - - - -> Blue */
-.page-blue {
+/* - - - - - - - - - - - - - - - - - - - - - -> Lightblue */
+.page-lightblue {
   /* Titoli */
   /* Cta */
   /* Cover pagine interne */
@@ -51,32 +51,35 @@
   /* Filtri */
   /* Foto pagine interne colorate */
   /* Sezione listing */ }
-  .page-blue .wrap-title:after {
-    background: #003b89; }
-  .page-blue .wrap-title h3 {
-    color: #003b89; }
-    .page-blue .wrap-title h3:after {
-      background: #003b89; }
-  .page-blue .btn {
-    background: #003b89 !important; }
-  .page-blue .section--cover .wrap-cover {
-    background: #003b89; }
-  .page-blue .section--foto ._txt ._wrap-copy .tit {
-    color: #003b89; }
-  .page-blue .section--filtri .cta .btn:hover, .page-blue .section--filtri .cta .btn:focus {
+  .page-lightblue .wrap-title:after {
+    background: #0094b8; }
+  .page-lightblue .wrap-title h3 {
+    color: #0094b8; }
+    .page-lightblue .wrap-title h3:after {
+      background: #0094b8; }
+  .page-lightblue .btn {
+    background: #0094b8 !important; }
+  .page-lightblue .section--cover .wrap-cover {
+    background: #0094b8; }
+  .page-lightblue .section--foto ._txt ._wrap-copy .tit {
+    color: #0094b8; }
+  .page-lightblue .section--filtri .cta .btn:hover, .page-lightblue .section--filtri .cta .btn:focus {
     background: #000 !important; }
-  .page-blue .section--filtri .cta.active .btn {
-    background: #003b89 !important; }
-  .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
-    background: #003b89; }
-  .page-blue .section--foto--color .wrap-cover {
-    background: #003b89; }
-    .page-blue .section--foto--color .wrap-cover .years {
-      background: #002960; }
-  .page-blue .section--mix .thumb .wrap-thumb-content {
-    background: #003b89; }
-  .page-blue .section--mix .years {
-    background: #002960; }
+  .page-lightblue .section--filtri .cta.active .btn {
+    background: #0094b8 !important; }
+  .page-lightblue .section--filtri .drop-filtri button:hover, .page-lightblue .section--filtri .drop-filtri button:focus {
+    background: #000 !important;
+    outline: none; }
+  .page-lightblue .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #0094b8; }
+  .page-lightblue .section--foto--color .wrap-cover {
+    background: #0094b8; }
+    .page-lightblue .section--foto--color .wrap-cover .years {
+      background: #026780; }
+  .page-lightblue .section--mix .thumb .wrap-thumb-content {
+    background: #0094b8; }
+  .page-lightblue .section--mix .years {
+    background: #026780; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Red */
 .page-red {
@@ -723,10 +726,6 @@ h6 {
     .showreel.showreel-main .img-desc {
       display: none; } }
 
-.container-1600 {
-  max-width: 1600px;
-  margin: 0 auto; }
-
 /* Titolo
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .wrap-title {
@@ -1186,6 +1185,10 @@ h6 {
   .section--blog .cta-all {
     margin-top: 0; } }
 
+.container-1600 {
+  max-width: 1600px;
+  margin: 0 auto; }
+
 /* Cover interno
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--cover {
@@ -1341,7 +1344,7 @@ h6 {
     .section--foto ._txt ._wrap-copy .tit {
       font-weight: 800;
       font-size: 81px;
-      line-height: 110%;
+      line-height: 100%;
       padding-bottom: 30px; }
       @media (max-width: 1400px) {
         .section--foto ._txt ._wrap-copy .tit {
@@ -1354,6 +1357,11 @@ h6 {
       font-size: 20px;
       line-height: 140%;
       color: #000; }
+    .section--foto ._txt ._wrap-copy .partners .tit-partners {
+      float: left;
+      padding: 46px 15px 0 0; }
+    .section--foto ._txt ._wrap-copy .partners img {
+      margin-right: 15px; }
 
 .section--foto.foto-sx ._txt {
   float: right;
@@ -1461,13 +1469,18 @@ h6 {
     margin-left: -15px;
     margin-right: -15px; }
     .section--mix .row .tit {
-      padding: 15px 0;
+      padding-top: 15px;
       text-align: center;
       font-size: 20px;
       line-height: 140%;
-      font-weight: 600; }
+      font-weight: 800; }
+    .section--mix .row .subtit {
+      text-align: center;
+      font-size: 20px;
+      line-height: 140%;
+      font-weight: 400; }
   .section--mix .thumb {
-    margin-bottom: 15px; }
+    margin-bottom: 30px; }
     .section--mix .thumb .cta .btn {
       font-size: 12px; }
     .section--mix .thumb .cta .tit {
@@ -1651,13 +1664,14 @@ h6 {
 .form-blu select,
 .form-blu select:focus {
   width: 100%;
-  color: #003b89;
+  color: #fff;
   border: 0;
   border-bottom: 1px solid #003b89;
   border-radius: 0;
   background: #003b89;
-  padding-left: 0;
-  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   font-size: 15px;
   outline: none; }
 
@@ -1676,6 +1690,44 @@ h6 {
     margin-top: 15px; }
   .form-blu .col-md-12 {
     padding-right: 0px; } }
+
+.section--contatti {
+  padding: 0 0 80px 0; }
+  .section--contatti .wrap-conttataci {
+    color: #fff;
+    padding: 0; }
+    @media (max-width: 768px) {
+      .section--contatti .wrap-conttataci {
+        padding: 40px 0; } }
+    .section--contatti .wrap-conttataci .conttataci-sx {
+      color: #003b89; }
+      .section--contatti .wrap-conttataci .conttataci-sx .tit {
+        font-size: 40px;
+        line-height: 130%;
+        font-weight: 800;
+        padding-bottom: 25px; }
+      .section--contatti .wrap-conttataci .conttataci-sx .tel {
+        font-size: 30px;
+        line-height: 100%;
+        font-weight: 800; }
+    @media (max-width: 767px) {
+      .section--contatti .wrap-conttataci .conttataci-dx {
+        width: 120%; } }
+    @media (max-width: 767px) {
+      .section--contatti .wrap-conttataci .conttataci-sx,
+      .section--contatti .wrap-conttataci .conttataci-dx {
+        padding-left: 0;
+        padding-right: 0; }
+      .section--contatti .wrap-conttataci .conttataci-sx {
+        padding-bottom: 35px; }
+        .section--contatti .wrap-conttataci .conttataci-sx .tit {
+          font-size: 24px; }
+      .section--contatti .wrap-conttataci .conttataci-dx {
+        margin-left: -15px !important;
+        margin-right: -15px !important; } }
+
+.gmap {
+  padding-bottom: 60px; }
 
 .section--contattaci {
   padding-bottom: 30px; }
@@ -1857,6 +1909,11 @@ body {
 
 .section {
   position: relative; }
+
+.divider {
+  display: block;
+  width: 100%;
+  padding: 40px 0; }
 
 .btn.focus,
 .btn:focus,

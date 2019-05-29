@@ -47,8 +47,8 @@
   .page-yellow .section--mix .years {
     background: #cc8000; }
 
-/* - - - - - - - - - - - - - - - - - - - - - -> Blue */
-.page-blue {
+/* - - - - - - - - - - - - - - - - - - - - - -> Lightblue */
+.page-lightblue {
   /* Titoli */
   /* Cta */
   /* Cover pagine interne */
@@ -56,32 +56,35 @@
   /* Filtri */
   /* Foto pagine interne colorate */
   /* Sezione listing */ }
-  .page-blue .wrap-title:after {
-    background: #003b89; }
-  .page-blue .wrap-title h3 {
-    color: #003b89; }
-    .page-blue .wrap-title h3:after {
-      background: #003b89; }
-  .page-blue .btn {
-    background: #003b89 !important; }
-  .page-blue .section--cover .wrap-cover {
-    background: #003b89; }
-  .page-blue .section--foto ._txt ._wrap-copy .tit {
-    color: #003b89; }
-  .page-blue .section--filtri .cta .btn:hover, .page-blue .section--filtri .cta .btn:focus {
+  .page-lightblue .wrap-title:after {
+    background: #0094b8; }
+  .page-lightblue .wrap-title h3 {
+    color: #0094b8; }
+    .page-lightblue .wrap-title h3:after {
+      background: #0094b8; }
+  .page-lightblue .btn {
+    background: #0094b8 !important; }
+  .page-lightblue .section--cover .wrap-cover {
+    background: #0094b8; }
+  .page-lightblue .section--foto ._txt ._wrap-copy .tit {
+    color: #0094b8; }
+  .page-lightblue .section--filtri .cta .btn:hover, .page-lightblue .section--filtri .cta .btn:focus {
     background: #000 !important; }
-  .page-blue .section--filtri .cta.active .btn {
-    background: #003b89 !important; }
-  .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
-    background: #003b89; }
-  .page-blue .section--foto--color .wrap-cover {
-    background: #003b89; }
-    .page-blue .section--foto--color .wrap-cover .years {
-      background: #002960; }
-  .page-blue .section--mix .thumb .wrap-thumb-content {
-    background: #003b89; }
-  .page-blue .section--mix .years {
-    background: #002960; }
+  .page-lightblue .section--filtri .cta.active .btn {
+    background: #0094b8 !important; }
+  .page-lightblue .section--filtri .drop-filtri button:hover, .page-lightblue .section--filtri .drop-filtri button:focus {
+    background: #000 !important;
+    outline: none; }
+  .page-lightblue .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #0094b8; }
+  .page-lightblue .section--foto--color .wrap-cover {
+    background: #0094b8; }
+    .page-lightblue .section--foto--color .wrap-cover .years {
+      background: #026780; }
+  .page-lightblue .section--mix .thumb .wrap-thumb-content {
+    background: #0094b8; }
+  .page-lightblue .section--mix .years {
+    background: #026780; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Red */
 .page-red {
