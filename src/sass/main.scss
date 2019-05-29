@@ -46,6 +46,13 @@ body {
 	position: relative;
 }
 
+.btn.focus,
+.btn:focus,
+.btn-default:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
 // layout solo su mobile
 @media (max-width: 767px) {
 

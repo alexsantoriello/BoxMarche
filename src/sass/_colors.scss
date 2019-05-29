@@ -68,6 +68,52 @@ $blue-dark: #002960;
         color: $yellow;
     }
 
+    /* Filtri */
+    .section--filtri {
+        .cta .btn {
+
+            &:hover,
+            &:focus {
+                background: #000 !important;
+            }
+        }
+
+        .cta.active .btn {
+            background: $yellow !important;
+        }
+
+        .drop-filtri {
+
+            button {
+
+                &:hover,
+                &:focus {
+                    background: #000 !important;
+                    outline: none;
+                }
+            }
+
+            .dropdown-item {
+
+                &:hover {
+                    background: $yellow;
+                }
+            }
+
+        }
+
+    }
+
+    /* Foto pagine interne colorate */
+    .section--foto--color .wrap-cover {
+        background: $yellow;
+
+        .years {
+            background: $yellow-dark;
+
+        }
+    }
+
     /* Sezione listing */
     .section--mix {
         .thumb .wrap-thumb-content {
@@ -113,6 +159,41 @@ $blue-dark: #002960;
     /* Foto pagine interne */
     .section--foto ._txt ._wrap-copy .tit {
         color: $blue;
+    }
+
+    /* Filtri */
+    .section--filtri {
+        .cta .btn {
+
+            &:hover,
+            &:focus {
+                background: #000 !important;
+            }
+        }
+
+        .cta.active .btn {
+            background: $blue !important;
+        }
+
+        .drop-filtri {
+            .dropdown-item {
+                &:hover {
+                    background: $blue;
+                }
+            }
+
+        }
+
+    }
+
+    /* Foto pagine interne colorate */
+    .section--foto--color .wrap-cover {
+        background: $blue;
+
+        .years {
+            background: $blue-dark;
+
+        }
     }
 
     /* Sezione listing */
@@ -162,6 +243,41 @@ $blue-dark: #002960;
         color: $red;
     }
 
+    /* Filtri */
+    .section--filtri {
+        .cta .btn {
+
+            &:hover,
+            &:focus {
+                background: #000 !important;
+            }
+        }
+
+        .cta.active .btn {
+            background: $red !important;
+        }
+
+        .drop-filtri {
+            .dropdown-item {
+                &:hover {
+                    background: $red;
+                }
+            }
+
+        }
+
+    }
+
+    /* Foto pagine interne colorate */
+    .section--foto--color .wrap-cover {
+        background: $red;
+
+        .years {
+            background: $red-dark;
+
+        }
+    }
+
     /* Sezione listing */
     .section--mix {
         .thumb .wrap-thumb-content {
@@ -209,6 +325,41 @@ $blue-dark: #002960;
         color: $purple;
     }
 
+    /* Filtri */
+    .section--filtri {
+        .cta .btn {
+
+            &:hover,
+            &:focus {
+                background: #000 !important;
+            }
+        }
+
+        .cta.active .btn {
+            background: $purple !important;
+        }
+
+        .drop-filtri {
+            .dropdown-item {
+                &:hover {
+                    background: $purple;
+                }
+            }
+
+        }
+
+    }
+
+    /* Foto pagine interne colorate */
+    .section--foto--color .wrap-cover {
+        background: $purple;
+
+        .years {
+            background: $purple-dark;
+
+        }
+    }
+
     /* Sezione listing */
     .section--mix {
         .thumb .wrap-thumb-content {
@@ -254,6 +405,41 @@ $blue-dark: #002960;
     /* Foto pagine interne */
     .section--foto ._txt ._wrap-copy .tit {
         color: $blue;
+    }
+
+    /* Filtri */
+    .section--filtri {
+        .cta .btn {
+
+            &:hover,
+            &:focus {
+                background: #000 !important;
+            }
+        }
+
+        .cta.active .btn {
+            background: $blue !important;
+        }
+
+        .drop-filtri {
+            .dropdown-item {
+                &:hover {
+                    background: $blue;
+                }
+            }
+
+        }
+
+    }
+
+    /* Foto pagine interne colorate */
+    .section--foto--color .wrap-cover {
+        background: $blue;
+
+        .years {
+            background: $blue-dark;
+
+        }
     }
 
     /* Sezione listing */

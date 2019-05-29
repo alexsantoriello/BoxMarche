@@ -14,6 +14,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-yellow .wrap-title:after {
     background: #fd9e00; }
@@ -27,6 +29,19 @@
     background: #fd9e00; }
   .page-yellow .section--foto ._txt ._wrap-copy .tit {
     color: #fd9e00; }
+  .page-yellow .section--filtri .cta .btn:hover, .page-yellow .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-yellow .section--filtri .cta.active .btn {
+    background: #fd9e00 !important; }
+  .page-yellow .section--filtri .drop-filtri button:hover, .page-yellow .section--filtri .drop-filtri button:focus {
+    background: #000 !important;
+    outline: none; }
+  .page-yellow .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #fd9e00; }
+  .page-yellow .section--foto--color .wrap-cover {
+    background: #fd9e00; }
+    .page-yellow .section--foto--color .wrap-cover .years {
+      background: #cc8000; }
   .page-yellow .section--mix .thumb .wrap-thumb-content {
     background: #fd9e00; }
   .page-yellow .section--mix .years {
@@ -38,6 +53,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-blue .wrap-title:after {
     background: #003b89; }
@@ -51,6 +68,16 @@
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
     color: #003b89; }
+  .page-blue .section--filtri .cta .btn:hover, .page-blue .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-blue .section--filtri .cta.active .btn {
+    background: #003b89 !important; }
+  .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #003b89; }
+  .page-blue .section--foto--color .wrap-cover {
+    background: #003b89; }
+    .page-blue .section--foto--color .wrap-cover .years {
+      background: #002960; }
   .page-blue .section--mix .thumb .wrap-thumb-content {
     background: #003b89; }
   .page-blue .section--mix .years {
@@ -62,6 +89,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-red .wrap-title:after {
     background: #D11726; }
@@ -75,6 +104,16 @@
     background: #D11726; }
   .page-red .section--foto ._txt ._wrap-copy .tit {
     color: #D11726; }
+  .page-red .section--filtri .cta .btn:hover, .page-red .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-red .section--filtri .cta.active .btn {
+    background: #D11726 !important; }
+  .page-red .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #D11726; }
+  .page-red .section--foto--color .wrap-cover {
+    background: #D11726; }
+    .page-red .section--foto--color .wrap-cover .years {
+      background: #ac121e; }
   .page-red .section--mix .thumb .wrap-thumb-content {
     background: #D11726; }
   .page-red .section--mix .years {
@@ -86,6 +125,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-purple .wrap-title:after {
     background: #9b3b87; }
@@ -99,6 +140,16 @@
     background: #9b3b87; }
   .page-purple .section--foto ._txt ._wrap-copy .tit {
     color: #9b3b87; }
+  .page-purple .section--filtri .cta .btn:hover, .page-purple .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-purple .section--filtri .cta.active .btn {
+    background: #9b3b87 !important; }
+  .page-purple .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #9b3b87; }
+  .page-purple .section--foto--color .wrap-cover {
+    background: #9b3b87; }
+    .page-purple .section--foto--color .wrap-cover .years {
+      background: #85126d; }
   .page-purple .section--mix .thumb .wrap-thumb-content {
     background: #9b3b87; }
   .page-purple .section--mix .years {
@@ -110,6 +161,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-blue .wrap-title:after {
     background: #003b89; }
@@ -123,6 +176,16 @@
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
     color: #003b89; }
+  .page-blue .section--filtri .cta .btn:hover, .page-blue .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-blue .section--filtri .cta.active .btn {
+    background: #003b89 !important; }
+  .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #003b89; }
+  .page-blue .section--foto--color .wrap-cover {
+    background: #003b89; }
+    .page-blue .section--foto--color .wrap-cover .years {
+      background: #002960; }
   .page-blue .section--mix .thumb .wrap-thumb-content {
     background: #003b89; }
   .page-blue .section--mix .years {

@@ -9,6 +9,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-yellow .wrap-title:after {
     background: #fd9e00; }
@@ -22,6 +24,19 @@
     background: #fd9e00; }
   .page-yellow .section--foto ._txt ._wrap-copy .tit {
     color: #fd9e00; }
+  .page-yellow .section--filtri .cta .btn:hover, .page-yellow .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-yellow .section--filtri .cta.active .btn {
+    background: #fd9e00 !important; }
+  .page-yellow .section--filtri .drop-filtri button:hover, .page-yellow .section--filtri .drop-filtri button:focus {
+    background: #000 !important;
+    outline: none; }
+  .page-yellow .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #fd9e00; }
+  .page-yellow .section--foto--color .wrap-cover {
+    background: #fd9e00; }
+    .page-yellow .section--foto--color .wrap-cover .years {
+      background: #cc8000; }
   .page-yellow .section--mix .thumb .wrap-thumb-content {
     background: #fd9e00; }
   .page-yellow .section--mix .years {
@@ -33,6 +48,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-blue .wrap-title:after {
     background: #003b89; }
@@ -46,6 +63,16 @@
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
     color: #003b89; }
+  .page-blue .section--filtri .cta .btn:hover, .page-blue .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-blue .section--filtri .cta.active .btn {
+    background: #003b89 !important; }
+  .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #003b89; }
+  .page-blue .section--foto--color .wrap-cover {
+    background: #003b89; }
+    .page-blue .section--foto--color .wrap-cover .years {
+      background: #002960; }
   .page-blue .section--mix .thumb .wrap-thumb-content {
     background: #003b89; }
   .page-blue .section--mix .years {
@@ -57,6 +84,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-red .wrap-title:after {
     background: #D11726; }
@@ -70,6 +99,16 @@
     background: #D11726; }
   .page-red .section--foto ._txt ._wrap-copy .tit {
     color: #D11726; }
+  .page-red .section--filtri .cta .btn:hover, .page-red .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-red .section--filtri .cta.active .btn {
+    background: #D11726 !important; }
+  .page-red .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #D11726; }
+  .page-red .section--foto--color .wrap-cover {
+    background: #D11726; }
+    .page-red .section--foto--color .wrap-cover .years {
+      background: #ac121e; }
   .page-red .section--mix .thumb .wrap-thumb-content {
     background: #D11726; }
   .page-red .section--mix .years {
@@ -81,6 +120,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-purple .wrap-title:after {
     background: #9b3b87; }
@@ -94,6 +135,16 @@
     background: #9b3b87; }
   .page-purple .section--foto ._txt ._wrap-copy .tit {
     color: #9b3b87; }
+  .page-purple .section--filtri .cta .btn:hover, .page-purple .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-purple .section--filtri .cta.active .btn {
+    background: #9b3b87 !important; }
+  .page-purple .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #9b3b87; }
+  .page-purple .section--foto--color .wrap-cover {
+    background: #9b3b87; }
+    .page-purple .section--foto--color .wrap-cover .years {
+      background: #85126d; }
   .page-purple .section--mix .thumb .wrap-thumb-content {
     background: #9b3b87; }
   .page-purple .section--mix .years {
@@ -105,6 +156,8 @@
   /* Cta */
   /* Cover pagine interne */
   /* Foto pagine interne */
+  /* Filtri */
+  /* Foto pagine interne colorate */
   /* Sezione listing */ }
   .page-blue .wrap-title:after {
     background: #003b89; }
@@ -118,6 +171,16 @@
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
     color: #003b89; }
+  .page-blue .section--filtri .cta .btn:hover, .page-blue .section--filtri .cta .btn:focus {
+    background: #000 !important; }
+  .page-blue .section--filtri .cta.active .btn {
+    background: #003b89 !important; }
+  .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
+    background: #003b89; }
+  .page-blue .section--foto--color .wrap-cover {
+    background: #003b89; }
+    .page-blue .section--foto--color .wrap-cover .years {
+      background: #002960; }
   .page-blue .section--mix .thumb .wrap-thumb-content {
     background: #003b89; }
   .page-blue .section--mix .years {
@@ -660,6 +723,10 @@ h6 {
     .showreel.showreel-main .img-desc {
       display: none; } }
 
+.container-1600 {
+  max-width: 1600px;
+  margin: 0 auto; }
+
 /* Titolo
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .wrap-title {
@@ -1179,6 +1246,51 @@ h6 {
         font-size: 20px;
         line-height: 140%; }
 
+/* Filtri
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--filtri {
+  text-align: center;
+  padding: 60px 0; }
+  .section--filtri .drop-filtri {
+    display: inline-block;
+    margin: 0 12px; }
+    .section--filtri .drop-filtri button {
+      border-radius: 0;
+      padding: 15px 25px 15px 35px;
+      border: 0;
+      font-size: 15px;
+      font-weight: 800;
+      text-transform: uppercase;
+      -webkit-box-shadow: 0;
+              box-shadow: 0; }
+      .section--filtri .drop-filtri button:hover, .section--filtri .drop-filtri button:focus {
+        background: #000 !important;
+        outline: none; }
+      .section--filtri .drop-filtri button::after {
+        display: none; }
+      .section--filtri .drop-filtri button i {
+        margin-left: 15px; }
+    .section--filtri .drop-filtri .dropdown-menu {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      -webkit-box-shadow: 0;
+              box-shadow: 0; }
+      .section--filtri .drop-filtri .dropdown-menu .dropdown-item {
+        padding: 10px 20px;
+        font-size: 13px;
+        text-align: center; }
+        .section--filtri .drop-filtri .dropdown-menu .dropdown-item:hover {
+          color: #fff; }
+  .section--filtri .cta {
+    display: inline-block;
+    margin: 0 12px;
+    position: relative; }
+    .section--filtri .cta.active i {
+      position: absolute;
+      bottom: -23px;
+      left: 45%; }
+
 /* Foto
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--foto ._txt {
@@ -1279,6 +1391,60 @@ h6 {
       padding-bottom: 30px;
       padding-left: 0; } }
 
+.section--foto.section--subcover {
+  padding: 80px 0 15px 0; }
+  .section--foto.section--subcover ._wrap-copy {
+    padding-top: 25px; }
+
+/* Foto BOX COLORATO - integrazione
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--foto--color {
+  color: #fff; }
+  .section--foto--color ._wrap-copy {
+    padding-top: 80px !important; }
+  .section--foto--color ._img {
+    background: #FFF; }
+    .section--foto--color ._img .shadow {
+      -webkit-box-shadow: -15px -1px 30px -17px rgba(0, 0, 0, 0.43);
+      box-shadow: -15px -1px 30px -17px rgba(0, 0, 0, 0.43); }
+  .section--foto--color .years {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 50px;
+    font-weight: 800;
+    font-size: 12px; }
+  .section--foto--color .cat {
+    font-size: 16px;
+    line-height: 140%;
+    padding-bottom: 24px; }
+  .section--foto--color .tit,
+  .section--foto--color .abstract {
+    color: #fff !important; }
+    .section--foto--color .tit p,
+    .section--foto--color .abstract p {
+      margin-bottom: 25px; }
+  .section--foto--color .tit {
+    font-size: 40px !important;
+    line-height: 110%; }
+    @media (max-width: 1400px) {
+      .section--foto--color .tit {
+        font-size: 30px !important; } }
+    @media (max-width: 1024px) {
+      .section--foto--color .tit {
+        font-size: 30px !important; } }
+  .section--foto--color ._wrap-copy .btn {
+    padding: 0;
+    background: none !important;
+    font-size: 13px; }
+    .section--foto--color ._wrap-copy .btn:hover {
+      color: #000 !important; }
+  .section--foto--color .wrap-cta .wrap-cta-sx,
+  .section--foto--color .wrap-cta .wrap-cta-dx {
+    float: left;
+    width: 50%;
+    display: list-item; }
+
 /* Lista mix
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--mix {
@@ -1306,20 +1472,25 @@ h6 {
       font-size: 12px; }
     .section--mix .thumb .cta .tit {
       text-align: left; }
-    .section--mix .thumb .wrap-thumb-content {
-      text-align: left; }
-      .section--mix .thumb .wrap-thumb-content .years {
+    .section--mix .thumb .wrap-thumb {
+      position: relative; }
+      .section--mix .thumb .wrap-thumb .years {
         font-size: 12px;
         font-weight: 800;
         display: inline-block;
         top: 0;
         padding: 10px 35px;
-        color: #fff; }
-      .section--mix .thumb .wrap-thumb-content .tit {
-        text-align: left;
-        padding: 10px 35px;
         color: #fff;
-        font-weight: 600; }
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .section--mix .thumb .wrap-thumb-content {
+        text-align: left; }
+        .section--mix .thumb .wrap-thumb-content .tit {
+          text-align: left;
+          padding: 10px 35px;
+          color: #fff;
+          font-weight: 600; }
 
 /* Foto
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
@@ -1686,6 +1857,12 @@ body {
 
 .section {
   position: relative; }
+
+.btn.focus,
+.btn:focus,
+.btn-default:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
 
 @media (max-width: 767px) {
   .container,
