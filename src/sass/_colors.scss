@@ -12,12 +12,260 @@ $gray-900: #222222 !default;
 
 $white: white;
 $black: black;
-$red: #D11726;
-$yellow: #fd9e00;
-$blue: #0094b8;
-$purple: #9b3b87;
-$lightblu: #003b89;
 
 $bg-red: #D11726;
 $bg-yellow: #fd9e00;
-$bg-blue: #0094b8;
+$bg-lightblue: #0094b8;
+$bg-blue: #003b89;
+
+/* Gestione colori
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+$yellow: #fd9e00; // Chi siamo
+$yellow-dark:#cc8000;
+$lightblue: #0094b8; // Livingo Outside the Box
+$lightblue-dark: #026780;
+$red: #D11726; // Packaging Solution
+$red-dark: #ac121e;
+$purple: #9b3b87; // Blog
+$purple-dark: #85126d;
+$blue: #003b89; // Contatti
+$blue-dark: #002960;
+
+/* Gestione colori sezioni
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - -> Yellow */
+.page-yellow {
+
+    /* Titoli */
+    .wrap-title {
+        &:after {
+            background: $yellow;
+        }
+
+        h3 {
+            color: $yellow;
+
+            &:after {
+                background: $yellow;
+            }
+        }
+    }
+
+    /* Cta */
+    .btn {
+        background: $yellow !important;
+    }
+
+    /* Cover pagine interne */
+    .section--cover .wrap-cover {
+        background: $yellow;
+    }
+
+    /* Foto pagine interne */
+    .section--foto ._txt ._wrap-copy .tit {
+        color: $yellow;
+    }
+
+    /* Sezione listing */
+    .section--mix {
+        .thumb .wrap-thumb-content {
+            background: $yellow;
+
+
+        }
+
+        .years {
+            background: $yellow-dark;
+        }
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - -> Blue */
+.page-blue {
+
+    /* Titoli */
+    .wrap-title {
+        &:after {
+            background: $blue;
+        }
+
+        h3 {
+            color: $blue;
+
+            &:after {
+                background: $blue;
+            }
+        }
+    }
+
+    /* Cta */
+    .btn {
+        background: $blue !important;
+    }
+
+    /* Cover pagine interne */
+    .section--cover .wrap-cover {
+        background: $blue;
+    }
+
+    /* Foto pagine interne */
+    .section--foto ._txt ._wrap-copy .tit {
+        color: $blue;
+    }
+
+    /* Sezione listing */
+    .section--mix {
+        .thumb .wrap-thumb-content {
+            background: $blue;
+
+
+        }
+
+        .years {
+            background: $blue-dark;
+        }
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - -> Red */
+.page-red {
+
+    /* Titoli */
+    .wrap-title {
+        &:after {
+            background: $red;
+        }
+
+        h3 {
+            color: $red;
+
+            &:after {
+                background: $red;
+            }
+        }
+    }
+
+    /* Cta */
+    .btn {
+        background: $red !important;
+    }
+
+    /* Cover pagine interne */
+    .section--cover .wrap-cover {
+        background: $red;
+    }
+
+    /* Foto pagine interne */
+    .section--foto ._txt ._wrap-copy .tit {
+        color: $red;
+    }
+
+    /* Sezione listing */
+    .section--mix {
+        .thumb .wrap-thumb-content {
+            background: $red;
+
+
+        }
+
+        .years {
+            background: $red-dark;
+        }
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - -> Purple */
+.page-purple {
+
+    /* Titoli */
+    .wrap-title {
+        &:after {
+            background: $purple;
+        }
+
+        h3 {
+            color: $purple;
+
+            &:after {
+                background: $purple;
+            }
+        }
+    }
+
+    /* Cta */
+    .btn {
+        background: $purple !important;
+    }
+
+    /* Cover pagine interne */
+    .section--cover .wrap-cover {
+        background: $purple;
+    }
+
+    /* Foto pagine interne */
+    .section--foto ._txt ._wrap-copy .tit {
+        color: $purple;
+    }
+
+    /* Sezione listing */
+    .section--mix {
+        .thumb .wrap-thumb-content {
+            background: $purple;
+
+
+        }
+
+        .years {
+            background: $purple-dark;
+        }
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - -> Blue */
+.page-blue {
+
+    /* Titoli */
+    .wrap-title {
+        &:after {
+            background: $blue;
+        }
+
+        h3 {
+            color: $blue;
+
+            &:after {
+                background: $blue;
+            }
+        }
+    }
+
+    /* Cta */
+    .btn {
+        background: $blue !important;
+    }
+
+    /* Cover pagine interne */
+    .section--cover .wrap-cover {
+        background: $blue;
+    }
+
+    /* Foto pagine interne */
+    .section--foto ._txt ._wrap-copy .tit {
+        color: $blue;
+    }
+
+    /* Sezione listing */
+    .section--mix {
+        .thumb .wrap-thumb-content {
+            background: $blue;
+
+
+        }
+
+        .years {
+            background: $blue-dark;
+        }
+    }
+}

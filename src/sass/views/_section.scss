@@ -1,6 +1,8 @@
-// Titolo
+/* Titolo
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .wrap-title {
     position: relative;
+    color: var(--color-page);
 
     & .container {
         @media (max-width: 767px) {
@@ -157,6 +159,21 @@
 
     }
 
+    &.tit-yellow {
+        &:after {
+            background: $yellow;
+        }
+
+        h3 {
+            color: $yellow;
+
+            &:after {
+                background: $yellow;
+            }
+        }
+
+    }
+
     &.tit-default {
         &:after {
             background: #003b89;
@@ -173,7 +190,8 @@
 
 }
 
-// Section general
+/* Section general
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section {
     padding-bottom: 120px;
 
@@ -215,7 +233,8 @@
     margin: 0 auto;
 }
 
-// Box Azienda
+/* Box Azienda
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--azienda {
 
     .section--azienda__mobile {
@@ -544,7 +563,8 @@
 
 }
 
-// Case Studies
+/* Case Studies
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--case {
 
     .swiper-slide {
@@ -641,7 +661,8 @@
 
 }
 
-// Blog
+/* Blog
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--blog {
 
     .container-blog {
@@ -719,3 +740,321 @@
     }
 
 }
+
+/* Cover interno
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--cover {
+    padding-bottom: 0;
+
+    & ._sx {
+        float: left;
+        width: 50%;
+    }
+
+    & ._dx {
+        float: right;
+        width: 50%;
+    }
+
+    @media (max-width: 768px) {
+
+        & ._sx,
+        & ._dx {
+            float: left;
+            width: 100%;
+        }
+    }
+
+    & .wrap-cover {
+        &.bg-yellow {
+            background: $yellow;
+        }
+    }
+
+    & ._sx {
+        position: relative;
+        color: #fff;
+
+        & ._wrap-copy {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            padding: 135px 50px 50px 0;
+
+            @media (max-width: 1800px) {
+                padding: 80px 50px 50px 0;
+            }
+
+            @media (max-width: 1600px) {
+                padding: 60px 50px 50px 0;
+            }
+
+            @media (max-width: 1400px) {
+                padding: 40px 40px 0 0;
+            }
+
+            @media (max-width: 768px) {
+                position: relative;
+                padding-bottom: 30px;
+                padding-right: 0;
+            }
+
+            .cat {
+                font-size: 20px;
+                line-height: 140%;
+                font-weight: 600;
+            }
+
+            .tit {
+                font-weight: 800;
+                font-size: 81px;
+                line-height: 110%;
+                padding-bottom: 30px;
+
+                @media (max-width: 1400px) {
+                    font-size: 60px;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 40px;
+                    padding-bottom: 10px;
+                }
+            }
+
+
+            .abstract {
+                font-size: 20px;
+                line-height: 140%;
+            }
+
+        }
+
+
+    }
+
+}
+
+/* Foto
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--foto {
+
+    & ._txt {
+        float: left;
+        width: 50%;
+    }
+
+    & ._img {
+        float: right;
+        width: 50%;
+        text-align: left;
+    }
+
+    @media (max-width: 768px) {
+
+        padding-bottom: 30px;
+
+        & ._txt,
+        & ._img {
+            float: left;
+            width: 100%;
+        }
+    }
+
+    & .wrap-cover {
+        &.bg-yellow {
+            background: $yellow;
+        }
+    }
+
+    & ._txt {
+        position: relative;
+        color: #fff;
+
+        &.txt-yellow {
+            color: $yellow;
+        }
+
+        & ._wrap-copy {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            padding: 135px 50px 50px 0;
+
+            @media (max-width: 1800px) {
+                padding: 80px 50px 50px 0;
+            }
+
+            @media (max-width: 1600px) {
+                padding: 60px 50px 50px 0;
+            }
+
+            @media (max-width: 1400px) {
+                padding: 40px 40px 0 0;
+            }
+
+            @media (max-width: 768px) {
+                position: relative;
+                padding-bottom: 30px;
+                padding-right: 0;
+            }
+
+            .tit {
+                font-weight: 800;
+                font-size: 81px;
+                line-height: 110%;
+                padding-bottom: 30px;
+
+                @media (max-width: 1400px) {
+                    font-size: 60px;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 40px;
+                    padding-bottom: 10px;
+                }
+            }
+
+
+            .abstract {
+                font-size: 20px;
+                line-height: 140%;
+                color: #000;
+            }
+
+        }
+
+    }
+
+    // gestione foto sx
+    &.foto-sx {
+
+        & ._txt {
+            float: right;
+            width: 50%;
+        }
+
+        & ._img {
+            float: left;
+            width: 50%;
+            text-align: right;
+        }
+
+        @media (max-width: 768px) {
+
+            & ._txt,
+            & ._img {
+                float: left;
+                width: 100%;
+            }
+        }
+
+        & ._wrap-copy {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            padding: 135px 50px 0 50px;
+
+            @media (max-width: 1800px) {
+                padding: 80px 50px 0 50px;
+            }
+
+            @media (max-width: 1600px) {
+                padding: 60px 50px 0 50px;
+            }
+
+            @media (max-width: 1400px) {
+                padding: 40px 40px 0 50px;
+            }
+
+            @media (max-width: 768px) {
+                position: relative;
+                padding-bottom: 30px;
+                padding-left: 0;
+            }
+        }
+    }
+
+}
+
+
+/* Lista mix
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--mix {
+    font-size: 20px;
+    line-height: 140%;
+
+    .txt_content {
+        padding: 40px 0;
+        font-size: 20px;
+        line-height: 140%;
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+    }
+
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+
+        .tit {
+            padding: 15px 0;
+            text-align: center;
+            font-size: 20px;
+            line-height: 140%;
+            font-weight: 600;
+        }
+
+    }
+
+    .thumb {
+        margin-bottom: 15px;
+
+        .cta {
+
+            .btn {
+                font-size: 12px;
+            }
+
+            .tit {
+                text-align: left;
+            }
+
+        }
+
+        .wrap-thumb {
+            &-content {
+                text-align: left;
+
+                .years {
+                    font-size: 12px;
+                    font-weight: 800;
+                    display: inline-block;
+                    top: 0;
+                    padding: 10px 35px;
+                    color: #fff;
+                }
+
+                .tit {
+                    text-align: left;
+                    padding: 10px 35px;
+                    color: #fff;
+                    font-weight: 600;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+
+/* Foto
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--foto-list {}

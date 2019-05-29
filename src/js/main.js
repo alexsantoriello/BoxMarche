@@ -51,12 +51,12 @@ export default class App {
                 disableOnInteraction: false,
             },
             pagination: {
-                el: '.swiper-pagination',
+                el: '.showreel-lob > .swiper-pagination',
                 clickable: true,
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.showreel-lob > .swiper-button-next',
+                prevEl: '.showreel-lob > .swiper-button-prev',
             },
         });
     }

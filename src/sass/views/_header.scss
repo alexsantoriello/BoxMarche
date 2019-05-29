@@ -250,30 +250,38 @@
                 color: #fff !important;
             }
 
+            a.dropdown-item.active {
+                background: $yellow;
+            }
+
             &.show .nav-link {
                 color: $yellow !important;
             }
 
         }
 
-        .nav-item.link-blue {
+        .nav-item.link-lightblue {
 
             i.fas {
-                color: $blue !important;
+                color: $lightblue !important;
             }
 
             & .nav-link:hover {
-                color: $blue !important;
+                color: $lightblue !important;
             }
 
             a.dropdown-item:hover,
             a.dropdown-item:focus {
-                background: $bg-blue;
+                background: $lightblue;
                 color: #fff !important;
             }
 
+            a.dropdown-item.active {
+                background: $lightblue;
+            }
+
             &.show .nav-link {
-                color: $blue !important;
+                color: $lightblue !important;
             }
 
         }
@@ -290,8 +298,12 @@
 
             a.dropdown-item:hover,
             a.dropdown-item:focus {
-                background: $bg-red;
+                background: $red;
                 color: #fff !important;
+            }
+
+            a.dropdown-item.active {
+                background: $red;
             }
 
             &.show .nav-link {
@@ -308,10 +320,10 @@
 
         }
 
-        .nav-item.link-lightblu {
+        .nav-item.link-blue {
 
             & .nav-link:hover {
-                color: $lightblu !important;
+                color: $blue !important;
             }
 
         }
