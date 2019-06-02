@@ -171,17 +171,6 @@
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--foto {
 
-    & ._txt {
-        float: left;
-        width: 50%;
-    }
-
-    & ._img {
-        float: right;
-        width: 50%;
-        text-align: left;
-    }
-
     @media (max-width: 768px) {
 
         padding-bottom: 30px;
@@ -193,6 +182,17 @@
         }
     }
 
+    & ._txt {
+        float: left;
+        width: 50%;
+    }
+
+    & ._img {
+        float: right;
+        width: 50%;
+        text-align: left;
+    }
+
     & .wrap-cover {
         &.bg-yellow {
             background: $yellow;
@@ -202,6 +202,10 @@
     & ._txt {
         position: relative;
         color: #fff;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
 
         &.txt-yellow {
             color: $yellow;
@@ -232,6 +236,11 @@
                 padding-right: 0;
             }
 
+            @media (max-width: 767px) {
+                padding-top: 20px !important;
+                padding-right: 0 !important;
+            }
+
             .tit {
                 font-weight: 800;
                 font-size: 81px;
@@ -246,6 +255,10 @@
                     font-size: 40px;
                     padding-bottom: 10px;
                 }
+
+                @media (max-width: 767px) {
+                    text-align: left;
+                }
             }
 
 
@@ -253,6 +266,10 @@
                 font-size: 20px;
                 line-height: 140%;
                 color: #000;
+
+                @media (max-width: 767px) {
+                    text-align: left;
+                }
             }
 
             .partners {
@@ -277,22 +294,35 @@
         & ._txt {
             float: right;
             width: 50%;
+
         }
 
         & ._img {
             float: left;
             width: 50%;
             text-align: right;
+
+            @media (max-width: 768px) {
+                float: none;
+                width: 100%;
+                text-align: center !important;
+            }
+
+            @media (max-width: 1024px) {
+                padding-bottom: 30px;
+            }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
 
             & ._txt,
             & ._img {
                 float: left;
                 width: 100%;
+                text-align: center !important;
             }
         }
+
 
         & ._wrap-copy {
             position: absolute;
@@ -313,11 +343,33 @@
                 padding: 40px 40px 0 50px;
             }
 
+            @media (max-width: 1024px) {
+                position: relative;
+                padding-bottom: 30px;
+                padding-right: 0 !important;
+                padding-left: 0;
+                width: 100%;
+
+                ._txt {
+                    float: none;
+                    width: 100%;
+                }
+            }
+
             @media (max-width: 768px) {
                 position: relative;
                 padding-bottom: 30px;
                 padding-left: 0;
+                padding-right: 0 !important;
             }
+        }
+    }
+
+    &.foto-dx ._img {
+        @media (max-width: 768px) {
+            float: none;
+            width: 100%;
+            text-align: center !important;
         }
     }
 
@@ -360,6 +412,10 @@
         padding: 15px 50px;
         font-weight: 800;
         font-size: 12px;
+
+        @media (max-width: 1024px) {
+            left: 43%;
+        }
     }
 
     .cat {
@@ -409,6 +465,17 @@
             float: left;
             width: 50%;
             display: list-item;
+        }
+
+        @media (max-width: 1024px) {
+            .wrap-cta-sx {
+                display: none;
+            }
+
+            .wrap-cta-dx {
+                width: 100%;
+                text-align: center;
+            }
         }
     }
 

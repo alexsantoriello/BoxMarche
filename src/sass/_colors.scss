@@ -112,6 +112,13 @@ $blue-dark: #002960;
             background: $yellow-dark;
 
         }
+
+        @media (max-width: 1024px) {
+
+            & ._img {
+                background: $yellow;
+            }
+        }
     }
 
     /* Sezione listing */
@@ -205,6 +212,13 @@ $blue-dark: #002960;
             background: $lightblue-dark;
 
         }
+
+        @media (max-width: 1024px) {
+
+            & ._img {
+                background: $lightblue;
+            }
+        }
     }
 
     /* Sezione listing */
@@ -287,6 +301,13 @@ $blue-dark: #002960;
             background: $red-dark;
 
         }
+
+        @media (max-width: 1024px) {
+
+            & ._img {
+                background: $red;
+            }
+        }
     }
 
     /* Sezione listing */
@@ -300,6 +321,11 @@ $blue-dark: #002960;
         .years {
             background: $red-dark;
         }
+    }
+
+    /* Dettaglio case history */
+    .tech-details {
+        color: $red;
     }
 }
 
@@ -368,6 +394,13 @@ $blue-dark: #002960;
         .years {
             background: $purple-dark;
 
+        }
+
+        @media (max-width: 1024px) {
+
+            & ._img {
+                background: $purple;
+            }
         }
     }
 
@@ -450,6 +483,13 @@ $blue-dark: #002960;
         .years {
             background: $blue-dark;
 
+        }
+
+        @media (max-width: 1024px) {
+
+            & ._img {
+                background: $blue;
+            }
         }
     }
 

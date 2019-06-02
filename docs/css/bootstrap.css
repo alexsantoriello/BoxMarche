@@ -42,6 +42,9 @@
     background: #fd9e00; }
     .page-yellow .section--foto--color .wrap-cover .years {
       background: #cc8000; }
+    @media (max-width: 1024px) {
+      .page-yellow .section--foto--color .wrap-cover ._img {
+        background: #fd9e00; } }
   .page-yellow .section--mix .thumb .wrap-thumb-content {
     background: #fd9e00; }
   .page-yellow .section--mix .years {
@@ -81,6 +84,9 @@
     background: #0094b8; }
     .page-lightblue .section--foto--color .wrap-cover .years {
       background: #026780; }
+    @media (max-width: 1024px) {
+      .page-lightblue .section--foto--color .wrap-cover ._img {
+        background: #0094b8; } }
   .page-lightblue .section--mix .thumb .wrap-thumb-content {
     background: #0094b8; }
   .page-lightblue .section--mix .years {
@@ -94,7 +100,8 @@
   /* Foto pagine interne */
   /* Filtri */
   /* Foto pagine interne colorate */
-  /* Sezione listing */ }
+  /* Sezione listing */
+  /* Dettaglio case history */ }
   .page-red .wrap-title:after {
     background: #D11726; }
   .page-red .wrap-title h3 {
@@ -117,10 +124,15 @@
     background: #D11726; }
     .page-red .section--foto--color .wrap-cover .years {
       background: #ac121e; }
+    @media (max-width: 1024px) {
+      .page-red .section--foto--color .wrap-cover ._img {
+        background: #D11726; } }
   .page-red .section--mix .thumb .wrap-thumb-content {
     background: #D11726; }
   .page-red .section--mix .years {
     background: #ac121e; }
+  .page-red .tech-details {
+    color: #D11726; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Purple */
 .page-purple {
@@ -153,6 +165,9 @@
     background: #9b3b87; }
     .page-purple .section--foto--color .wrap-cover .years {
       background: #85126d; }
+    @media (max-width: 1024px) {
+      .page-purple .section--foto--color .wrap-cover ._img {
+        background: #9b3b87; } }
   .page-purple .section--mix .thumb .wrap-thumb-content {
     background: #9b3b87; }
   .page-purple .section--mix .years {
@@ -189,6 +204,9 @@
     background: #003b89; }
     .page-blue .section--foto--color .wrap-cover .years {
       background: #002960; }
+    @media (max-width: 1024px) {
+      .page-blue .section--foto--color .wrap-cover ._img {
+        background: #003b89; } }
   .page-blue .section--mix .thumb .wrap-thumb-content {
     background: #003b89; }
   .page-blue .section--mix .years {

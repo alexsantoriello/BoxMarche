@@ -35,6 +35,7 @@ function () {
       app.slider_main();
       app.slider_lob();
       app.slider_case();
+      app.slider_detail();
       app.hamburgers();
       app.subnav();
     }
@@ -88,6 +89,30 @@ function () {
       var swiper = new Swiper('.showreel-case', {
         spaceBetween: 0,
         centeredSlides: true,
+        loop: true,
+        speed: 600,
+        autoplay: {
+          delay: 8000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    }
+  }, {
+    key: "slider_detail",
+    value: function slider_detail() {
+      var swiper = new Swiper('.showreel-detail', {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 0,
+        centeredSlides: false,
         loop: true,
         speed: 600,
         autoplay: {
