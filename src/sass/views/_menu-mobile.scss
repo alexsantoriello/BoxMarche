@@ -122,10 +122,25 @@
                     }
                 }
 
+
+                .link-yellow {
+                    a.nav-toggle {
+                        color: $yellow;
+                    }
+
+                    a.active {
+                        color: $yellow;
+                    }
+                }
+
                 .nav-toggle {
 
                     &.link-yellow {
                         color: $yellow;
+
+                        a.active {
+                            color: $yellow;
+                        }
                     }
 
                     &.link-blue {

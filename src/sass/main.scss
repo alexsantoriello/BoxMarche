@@ -53,6 +53,10 @@ body {
 	display: block;
 	width: 100%;
 	padding: 40px 0;
+
+	@media (max-width: 767px) {
+		padding: 10px 0;
+	}
 }
 
 .btn.focus,
@@ -70,4 +74,9 @@ body {
 		padding-right: 35px;
 		padding-left: 35px;
 	}
+
+	.page-inner {
+		padding-top: 0 !important;
+	}
+
 }
