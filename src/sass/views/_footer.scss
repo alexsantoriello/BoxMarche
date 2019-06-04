@@ -2,6 +2,10 @@
 .section--contattaci {
     padding-bottom: 30px;
 
+    @media (max-width: 768px) {
+        padding-top: 60px;
+    }
+
     .wrap-conttataci {
         background: #003b89;
         color: #fff;

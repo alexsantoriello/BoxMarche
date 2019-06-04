@@ -27,6 +27,11 @@
         }
     }
 
+    @media (max-width: 767px) {
+
+        padding-bottom: 15px;
+    }
+
     & .wrap-cover {
         &.bg-yellow {
             background: $yellow;
@@ -60,6 +65,10 @@
                 position: relative;
                 padding-bottom: 30px;
                 padding-right: 0;
+            }
+
+            @media (max-width: 767px) {
+                padding-bottom: 20px !important;
             }
 
             .cat {
@@ -171,6 +180,10 @@
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--foto {
 
+    @media (max-width: 1024px) {
+        padding-bottom: 40px;
+    }
+
     @media (max-width: 768px) {
 
         padding-bottom: 30px;
@@ -203,6 +216,12 @@
         position: relative;
         color: #fff;
 
+        @media (max-width: 1024px) {
+            float: left;
+            width: 100%;
+            text-align: center !important;
+        }
+
         @media (max-width: 767px) {
             width: 100%;
         }
@@ -230,6 +249,19 @@
                 padding: 40px 40px 0 0;
             }
 
+            @media (max-width: 1024px) {
+                position: relative;
+                padding-bottom: 30px;
+                padding-right: 0 !important;
+                padding-left: 0;
+                width: 100%;
+
+                ._txt {
+                    float: none;
+                    width: 100%;
+                }
+            }
+
             @media (max-width: 768px) {
                 position: relative;
                 padding-bottom: 30px;
@@ -239,6 +271,7 @@
             @media (max-width: 767px) {
                 padding-top: 20px !important;
                 padding-right: 0 !important;
+                padding-bottom: 10px !important;
             }
 
             .tit {
@@ -302,14 +335,17 @@
             width: 50%;
             text-align: right;
 
-            @media (max-width: 768px) {
+            @media (max-width: 1024px) {
                 float: none;
                 width: 100%;
                 text-align: center !important;
+                padding-bottom: 30px;
             }
 
-            @media (max-width: 1024px) {
-                padding-bottom: 30px;
+            @media (max-width: 768px) {}
+
+            @media (max-width: 767px) {
+                padding-bottom: 0;
             }
         }
 
@@ -366,7 +402,7 @@
     }
 
     &.foto-dx ._img {
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             float: none;
             width: 100%;
             text-align: center !important;
@@ -415,6 +451,14 @@
 
         @media (max-width: 1024px) {
             left: 43%;
+        }
+
+        @media (max-width: 768px) {
+            left: 41%;
+        }
+
+        @media (max-width: 768px) {
+            left: 0;
         }
     }
 
@@ -487,6 +531,11 @@
 .section--mix {
     font-size: 20px;
     line-height: 140%;
+
+    @media (max-width: 767px) {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
 
     .txt_content {
         padding: 40px 0;
