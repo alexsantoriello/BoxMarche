@@ -38,6 +38,7 @@ function () {
       app.slider_detail();
       app.hamburgers();
       app.subnav();
+      app.filter();
     }
   }, {
     key: "slider_main",
@@ -168,6 +169,26 @@ function () {
           $this.next().slideToggle(250);
         }
       });
+    }
+  }, {
+    key: "filter",
+    value: function filter() {
+      var Hheader = $('.header__logo').outerHeight();
+      var screen = $(window);
+
+      if (screen.width() < 767) {
+        $('.section--filtri a').click(function (e) {
+          $('html,body').animate({
+            scrollTop: $('.listing-filter').offset().top - Hheader - 90
+          }, 'slow');
+        });
+      } else {
+        $('.section--filtri a').click(function (e) {
+          $('html,body').animate({
+            scrollTop: $('.listing-filter').offset().top - Hheader - 20
+          }, 'slow');
+        });
+      }
     }
   }]);
 

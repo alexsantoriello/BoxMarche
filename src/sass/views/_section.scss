@@ -113,6 +113,10 @@
     text-align: center;
     padding: 60px 0;
 
+    @media (max-width: 1024px) {
+        padding-bottom: 40px;
+    }
+
     @media (max-width: 767px) {
         padding: 10px 35px 25px 35px;
     }
@@ -162,6 +166,10 @@
             padding: 0;
             box-shadow: 0;
 
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
             .dropdown-item {
                 padding: 10px 20px;
                 font-size: 13px;
@@ -179,6 +187,10 @@
         display: inline-block;
         margin: 0 12px;
         position: relative;
+
+        @media (max-width: 1024px) {
+            margin-bottom: 20px;
+        }
 
         @media (max-width: 767px) {
             margin: 0 0 10px 0;
@@ -331,6 +343,11 @@
             }
 
             .partners {
+
+                @media (max-width: 1024px) {
+                    text-align: left;
+                }
+
                 .tit-partners {
                     float: left;
                     padding: 46px 15px 0 0;

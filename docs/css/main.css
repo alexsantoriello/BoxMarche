@@ -553,10 +553,8 @@ h6 {
           color: #000;
           font-size: 20px;
           font-weight: 800; }
-          #nav-mobile ul.subnav-mobile li a.link-purple {
-            color: #9b3b87; }
-          #nav-mobile ul.subnav-mobile li a.link-lightblu {
-            color: #0094b8; }
+          #nav-mobile ul.subnav-mobile li a:hover, #nav-mobile ul.subnav-mobile li a:focus {
+            text-decoration: none; }
         #nav-mobile ul.subnav-mobile li a.toggle {
           width: 100%;
           display: block;
@@ -568,20 +566,26 @@ h6 {
           transition: background .3s ease; }
           #nav-mobile ul.subnav-mobile li a.toggle:hover {
             background: rgba(0, 0, 0, 0.9); }
-        #nav-mobile ul.subnav-mobile li .link-yellow a.nav-toggle {
-          color: #fd9e00; }
-        #nav-mobile ul.subnav-mobile li .link-yellow a.active {
-          color: #fd9e00; }
-        #nav-mobile ul.subnav-mobile li .nav-toggle.link-yellow {
-          color: #fd9e00; }
-          #nav-mobile ul.subnav-mobile li .nav-toggle.link-yellow a.active {
-            color: #fd9e00; }
-        #nav-mobile ul.subnav-mobile li .nav-toggle.link-blue {
-          color: #003b89; }
-        #nav-mobile ul.subnav-mobile li .nav-toggle.link-red {
-          color: #D11726; }
-        #nav-mobile ul.subnav-mobile li .nav-toggle:hover, #nav-mobile ul.subnav-mobile li .nav-toggle:focus {
-          text-decoration: none; }
+      #nav-mobile ul.subnav-mobile .link-yellow a.nav-toggle {
+        color: #fd9e00; }
+      #nav-mobile ul.subnav-mobile .link-yellow a.active {
+        color: #fd9e00; }
+      #nav-mobile ul.subnav-mobile .link-blue a.nav-toggle {
+        color: #003b89; }
+      #nav-mobile ul.subnav-mobile .link-blue a.active {
+        color: #003b89; }
+      #nav-mobile ul.subnav-mobile .link-red a.nav-toggle {
+        color: #D11726; }
+      #nav-mobile ul.subnav-mobile .link-red a.active {
+        color: #D11726; }
+      #nav-mobile ul.subnav-mobile .link-purple a {
+        color: #9b3b87; }
+      #nav-mobile ul.subnav-mobile .link-purple a.active {
+        color: #9b3b87; }
+      #nav-mobile ul.subnav-mobile .link-lightblue a {
+        color: #0094b8; }
+      #nav-mobile ul.subnav-mobile .link-lightblue a.active {
+        color: #0094b8; }
     #nav-mobile .nav__wrap-service .nav__service-menu {
       list-style: none;
       padding: 0 25px; }
@@ -1288,6 +1292,9 @@ h6 {
 .section--filtri {
   text-align: center;
   padding: 60px 0; }
+  @media (max-width: 1024px) {
+    .section--filtri {
+      padding-bottom: 40px; } }
   @media (max-width: 767px) {
     .section--filtri {
       padding: 10px 35px 25px 35px; } }
@@ -1325,6 +1332,9 @@ h6 {
       padding: 0;
       -webkit-box-shadow: 0;
               box-shadow: 0; }
+      @media (max-width: 767px) {
+        .section--filtri .drop-filtri .dropdown-menu {
+          width: 100%; } }
       .section--filtri .drop-filtri .dropdown-menu .dropdown-item {
         padding: 10px 20px;
         font-size: 13px;
@@ -1335,6 +1345,9 @@ h6 {
     display: inline-block;
     margin: 0 12px;
     position: relative; }
+    @media (max-width: 1024px) {
+      .section--filtri .cta {
+        margin-bottom: 20px; } }
     @media (max-width: 767px) {
       .section--filtri .cta {
         margin: 0 0 10px 0;
@@ -1442,6 +1455,9 @@ h6 {
       @media (max-width: 767px) {
         .section--foto ._txt ._wrap-copy .abstract {
           text-align: left; } }
+    @media (max-width: 1024px) {
+      .section--foto ._txt ._wrap-copy .partners {
+        text-align: left; } }
     .section--foto ._txt ._wrap-copy .partners .tit-partners {
       float: left;
       padding: 46px 15px 0 0; }
@@ -1671,6 +1687,10 @@ h6 {
 @media (max-width: 767px) {
   .section--cover-detail {
     padding-bottom: 0; } }
+
+@media (max-width: 1024px) {
+  .section--detail {
+    padding-bottom: 20px; } }
 
 @media (max-width: 767px) {
   .section--detail {
@@ -1915,6 +1935,9 @@ h6 {
 
 .section--contatti {
   padding: 0 0 30px 0; }
+  @media (max-width: 1024px) {
+    .section--contatti {
+      padding-bottom: 80px; } }
   .section--contatti .wrap-conttataci {
     color: #fff;
     padding: 0; }

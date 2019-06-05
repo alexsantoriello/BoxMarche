@@ -88,6 +88,7 @@
                 a {
                     font-size: 15px;
                     font-weight: 400;
+
                 }
             }
 
@@ -99,13 +100,11 @@
                     font-size: 20px;
                     font-weight: 800;
 
-                    &.link-purple {
-                        color: $purple;
+                    &:hover,
+                    &:focus {
+                        text-decoration: none;
                     }
 
-                    &.link-lightblu {
-                        color: $lightblue;
-                    }
                 }
 
                 a.toggle {
@@ -122,42 +121,63 @@
                     }
                 }
 
-
-                .link-yellow {
-                    a.nav-toggle {
-                        color: $yellow;
-                    }
-
-                    a.active {
-                        color: $yellow;
-                    }
-                }
-
-                .nav-toggle {
-
-                    &.link-yellow {
-                        color: $yellow;
-
-                        a.active {
-                            color: $yellow;
-                        }
-                    }
-
-                    &.link-blue {
-                        color: $blue;
-                    }
-
-                    &.link-red {
-                        color: $red;
-                    }
-
-                    &:hover,
-                    &:focus {
-                        text-decoration: none;
-                    }
-                }
-
             }
+
+            // yellow
+            .link-yellow {
+                a.nav-toggle {
+                    color: $yellow;
+                }
+
+                a.active {
+                    color: $yellow;
+                }
+            }
+
+            // blue
+            .link-blue {
+                a.nav-toggle {
+                    color: $blue;
+                }
+
+                a.active {
+                    color: $blue;
+                }
+            }
+
+            // red
+            .link-red {
+                a.nav-toggle {
+                    color: $red;
+                }
+
+                a.active {
+                    color: $red;
+                }
+            }
+
+            // purple
+            .link-purple {
+                a {
+                    color: $purple;
+                }
+
+                a.active {
+                    color: $purple;
+                }
+            }
+
+            // lightblu
+            .link-lightblue {
+                a {
+                    color: $lightblue;
+                }
+
+                a.active {
+                    color: $lightblue;
+                }
+            }
+
         }
 
         .nav__wrap-service {

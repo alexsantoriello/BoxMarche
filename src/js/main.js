@@ -18,6 +18,7 @@ export default class App {
         app.slider_detail();
         app.hamburgers();
         app.subnav();
+        app.filter();
     }
 
     slider_main() {
@@ -145,6 +146,27 @@ export default class App {
                 $this.next().slideToggle(250);
             }
         });
+    }
+
+    filter() {
+        var Hheader = $('.header__logo').outerHeight();
+        var screen = $(window);
+
+        if (screen.width() < 767) {
+            $('.section--filtri a').click(function (e) {
+                $('html,body').animate({
+                    scrollTop: $('.listing-filter').offset().top - Hheader - 90
+                }, 'slow');
+            });
+        } else {
+            $('.section--filtri a').click(function (e) {
+                $('html,body').animate({
+                    scrollTop: $('.listing-filter').offset().top - Hheader - 20
+                }, 'slow');
+            });
+        }
+
+
     }
 
 }
