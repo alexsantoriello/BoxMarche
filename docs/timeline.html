@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" ng-app>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>BOXMARCHE</title>
+	<meta name="Content-Language" content="en" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-title" content="Gulp 4 Bundler">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link href="favicon.ico?v=3" rel="shortcut icon" type="image/ico" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/vendors.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+
+	<!--<ng-include src="'partials/header.html'"></ng-include>-->
+
+	<!-- Header -->
+	<div class="wrap-header">
+		<header class="header clearfix">
+			<div class="header__logo">
+				<a href="index.html" title="BOXMARCHE - Idee & Packaging">
+					<img src="imgs/logo.png" alt="BOXMARCHE - Idee & Packaging">
+				</a>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 header__nav-wrapper clearfix">
+						<!-- menu service -->
+						<div class="header__wrap-service clearfix">
+							<ul class="header__service-menu">
+								<!-- languages list -->
+								<li>
+									<div class="dropdown dd-lang">
+										<button class="btn btn-secondary dropdown-toggle" type="button"
+											id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											it
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">en</a>
+											<a class="dropdown-item" href="#">fr</a>
+											<a class="dropdown-item" href="#">de</a>
+										</div>
+									</div>
+								</li>
+								<!-- /languages list -->
+								<!-- site search -->
+								<li>
+									<form action="#" method="post" class="navbar-form search" role="search"
+										novalidate="novalidate">
+										<input type="search" id="search-input" name="txtSiteSearch"
+											class="form-control required" placeholder="Cerca nel sito">
+										<button type="submit" class="btn btn-default btn-submit icon-right-open"><i
+												class="fa fa-search" aria-hidden="true"></i></button>
+									</form>
+								</li>
+								<!-- /site search -->
+							</ul>
+						</div>
+						<!-- /menu service -->
+						<!-- menu -->
+						<nav id="menu"
+							class="header__main-nav navbar navbar-expand-lg navbar-light pull-right clearfix">
+							<div class="collapse navbar-collapse" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<!--<li class="nav-item active">
+									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>-->
+									<li class="nav-item dropdown link-yellow">
+										<a class="nav-link dropdown-toggle" href="chisiamo.html"
+											id="navbarDropdownMenuLink01" role="button" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false"><span>Chi siamo</span> <i
+												class="fas fa-chevron-down"></i></a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink01">
+											<a class="dropdown-item" href="azienda.html">Azienda</a>
+											<a class="dropdown-item active" href="storia.html">Storia</a>
+											<a class="dropdown-item" href="mission.html">Mission</a>
+											<a class="dropdown-item" href="certificazione.html">Certificazione e
+												Awards</a>
+											<a class="dropdown-item" href="living.html">Living Company Report</a>
+											<a class="dropdown-item" href="responsabilita.html">Responsabilità
+												sociale
+												di impresa</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown link-lightblue">
+										<a class="nav-link dropdown-toggle" href="lob.html"
+											id="navbarDropdownMenuLink02" role="button" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false"><span>Living Outside the
+												Box</span> <i class="fas fa-chevron-down"></i></a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink02">
+											<a class="dropdown-item" href="lob.html">No clienti. Solo partner.</a>
+											<a class="dropdown-item" href="lob.html">Superfici ali solo per piacere</a>
+											<a class="dropdown-item" href="lob.html">Giochiamo con le carte.
+												Scommettiamo sulla
+												fantasia</a>
+											<a class="dropdown-item" href="lob.html">La nostra materia prima e anche
+												dopo</a>
+											<a class="dropdown-item" href="lob.html">La forma è la nostra sostanza</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown link-red">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink03"
+											role="button" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">
+											<span>Packaging Solutions</span> <i class="fas fa-chevron-down"></i>
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink03">
+											<a class="dropdown-item" href="tradizionali.html">Prodotti
+												"tradizionali"</a>
+											<a class="dropdown-item" href="case.html">Best Case Studies</a>
+											<a class="dropdown-item" href="#">Ecobox</a>
+											<a class="dropdown-item" href="#">Speciali</a>
+											<a class="dropdown-item" href="idee.html">Idee</a>
+											<a class="dropdown-item" href="#">Glossario del packaging</a>
+										</div>
+									</li>
+									<li class="nav-item link-purple">
+										<a class="nav-link" href="blog.html"><span>Blog</span></a>
+									</li>
+									<li class="nav-item link-blue">
+										<a class="nav-link" href="contatti.html"><span>Contatti</span></a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<!-- /menu -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- hamburger -->
+		<div class="hamburger-wrap">
+			<button class="hamburger hamburger--spin hamburger--accessible js-hamburger" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</div>
+		<!-- /hamburger -->
+		<!-- nav mobile -->
+		<div id="nav-mobile">
+			<!--navigation -->
+			<ul class="subnav-mobile">
+				<li class="link-yellow">
+					<a class="nav-toggle" href="javascript:void(0);">Chi siamo</a>
+					<ul class="inner">
+						<li><a href="azienda.html">Azienda</a></li>
+						<li><a href="storia.html" class="active">Storia</a></li>
+						<li><a href="mission.html">Mission</a></li>
+						<li><a href="certificazione.html">Certificazione e Awards</a></li>
+						<li><a href="living.html">Living Company Report</a></li>
+						<li><a href="responsabilita.html">Responsabilità sociale di impresa</a></li>
+					</ul>
+				</li>
+				<li class="link-blue">
+					<a class="nav-toggle" href="javascript:void(0);">Living Outside the Box</a>
+					<ul class="inner">
+						<li><a href="lob.html">No clienti. Solo partner.</a></li>
+						<li><a href="lob.html">Superfici ali solo per piacere</a></li>
+						<li><a href="lob.html">Giochiamo con le carte. Scommettiamo sulla fantasia</a></li>
+						<li><a href="lob.html">La nostra materia prima e anche dopo</a></li>
+						<li><a href="lob.html">La forma è la nostra sostanza</a></li>
+					</ul>
+				</li>
+				<li class="link-red">
+					<a class="nav-toggle" href="javascript:void(0);">Packaging Solutions</a>
+					<ul class="inner">
+						<li><a href="tradizionali.html">Prodotti "tradizionali"</a></li>
+						<li><a href="case.html">Best Case Studies</a></li>
+						<li><a href="#">Ecobox</a></li>
+						<li><a href="#">Speciali</a></li>
+						<li><a href="idee.html">Idee</a></li>
+						<li><a href="#">Glossario del packaging</a></li>
+					</ul>
+				</li>
+				<li class="link-purple">
+					<a href="blog.html">Blog</a>
+				</li>
+				<li class="link-lightblue">
+					<a href="contatti.html">Contatti</a>
+				</li>
+			</ul>
+			<!-- /navigation -->
+			<!-- menu service -->
+			<div class="nav__wrap-service clearfix">
+				<ul class="nav__service-menu">
+					<!-- languages list -->
+					<li>
+						<div class="dropdown dd-lang">
+							<span>Seleziona la lingua:</span>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								it
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">en</a>
+								<a class="dropdown-item" href="#">fr</a>
+								<a class="dropdown-item" href="#">de</a>
+							</div>
+						</div>
+					</li>
+					<!-- /languages list -->
+					<!-- site search -->
+					<li>
+						<form action="#" method="post" class="navbar-form search" role="search" novalidate="novalidate">
+							<input type="search" id="search-input" name="txtSiteSearch" class="form-control required"
+								placeholder="Cerca nel sito">
+							<button type="submit" class="btn btn-default btn-submit icon-right-open"><i
+									class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</li>
+					<!-- /site search -->
+				</ul>
+			</div>
+			<!-- /menu service -->
+		</div>
+		<!-- nav mobile -->
+	</div>
+	<!-- /Header -->
+
+	<!-- PAGE -->
+	<div class="page page-yellow">
+
+		<!-- COVER -->
+		<section class="section section--cover padding-0">
+			<div class="wrap-cover clearfix">
+				<div class="container clearfix">
+					<div class="_sx">
+						<div class="_wrap-copy">
+							<div class="cat">Storia</div>
+							<h1 class="tit">Giochiamo con le carte. Scommettiamo sulla fantasia</h1>
+							<div class="abstract">
+								<p>Lorem Ipsum
+									Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+									adipisci velit.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="_dx">
+					<img src="imgs/cover-storia.jpg">
+				</div>
+			</div>
+		</section>
+		<!-- /COVER -->
+
+
+		<section class="content timeline">
+			<div class="container">
+				<!-- <div class="timeline-item start">
+					<a id="timeline"></a><br>
+					<h3 class="year">1996</h3>
+					<div class="abstract">
+						Anno di fondazione
+					</div>
+				</div>-->
+
+				<div class="timeline-item">
+					<h3 class="year">1996</h3>
+					<div class="abstract"> Lorem Ipsum
+						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+						adipisci velit.
+
+					</div>
+
+					<div class="img">
+						<img src="imgs/timeline-01.jpg" />
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<h3 class="year">1996</h3>
+					<div class="abstract">
+						Lorem Ipsum
+						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+						adipisci velit. </div>
+
+					<div class="img">
+						<img src="imgs/timeline-02.jpg" />
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<h3 class="year">1996</h3>
+					<div class="abstract"> Lorem Ipsum
+						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+						adipisci velit.
+
+					</div>
+
+					<div class="img">
+						<img src="imgs/timeline-01.jpg" />
+					</div>
+				</div>
+
+				<!--<div class="timeline-item today">
+					<h3 class="year">Oggi</h3>
+					<div class="abstract">
+						A distanza di oltre trent’anni, Real Chimica è un player indiscusso nel suo mercato di
+						riferimento e vanta una gamma di articoli completa ed esaustiva e soprattutto in continua
+						evoluzione al fine di intercettare al meglio le esigenze dei consumatori.
+					</div>
+				</div>-->
+
+			</div>
+		</section>
+
+
+	</div>
+	<!-- /PAGE -->
+
+
+
+	<ng-include src="'partials/footer.html'"></ng-include>
+
+	<!-- angular può essere rimosso caricando i partials server side -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
+	<!-- angular può essere rimosso caricando i partials server side -->
+
+	<script src="js/vendors.js"></script>
+	<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
