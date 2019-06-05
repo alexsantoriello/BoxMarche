@@ -1707,13 +1707,17 @@ h6 {
   float: left; }
   @media (max-width: 767px) {
     .section--detail .tech-details ul {
-      width: 100%; } }
+      width: 100%;
+      padding-right: 0; } }
   .section--detail .tech-details ul li {
     padding-bottom: 10px; }
     .section--detail .tech-details ul li span {
       font-weight: 800;
       display: inline-block;
       padding-right: 20px; }
+      @media (max-width: 767px) {
+        .section--detail .tech-details ul li span {
+          padding-right: 0; } }
 
 @media (max-width: 767px) {
   .section--detail .tech-details {

@@ -27,6 +27,7 @@
 
             @media (max-width: 767px) {
                 width: 100%;
+                padding-right: 0;
             }
 
             li {
@@ -36,6 +37,10 @@
                     font-weight: 800;
                     display: inline-block;
                     padding-right: 20px;
+
+                    @media (max-width: 767px) {
+                        padding-right: 0;
+                    }
                 }
             }
         }
