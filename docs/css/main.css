@@ -1934,10 +1934,13 @@ h6 {
     padding-right: 0px; } }
 
 .section--contatti {
-  padding: 0 0 30px 0; }
+  padding: 0 0 80px 0; }
   @media (max-width: 1024px) {
     .section--contatti {
       padding-bottom: 80px; } }
+  @media (max-width: 767px) {
+    .section--contatti {
+      padding-bottom: 20px; } }
   .section--contatti .wrap-conttataci {
     color: #fff;
     padding: 0; }
