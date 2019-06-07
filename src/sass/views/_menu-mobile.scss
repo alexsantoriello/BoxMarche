@@ -5,6 +5,12 @@
 
 // Nascondo i menù e mostro l'hamburger
 @media (max-width: 768px) {
+
+    .hamburger-wrap,
+    #nav-mobile {
+        display: block;
+    }
+
     .page {
         padding: 112px 0 0 !important;
     }
@@ -134,14 +140,14 @@
                 }
             }
 
-            // blue
-            .link-blue {
-                a.nav-toggle {
-                    color: $blue;
+            // lightblu
+            .link-lightblue {
+                a {
+                    color: $lightblue;
                 }
 
                 a.active {
-                    color: $blue;
+                    color: $lightblue;
                 }
             }
 
@@ -167,16 +173,17 @@
                 }
             }
 
-            // lightblu
-            .link-lightblue {
+            // blue
+            .link-blue {
                 a {
-                    color: $lightblue;
+                    color: $blue;
                 }
 
                 a.active {
-                    color: $lightblue;
+                    color: $blue;
                 }
             }
+
 
         }
 

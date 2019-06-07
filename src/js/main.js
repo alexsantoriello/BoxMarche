@@ -152,19 +152,20 @@ export default class App {
         var Hheader = $('.header__logo').outerHeight();
         var screen = $(window);
 
-        if (screen.width() < 767) {
-            $('.section--filtri a').click(function (e) {
+        $('.section--filtri a').click(function (e) {
+            $(this).toggleClass('active');
+
+            if (screen.width() < 767) {
                 $('html,body').animate({
                     scrollTop: $('.listing-filter').offset().top - Hheader - 90
                 }, 'slow');
-            });
-        } else {
-            $('.section--filtri a').click(function (e) {
+            } else {
                 $('html,body').animate({
                     scrollTop: $('.listing-filter').offset().top - Hheader - 20
                 }, 'slow');
-            });
-        }
+
+            }
+        });
 
 
     }

@@ -58,6 +58,13 @@ $blue-dark: #002960;
         background: $yellow !important;
     }
 
+    /* Copy */
+    .wrap--copy {
+        .tit {
+            color: $yellow;
+        }
+    }
+
     /* Cover pagine interne */
     .section--cover .wrap-cover {
         background: $yellow;
@@ -110,7 +117,10 @@ $blue-dark: #002960;
 
         .years {
             background: $yellow-dark;
+        }
 
+        .tag {
+            background: $yellow;
         }
 
         @media (max-width: 1024px) {
@@ -123,6 +133,18 @@ $blue-dark: #002960;
 
     /* Sezione listing */
     .section--mix {
+
+        // se è un link
+        .wrap-thumb {
+            a {
+                color: $yellow;
+
+                &:hover {
+                    color: $yellow-dark;
+                }
+            }
+        }
+
         .thumb .wrap-thumb-content {
             background: $yellow;
 
@@ -131,6 +153,50 @@ $blue-dark: #002960;
 
         .years {
             background: $yellow-dark;
+        }
+
+        .tag {
+            background: $yellow;
+        }
+    }
+
+    /* Form di Pagina */
+    .section--formpage {
+        .tit {
+            color: $yellow;
+        }
+
+        .form-page {
+
+            a {
+                color: $yellow;
+            }
+
+            input,
+            input:focus,
+            textarea,
+            textarea:focus,
+            select,
+            select:focus {
+                border: 0;
+                border-bottom: 1px solid $yellow !important;
+            }
+
+            .form-control::-webkit-input-placeholder {
+                color: $yellow;
+            }
+
+            .form-control:-moz-placeholder {
+                color: $yellow;
+            }
+
+            .form-control::-moz-placeholder {
+                color: $yellow;
+            }
+
+            .form-control:-ms-input-placeholder {
+                color: $yellow;
+            }
         }
     }
 }
@@ -156,6 +222,13 @@ $blue-dark: #002960;
     /* Cta */
     .btn {
         background: $lightblue !important;
+    }
+
+    /* Copy */
+    .wrap--copy {
+        .tit {
+            color: $lightblue;
+        }
     }
 
     /* Cover pagine interne */
@@ -213,6 +286,10 @@ $blue-dark: #002960;
 
         }
 
+        .tag {
+            background: $lightblue;
+        }
+
         @media (max-width: 1024px) {
 
             & ._img {
@@ -223,6 +300,18 @@ $blue-dark: #002960;
 
     /* Sezione listing */
     .section--mix {
+
+        // se è un link
+        .wrap-thumb {
+            a {
+                color: $lightblue;
+
+                &:hover {
+                    color: $lightblue-dark;
+                }
+            }
+        }
+
         .thumb .wrap-thumb-content {
             background: $lightblue;
 
@@ -232,7 +321,52 @@ $blue-dark: #002960;
         .years {
             background: $lightblue-dark;
         }
+
+        .tag {
+            background: $lightblue;
+        }
     }
+
+    /* Form di Pagina */
+    .section--formpage {
+        .tit {
+            color: $lightblue;
+        }
+
+        .form-page {
+
+            a {
+                color: $lightblue;
+            }
+
+            input,
+            input:focus,
+            textarea,
+            textarea:focus,
+            select,
+            select:focus {
+                border: 0;
+                border-bottom: 1px solid $lightblue !important;
+            }
+
+            .form-control::-webkit-input-placeholder {
+                color: $lightblue;
+            }
+
+            .form-control:-moz-placeholder {
+                color: $lightblue;
+            }
+
+            .form-control::-moz-placeholder {
+                color: $lightblue;
+            }
+
+            .form-control:-ms-input-placeholder {
+                color: $lightblue;
+            }
+        }
+    }
+
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Red */
@@ -256,6 +390,13 @@ $blue-dark: #002960;
     /* Cta */
     .btn {
         background: $red !important;
+    }
+
+    /* Copy */
+    .wrap--copy {
+        .tit {
+            color: $red;
+        }
     }
 
     /* Cover pagine interne */
@@ -302,6 +443,10 @@ $blue-dark: #002960;
 
         }
 
+        .tag {
+            background: $red;
+        }
+
         @media (max-width: 1024px) {
 
             & ._img {
@@ -312,6 +457,18 @@ $blue-dark: #002960;
 
     /* Sezione listing */
     .section--mix {
+
+        // se è un link
+        .wrap-thumb {
+            a {
+                color: $red;
+
+                &:hover {
+                    color: $red-dark;
+                }
+            }
+        }
+
         .thumb .wrap-thumb-content {
             background: $red;
 
@@ -321,12 +478,57 @@ $blue-dark: #002960;
         .years {
             background: $red-dark;
         }
+
+        .tag {
+            background: $red;
+        }
     }
 
     /* Dettaglio case history */
     .tech-details {
         color: $red;
     }
+
+    /* Form di Pagina */
+    .section--formpage {
+        .tit {
+            color: $red;
+        }
+
+        .form-page {
+
+            a {
+                color: $red;
+            }
+
+            input,
+            input:focus,
+            textarea,
+            textarea:focus,
+            select,
+            select:focus {
+                border: 0;
+                border-bottom: 1px solid $red !important;
+            }
+
+            .form-control::-webkit-input-placeholder {
+                color: $red;
+            }
+
+            .form-control:-moz-placeholder {
+                color: $red;
+            }
+
+            .form-control::-moz-placeholder {
+                color: $red;
+            }
+
+            .form-control:-ms-input-placeholder {
+                color: $red;
+            }
+        }
+    }
+
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Purple */
@@ -350,6 +552,13 @@ $blue-dark: #002960;
     /* Cta */
     .btn {
         background: $purple !important;
+    }
+
+    /* Copy */
+    .wrap--copy {
+        .tit {
+            color: $purple;
+        }
     }
 
     /* Cover pagine interne */
@@ -396,6 +605,10 @@ $blue-dark: #002960;
 
         }
 
+        .tag {
+            background: $purple;
+        }
+
         @media (max-width: 1024px) {
 
             & ._img {
@@ -406,6 +619,18 @@ $blue-dark: #002960;
 
     /* Sezione listing */
     .section--mix {
+
+        // se è un link
+        .wrap-thumb {
+            a {
+                color: $purple;
+
+                &:hover {
+                    color: $purple-dark;
+                }
+            }
+        }
+
         .thumb .wrap-thumb-content {
             background: $purple;
 
@@ -415,7 +640,54 @@ $blue-dark: #002960;
         .years {
             background: $purple-dark;
         }
+
+        .tag {
+            background: $purple;
+        }
+
     }
+
+    /* Form di Pagina */
+    .section--formpage {
+        .tit {
+            color: $purple;
+        }
+
+        .form-page {
+
+            a {
+                color: $purple;
+            }
+
+            input,
+            input:focus,
+            textarea,
+            textarea:focus,
+            select,
+            select:focus {
+                border: 0;
+                border-bottom: 1px solid $purple !important;
+            }
+
+            .form-control::-webkit-input-placeholder {
+                color: $purple;
+            }
+
+            .form-control:-moz-placeholder {
+                color: $purple;
+            }
+
+            .form-control::-moz-placeholder {
+                color: $purple;
+            }
+
+            .form-control:-ms-input-placeholder {
+                color: $purple;
+            }
+        }
+    }
+
+
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Blue */
@@ -439,6 +711,13 @@ $blue-dark: #002960;
     /* Cta */
     .btn {
         background: $blue !important;
+    }
+
+    /* Copy */
+    .wrap--copy {
+        .tit {
+            color: $blue;
+        }
     }
 
     /* Cover pagine interne */
@@ -485,6 +764,10 @@ $blue-dark: #002960;
 
         }
 
+        .tag {
+            background: $blue;
+        }
+
         @media (max-width: 1024px) {
 
             & ._img {
@@ -495,6 +778,18 @@ $blue-dark: #002960;
 
     /* Sezione listing */
     .section--mix {
+
+        // se è un link
+        .wrap-thumb {
+            a {
+                color: $blue;
+
+                &:hover {
+                    color: $blue-dark;
+                }
+            }
+        }
+
         .thumb .wrap-thumb-content {
             background: $blue;
 
@@ -504,5 +799,50 @@ $blue-dark: #002960;
         .years {
             background: $blue-dark;
         }
+
+        .tag {
+            background: $blue;
+        }
     }
+
+    /* Form di Pagina */
+    .section--formpage {
+        .tit {
+            color: $blue;
+        }
+
+        .form-page {
+
+            a {
+                color: $blue;
+            }
+
+            input,
+            input:focus,
+            textarea,
+            textarea:focus,
+            select,
+            select:focus {
+                border: 0;
+                border-bottom: 1px solid $blue !important;
+            }
+
+            .form-control::-webkit-input-placeholder {
+                color: $blue;
+            }
+
+            .form-control:-moz-placeholder {
+                color: $blue;
+            }
+
+            .form-control::-moz-placeholder {
+                color: $blue;
+            }
+
+            .form-control:-ms-input-placeholder {
+                color: $blue;
+            }
+        }
+    }
+
 }

@@ -83,31 +83,17 @@
 												class="fas fa-chevron-down"></i></a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink01">
 											<a class="dropdown-item" href="azienda.html">Azienda</a>
-											<a class="dropdown-item active" href="storia.html">Storia</a>
+											<a class="dropdown-item" href="storia.html">Storia</a>
 											<a class="dropdown-item" href="mission.html">Mission</a>
 											<a class="dropdown-item" href="certificazione.html">Certificazione e
 												Awards</a>
 											<a class="dropdown-item" href="living.html">Living Company Report</a>
-											<a class="dropdown-item" href="responsabilita.html">Responsabilità
-												sociale
+											<a class="dropdown-item" href="responsabilita.html">Responsabilità sociale
 												di impresa</a>
 										</div>
 									</li>
-									<li class="nav-item dropdown link-lightblue">
-										<a class="nav-link dropdown-toggle" href="lob.html"
-											id="navbarDropdownMenuLink02" role="button" data-toggle="dropdown"
-											aria-haspopup="true" aria-expanded="false"><span>Living Outside the
-												Box</span> <i class="fas fa-chevron-down"></i></a>
-										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink02">
-											<a class="dropdown-item" href="lob.html">No clienti. Solo partner.</a>
-											<a class="dropdown-item" href="lob.html">Superfici ali solo per piacere</a>
-											<a class="dropdown-item" href="lob.html">Giochiamo con le carte.
-												Scommettiamo sulla
-												fantasia</a>
-											<a class="dropdown-item" href="lob.html">La nostra materia prima e anche
-												dopo</a>
-											<a class="dropdown-item" href="lob.html">La forma è la nostra sostanza</a>
-										</div>
+									<li class="nav-item link-lightblue">
+										<a class="nav-link" href="lob.html"><span>Living Outside the Box</span></a>
 									</li>
 									<li class="nav-item dropdown link-red">
 										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink03"
@@ -126,7 +112,7 @@
 										</div>
 									</li>
 									<li class="nav-item link-purple">
-										<a class="nav-link" href="blog.html"><span>Blog</span></a>
+										<a class="nav-link active" href="blog.html"><span>Blog</span></a>
 									</li>
 									<li class="nav-item link-blue">
 										<a class="nav-link" href="contatti.html"><span>Contatti</span></a>
@@ -156,22 +142,15 @@
 					<a class="nav-toggle" href="javascript:void(0);">Chi siamo</a>
 					<ul class="inner">
 						<li><a href="azienda.html">Azienda</a></li>
-						<li><a href="storia.html" class="active">Storia</a></li>
+						<li><a href="storia.html">Storia</a></li>
 						<li><a href="mission.html">Mission</a></li>
 						<li><a href="certificazione.html">Certificazione e Awards</a></li>
 						<li><a href="living.html">Living Company Report</a></li>
 						<li><a href="responsabilita.html">Responsabilità sociale di impresa</a></li>
 					</ul>
 				</li>
-				<li class="link-blue">
-					<a class="nav-toggle" href="javascript:void(0);">Living Outside the Box</a>
-					<ul class="inner">
-						<li><a href="lob.html">No clienti. Solo partner.</a></li>
-						<li><a href="lob.html">Superfici ali solo per piacere</a></li>
-						<li><a href="lob.html">Giochiamo con le carte. Scommettiamo sulla fantasia</a></li>
-						<li><a href="lob.html">La nostra materia prima e anche dopo</a></li>
-						<li><a href="lob.html">La forma è la nostra sostanza</a></li>
-					</ul>
+				<li class="link-lightblue">
+					<a href="lob.html">Living Outside the Box</a>
 				</li>
 				<li class="link-red">
 					<a class="nav-toggle" href="javascript:void(0);">Packaging Solutions</a>
@@ -185,9 +164,9 @@
 					</ul>
 				</li>
 				<li class="link-purple">
-					<a href="blog.html">Blog</a>
+					<a href="blog.html" class="active">Blog</a>
 				</li>
-				<li class="link-lightblue">
+				<li class="link-blue">
 					<a href="contatti.html">Contatti</a>
 				</li>
 			</ul>
@@ -230,16 +209,16 @@
 	<!-- /Header -->
 
 	<!-- PAGE -->
-	<div class="page page-yellow">
+	<div class="page page-purple">
 
 		<!-- COVER -->
-		<section class="section section--cover padding-0">
+		<section class="section section--cover">
 			<div class="wrap-cover clearfix">
 				<div class="container clearfix">
 					<div class="_sx">
 						<div class="_wrap-copy">
-							<div class="cat">Storia</div>
-							<h1 class="tit">Giochiamo con le carte. Scommettiamo sulla fantasia</h1>
+							<div class="cat">Blog</div>
+							<h1 class="tit">Neque porro quisquam est qui dolorem</h1>
 							<div class="abstract">
 								<p>Lorem Ipsum
 									Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
@@ -250,78 +229,154 @@
 					</div>
 				</div>
 				<div class="_dx">
-					<img src="imgs/cover-storia.jpg">
+					<img src="//via.placeholder.com/960x740">
 				</div>
 			</div>
 		</section>
 		<!-- /COVER -->
 
+		<!-- FILTRI -->
+		<section class="section section--filtri">
 
-		<section class="content timeline">
-			<div class="container">
-				<!-- <div class="timeline-item start">
-					<a id="timeline"></a><br>
-					<h3 class="year">1996</h3>
-					<div class="abstract">
-						Anno di fondazione
-					</div>
-				</div>-->
-
-				<div class="timeline-item">
-					<h3 class="year">1996</h3>
-					<div class="abstract"> Lorem Ipsum
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-						adipisci velit.
-
-					</div>
-
-					<div class="img">
-						<img src="imgs/timeline-01.jpg" />
-					</div>
+			<div class="dropdown drop-filtri">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownFilterButton"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Anno <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownFilterButton" x-placement="bottom-start"
+					style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 22px, 0px);">
+					<a class="dropdown-item" href="#">TUTTI</a>
+					<a class="dropdown-item" href="#">2018</a>
+					<a class="dropdown-item" href="#">2017</a>
+					<a class="dropdown-item" href="#">2016</a>
 				</div>
-
-				<div class="timeline-item">
-					<h3 class="year">1996</h3>
-					<div class="abstract">
-						Lorem Ipsum
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-						adipisci velit. </div>
-
-					<div class="img">
-						<img src="imgs/timeline-02.jpg" />
-					</div>
-				</div>
-
-				<div class="timeline-item">
-					<h3 class="year">1996</h3>
-					<div class="abstract"> Lorem Ipsum
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-						adipisci velit.
-
-					</div>
-
-					<div class="img">
-						<img src="imgs/timeline-01.jpg" />
-					</div>
-				</div>
-
-				<!--<div class="timeline-item today">
-					<h3 class="year">Oggi</h3>
-					<div class="abstract">
-						A distanza di oltre trent’anni, Real Chimica è un player indiscusso nel suo mercato di
-						riferimento e vanta una gamma di articoli completa ed esaustiva e soprattutto in continua
-						evoluzione al fine di intercettare al meglio le esigenze dei consumatori.
-					</div>
-				</div>-->
-
 			</div>
-		</section>
 
+			<div class="cta">
+				<a class="btn btn-default">News</a>
+			</div>
+
+			<div class="cta">
+				<a class="btn btn-default">Eventi</a>
+			</div>
+			<div class="cta">
+				<a class="btn btn-default">Next</a>
+			</div>
+
+		</section>
+		<!-- /FILTRI -->
+
+		<!-- Listing filtri -->
+		<section class="listing-filter">
+			<!-- MIX-->
+			<section class="section section--mix">
+				<!-- List -->
+				<section class="list">
+					<div class="container clearfix">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="thumb">
+									<div class="wrap-thumb">
+										<a href="blog_detail.html">
+											<div class="wrap-label">
+												<div class="tag">News</div>
+												<div class="years">2015</div>
+											</div>
+											<img src="//via.placeholder.com/370x370">
+											<div class="tit">Titolo </div>
+											<div class="subtit">Sottotitolo</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumb">
+									<div class="wrap-thumb">
+										<a href="blog_detail.html">
+											<div class="wrap-label">
+												<div class="tag">Eventi</div>
+												<div class="years">2015</div>
+											</div>
+											<img src="//via.placeholder.com/370x370">
+											<div class="tit">Titolo </div>
+											<div class="subtit">Sottotitolo</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumb">
+									<div class="wrap-thumb">
+										<a href="blog_detail.html">
+											<div class="wrap-label">
+												<div class="tag">News</div>
+												<div class="years">2015</div>
+											</div>
+											<img src="//via.placeholder.com/370x370">
+											<div class="tit">Titolo</div>
+											<div class="subtit">Sottotitolo</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="thumb">
+									<div class="wrap-thumb">
+										<a href="blog_detail.html">
+											<div class="wrap-label">
+												<div class="tag">Eventi</div>
+												<div class="years">2015</div>
+											</div>
+											<img src="//via.placeholder.com/370x370">
+											<div class="tit">Titolo</div>
+											<div class="subtit">Sottotitolo</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumb">
+									<div class="wrap-thumb">
+										<a href="blog_detail.html">
+											<div class="wrap-label">
+												<div class="tag">Next</div>
+												<div class="years">2015</div>
+											</div>
+											<img src="//via.placeholder.com/370x370">
+											<div class="tit">Titolo</div>
+											<div class="subtit">Sottotitolo</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumb">
+									<div class="wrap-thumb">
+										<a href="blog_detail.html">
+											<div class="wrap-label">
+												<div class="tag">Eventi</div>
+												<div class="years">2015</div>
+											</div>
+											<img src="//via.placeholder.com/370x370">
+											<div class="tit">Titolo</div>
+											<div class="subtit">Sottotitolo</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- /List -->
+			</section>
+			<!-- /MIX -->
+		</section>
+		<!-- /Listing filtri -->
 
 	</div>
 	<!-- /PAGE -->
-
-
 
 	<ng-include src="'partials/footer.html'"></ng-include>
 

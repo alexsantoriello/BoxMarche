@@ -12,11 +12,13 @@
 .page-yellow {
   /* Titoli */
   /* Cta */
+  /* Copy */
   /* Cover pagine interne */
   /* Foto pagine interne */
   /* Filtri */
   /* Foto pagine interne colorate */
-  /* Sezione listing */ }
+  /* Sezione listing */
+  /* Form di Pagina */ }
   .page-yellow .wrap-title:after {
     background: #fd9e00; }
   .page-yellow .wrap-title h3 {
@@ -25,6 +27,8 @@
       background: #fd9e00; }
   .page-yellow .btn {
     background: #fd9e00 !important; }
+  .page-yellow .wrap--copy .tit {
+    color: #fd9e00; }
   .page-yellow .section--cover .wrap-cover {
     background: #fd9e00; }
   .page-yellow .section--foto ._txt ._wrap-copy .tit {
@@ -42,23 +46,53 @@
     background: #fd9e00; }
     .page-yellow .section--foto--color .wrap-cover .years {
       background: #cc8000; }
+    .page-yellow .section--foto--color .wrap-cover .tag {
+      background: #fd9e00; }
     @media (max-width: 1024px) {
       .page-yellow .section--foto--color .wrap-cover ._img {
         background: #fd9e00; } }
+  .page-yellow .section--mix .wrap-thumb a {
+    color: #fd9e00; }
+    .page-yellow .section--mix .wrap-thumb a:hover {
+      color: #cc8000; }
   .page-yellow .section--mix .thumb .wrap-thumb-content {
     background: #fd9e00; }
   .page-yellow .section--mix .years {
     background: #cc8000; }
+  .page-yellow .section--mix .tag {
+    background: #fd9e00; }
+  .page-yellow .section--formpage .tit {
+    color: #fd9e00; }
+  .page-yellow .section--formpage .form-page a {
+    color: #fd9e00; }
+  .page-yellow .section--formpage .form-page input,
+  .page-yellow .section--formpage .form-page input:focus,
+  .page-yellow .section--formpage .form-page textarea,
+  .page-yellow .section--formpage .form-page textarea:focus,
+  .page-yellow .section--formpage .form-page select,
+  .page-yellow .section--formpage .form-page select:focus {
+    border: 0;
+    border-bottom: 1px solid #fd9e00 !important; }
+  .page-yellow .section--formpage .form-page .form-control::-webkit-input-placeholder {
+    color: #fd9e00; }
+  .page-yellow .section--formpage .form-page .form-control:-moz-placeholder {
+    color: #fd9e00; }
+  .page-yellow .section--formpage .form-page .form-control::-moz-placeholder {
+    color: #fd9e00; }
+  .page-yellow .section--formpage .form-page .form-control:-ms-input-placeholder {
+    color: #fd9e00; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Lightblue */
 .page-lightblue {
   /* Titoli */
   /* Cta */
+  /* Copy */
   /* Cover pagine interne */
   /* Foto pagine interne */
   /* Filtri */
   /* Foto pagine interne colorate */
-  /* Sezione listing */ }
+  /* Sezione listing */
+  /* Form di Pagina */ }
   .page-lightblue .wrap-title:after {
     background: #0094b8; }
   .page-lightblue .wrap-title h3 {
@@ -67,6 +101,8 @@
       background: #0094b8; }
   .page-lightblue .btn {
     background: #0094b8 !important; }
+  .page-lightblue .wrap--copy .tit {
+    color: #0094b8; }
   .page-lightblue .section--cover .wrap-cover {
     background: #0094b8; }
   .page-lightblue .section--foto ._txt ._wrap-copy .tit {
@@ -84,24 +120,54 @@
     background: #0094b8; }
     .page-lightblue .section--foto--color .wrap-cover .years {
       background: #026780; }
+    .page-lightblue .section--foto--color .wrap-cover .tag {
+      background: #0094b8; }
     @media (max-width: 1024px) {
       .page-lightblue .section--foto--color .wrap-cover ._img {
         background: #0094b8; } }
+  .page-lightblue .section--mix .wrap-thumb a {
+    color: #0094b8; }
+    .page-lightblue .section--mix .wrap-thumb a:hover {
+      color: #026780; }
   .page-lightblue .section--mix .thumb .wrap-thumb-content {
     background: #0094b8; }
   .page-lightblue .section--mix .years {
     background: #026780; }
+  .page-lightblue .section--mix .tag {
+    background: #0094b8; }
+  .page-lightblue .section--formpage .tit {
+    color: #0094b8; }
+  .page-lightblue .section--formpage .form-page a {
+    color: #0094b8; }
+  .page-lightblue .section--formpage .form-page input,
+  .page-lightblue .section--formpage .form-page input:focus,
+  .page-lightblue .section--formpage .form-page textarea,
+  .page-lightblue .section--formpage .form-page textarea:focus,
+  .page-lightblue .section--formpage .form-page select,
+  .page-lightblue .section--formpage .form-page select:focus {
+    border: 0;
+    border-bottom: 1px solid #0094b8 !important; }
+  .page-lightblue .section--formpage .form-page .form-control::-webkit-input-placeholder {
+    color: #0094b8; }
+  .page-lightblue .section--formpage .form-page .form-control:-moz-placeholder {
+    color: #0094b8; }
+  .page-lightblue .section--formpage .form-page .form-control::-moz-placeholder {
+    color: #0094b8; }
+  .page-lightblue .section--formpage .form-page .form-control:-ms-input-placeholder {
+    color: #0094b8; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Red */
 .page-red {
   /* Titoli */
   /* Cta */
+  /* Copy */
   /* Cover pagine interne */
   /* Foto pagine interne */
   /* Filtri */
   /* Foto pagine interne colorate */
   /* Sezione listing */
-  /* Dettaglio case history */ }
+  /* Dettaglio case history */
+  /* Form di Pagina */ }
   .page-red .wrap-title:after {
     background: #D11726; }
   .page-red .wrap-title h3 {
@@ -110,6 +176,8 @@
       background: #D11726; }
   .page-red .btn {
     background: #D11726 !important; }
+  .page-red .wrap--copy .tit {
+    color: #D11726; }
   .page-red .section--cover .wrap-cover {
     background: #D11726; }
   .page-red .section--foto ._txt ._wrap-copy .tit {
@@ -124,25 +192,55 @@
     background: #D11726; }
     .page-red .section--foto--color .wrap-cover .years {
       background: #ac121e; }
+    .page-red .section--foto--color .wrap-cover .tag {
+      background: #D11726; }
     @media (max-width: 1024px) {
       .page-red .section--foto--color .wrap-cover ._img {
         background: #D11726; } }
+  .page-red .section--mix .wrap-thumb a {
+    color: #D11726; }
+    .page-red .section--mix .wrap-thumb a:hover {
+      color: #ac121e; }
   .page-red .section--mix .thumb .wrap-thumb-content {
     background: #D11726; }
   .page-red .section--mix .years {
     background: #ac121e; }
+  .page-red .section--mix .tag {
+    background: #D11726; }
   .page-red .tech-details {
+    color: #D11726; }
+  .page-red .section--formpage .tit {
+    color: #D11726; }
+  .page-red .section--formpage .form-page a {
+    color: #D11726; }
+  .page-red .section--formpage .form-page input,
+  .page-red .section--formpage .form-page input:focus,
+  .page-red .section--formpage .form-page textarea,
+  .page-red .section--formpage .form-page textarea:focus,
+  .page-red .section--formpage .form-page select,
+  .page-red .section--formpage .form-page select:focus {
+    border: 0;
+    border-bottom: 1px solid #D11726 !important; }
+  .page-red .section--formpage .form-page .form-control::-webkit-input-placeholder {
+    color: #D11726; }
+  .page-red .section--formpage .form-page .form-control:-moz-placeholder {
+    color: #D11726; }
+  .page-red .section--formpage .form-page .form-control::-moz-placeholder {
+    color: #D11726; }
+  .page-red .section--formpage .form-page .form-control:-ms-input-placeholder {
     color: #D11726; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Purple */
 .page-purple {
   /* Titoli */
   /* Cta */
+  /* Copy */
   /* Cover pagine interne */
   /* Foto pagine interne */
   /* Filtri */
   /* Foto pagine interne colorate */
-  /* Sezione listing */ }
+  /* Sezione listing */
+  /* Form di Pagina */ }
   .page-purple .wrap-title:after {
     background: #9b3b87; }
   .page-purple .wrap-title h3 {
@@ -151,6 +249,8 @@
       background: #9b3b87; }
   .page-purple .btn {
     background: #9b3b87 !important; }
+  .page-purple .wrap--copy .tit {
+    color: #9b3b87; }
   .page-purple .section--cover .wrap-cover {
     background: #9b3b87; }
   .page-purple .section--foto ._txt ._wrap-copy .tit {
@@ -165,23 +265,53 @@
     background: #9b3b87; }
     .page-purple .section--foto--color .wrap-cover .years {
       background: #85126d; }
+    .page-purple .section--foto--color .wrap-cover .tag {
+      background: #9b3b87; }
     @media (max-width: 1024px) {
       .page-purple .section--foto--color .wrap-cover ._img {
         background: #9b3b87; } }
+  .page-purple .section--mix .wrap-thumb a {
+    color: #9b3b87; }
+    .page-purple .section--mix .wrap-thumb a:hover {
+      color: #85126d; }
   .page-purple .section--mix .thumb .wrap-thumb-content {
     background: #9b3b87; }
   .page-purple .section--mix .years {
     background: #85126d; }
+  .page-purple .section--mix .tag {
+    background: #9b3b87; }
+  .page-purple .section--formpage .tit {
+    color: #9b3b87; }
+  .page-purple .section--formpage .form-page a {
+    color: #9b3b87; }
+  .page-purple .section--formpage .form-page input,
+  .page-purple .section--formpage .form-page input:focus,
+  .page-purple .section--formpage .form-page textarea,
+  .page-purple .section--formpage .form-page textarea:focus,
+  .page-purple .section--formpage .form-page select,
+  .page-purple .section--formpage .form-page select:focus {
+    border: 0;
+    border-bottom: 1px solid #9b3b87 !important; }
+  .page-purple .section--formpage .form-page .form-control::-webkit-input-placeholder {
+    color: #9b3b87; }
+  .page-purple .section--formpage .form-page .form-control:-moz-placeholder {
+    color: #9b3b87; }
+  .page-purple .section--formpage .form-page .form-control::-moz-placeholder {
+    color: #9b3b87; }
+  .page-purple .section--formpage .form-page .form-control:-ms-input-placeholder {
+    color: #9b3b87; }
 
 /* - - - - - - - - - - - - - - - - - - - - - -> Blue */
 .page-blue {
   /* Titoli */
   /* Cta */
+  /* Copy */
   /* Cover pagine interne */
   /* Foto pagine interne */
   /* Filtri */
   /* Foto pagine interne colorate */
-  /* Sezione listing */ }
+  /* Sezione listing */
+  /* Form di Pagina */ }
   .page-blue .wrap-title:after {
     background: #003b89; }
   .page-blue .wrap-title h3 {
@@ -190,6 +320,8 @@
       background: #003b89; }
   .page-blue .btn {
     background: #003b89 !important; }
+  .page-blue .wrap--copy .tit {
+    color: #003b89; }
   .page-blue .section--cover .wrap-cover {
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
@@ -204,13 +336,41 @@
     background: #003b89; }
     .page-blue .section--foto--color .wrap-cover .years {
       background: #002960; }
+    .page-blue .section--foto--color .wrap-cover .tag {
+      background: #003b89; }
     @media (max-width: 1024px) {
       .page-blue .section--foto--color .wrap-cover ._img {
         background: #003b89; } }
+  .page-blue .section--mix .wrap-thumb a {
+    color: #003b89; }
+    .page-blue .section--mix .wrap-thumb a:hover {
+      color: #002960; }
   .page-blue .section--mix .thumb .wrap-thumb-content {
     background: #003b89; }
   .page-blue .section--mix .years {
     background: #002960; }
+  .page-blue .section--mix .tag {
+    background: #003b89; }
+  .page-blue .section--formpage .tit {
+    color: #003b89; }
+  .page-blue .section--formpage .form-page a {
+    color: #003b89; }
+  .page-blue .section--formpage .form-page input,
+  .page-blue .section--formpage .form-page input:focus,
+  .page-blue .section--formpage .form-page textarea,
+  .page-blue .section--formpage .form-page textarea:focus,
+  .page-blue .section--formpage .form-page select,
+  .page-blue .section--formpage .form-page select:focus {
+    border: 0;
+    border-bottom: 1px solid #003b89 !important; }
+  .page-blue .section--formpage .form-page .form-control::-webkit-input-placeholder {
+    color: #003b89; }
+  .page-blue .section--formpage .form-page .form-control:-moz-placeholder {
+    color: #003b89; }
+  .page-blue .section--formpage .form-page .form-control::-moz-placeholder {
+    color: #003b89; }
+  .page-blue .section--formpage .form-page .form-control:-ms-input-placeholder {
+    color: #003b89; }
 
 :root {
   --blue: #003b89;
