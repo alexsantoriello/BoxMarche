@@ -71,6 +71,10 @@ $blue-dark: #002960;
     }
 
     /* Foto pagine interne */
+    .section--mix .row a .tit {
+        color: $yellow;
+    }
+
     .section--foto ._txt ._wrap-copy .tit {
         color: $yellow;
     }
@@ -160,6 +164,19 @@ $blue-dark: #002960;
         }
     }
 
+    /* Paging */
+    .paging {
+
+        .page-link {
+            color: $yellow;
+        }
+
+        .page-item.active .page-link {
+            background-color: $yellow;
+            border-color: $yellow;
+        }
+    }
+
     /* Form di Pagina */
     .section--formpage {
         .tit {
@@ -237,6 +254,10 @@ $blue-dark: #002960;
     }
 
     /* Foto pagine interne */
+    .section--mix .row a .tit {
+        color: $lightblue;
+    }
+
     .section--foto ._txt ._wrap-copy .tit {
         color: $lightblue;
     }
@@ -327,6 +348,19 @@ $blue-dark: #002960;
         }
     }
 
+    /* Paging */
+    .paging {
+
+        .page-link {
+            color: $lightblue;
+        }
+
+        .page-item.active .page-link {
+            background-color: $lightblue;
+            border-color: $lightblue;
+        }
+    }
+
     /* Form di Pagina */
     .section--formpage {
         .tit {
@@ -405,6 +439,10 @@ $blue-dark: #002960;
     }
 
     /* Foto pagine interne */
+    .section--mix .row a .tit {
+        color: $red;
+    }
+
     .section--foto ._txt ._wrap-copy .tit {
         color: $red;
     }
@@ -489,6 +527,19 @@ $blue-dark: #002960;
         color: $red;
     }
 
+    /* Paging */
+    .paging {
+
+        .page-link {
+            color: $red;
+        }
+
+        .page-item.active .page-link {
+            background-color: $red;
+            border-color: $red;
+        }
+    }
+
     /* Form di Pagina */
     .section--formpage {
         .tit {
@@ -567,6 +618,10 @@ $blue-dark: #002960;
     }
 
     /* Foto pagine interne */
+    .section--mix .row a .tit {
+        color: $purple;
+    }
+
     .section--foto ._txt ._wrap-copy .tit {
         color: $purple;
     }
@@ -647,6 +702,19 @@ $blue-dark: #002960;
 
     }
 
+    /* Paging */
+    .paging {
+
+        .page-link {
+            color: $purple;
+        }
+
+        .page-item.active .page-link {
+            background-color: $purple;
+            border-color: $purple;
+        }
+    }
+
     /* Form di Pagina */
     .section--formpage {
         .tit {
@@ -721,6 +789,10 @@ $blue-dark: #002960;
     }
 
     /* Cover pagine interne */
+    .section--mix .row a .tit {
+        color: $blue;
+    }
+
     .section--cover .wrap-cover {
         background: $blue;
     }
@@ -802,6 +874,19 @@ $blue-dark: #002960;
 
         .tag {
             background: $blue;
+        }
+    }
+
+    /* Paging */
+    .paging {
+
+        .page-link {
+            color: $blue;
+        }
+
+        .page-item.active .page-link {
+            background-color: $blue;
+            border-color: $blue;
         }
     }
 

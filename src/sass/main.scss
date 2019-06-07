@@ -74,6 +74,18 @@ body {
 	transition: all .2s ease-in-out;
 }
 
+input:focus,
+input.form-control:focus,
+textarea:focus,
+textarea.form-control:focus {
+
+	outline: none !important;
+	outline-width: 0 !important;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
 // layout solo su mobile
 @media (max-width: 767px) {
 
