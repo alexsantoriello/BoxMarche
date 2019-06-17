@@ -70,6 +70,22 @@ $blue-dark: #002960;
         background: $yellow;
     }
 
+    /*Breadcrumb */
+    #breadcrumb {
+
+        .breadcrumb {
+            li {
+                a {
+                    color: $yellow;
+                }
+
+                i {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+
     /* Foto pagine interne */
     .section--mix .row a .tit {
         color: $yellow;
@@ -113,6 +129,11 @@ $blue-dark: #002960;
 
         }
 
+    }
+
+    /* Glossario */
+    .letter {
+        color: $yellow;
     }
 
     /* Foto pagine interne colorate */
@@ -253,6 +274,22 @@ $blue-dark: #002960;
         background: $lightblue;
     }
 
+    /*Breadcrumb */
+    #breadcrumb {
+
+        .breadcrumb {
+            li {
+                a {
+                    color: $lightblue;
+                }
+
+                i {
+                    color: $lightblue;
+                }
+            }
+        }
+    }
+
     /* Foto pagine interne */
     .section--mix .row a .tit {
         color: $lightblue;
@@ -296,6 +333,11 @@ $blue-dark: #002960;
 
         }
 
+    }
+
+    /* Glossario */
+    .letter {
+        color: $lightblue;
     }
 
     /* Foto pagine interne colorate */
@@ -438,6 +480,22 @@ $blue-dark: #002960;
         background: $red;
     }
 
+    /*Breadcrumb */
+    #breadcrumb {
+
+        .breadcrumb {
+            li {
+                a {
+                    color: $red;
+                }
+
+                i {
+                    color: $red;
+                }
+            }
+        }
+    }
+
     /* Foto pagine interne */
     .section--mix .row a .tit {
         color: $red;
@@ -470,6 +528,11 @@ $blue-dark: #002960;
 
         }
 
+    }
+
+    /* Glossario */
+    .letter {
+        color: $red;
     }
 
     /* Foto pagine interne colorate */
@@ -617,6 +680,22 @@ $blue-dark: #002960;
         background: $purple;
     }
 
+    /*Breadcrumb */
+    #breadcrumb {
+
+        .breadcrumb {
+            li {
+                a {
+                    color: $purple;
+                }
+
+                i {
+                    color: $purple;
+                }
+            }
+        }
+    }
+
     /* Foto pagine interne */
     .section--mix .row a .tit {
         color: $purple;
@@ -649,6 +728,11 @@ $blue-dark: #002960;
 
         }
 
+    }
+
+    /* Glossario */
+    .letter {
+        color: $purple;
     }
 
     /* Foto pagine interne colorate */
@@ -793,6 +877,22 @@ $blue-dark: #002960;
         color: $blue;
     }
 
+    /*Breadcrumb */
+    #breadcrumb {
+
+        .breadcrumb {
+            li {
+                a {
+                    color: $blue;
+                }
+
+                i {
+                    color: $blue;
+                }
+            }
+        }
+    }
+
     .section--cover .wrap-cover {
         background: $blue;
     }
@@ -825,6 +925,11 @@ $blue-dark: #002960;
 
         }
 
+    }
+
+    /* Glossario */
+    .letter {
+        color: $blue;
     }
 
     /* Foto pagine interne colorate */

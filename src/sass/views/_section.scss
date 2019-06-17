@@ -64,7 +64,7 @@
             }
 
             @media (max-width: 1400px) {
-                padding: 40px 40px 0 0;
+                padding: 70px 40px 0 0;
             }
 
             @media (max-width: 768px) {
@@ -75,6 +75,13 @@
 
             @media (max-width: 767px) {
                 padding-bottom: 20px !important;
+            }
+
+            .year {
+                font-size: 13px;
+                line-height: 140%;
+                font-weight: 300;
+                margin-bottom: 20px;
             }
 
             .cat {
@@ -112,6 +119,35 @@
 
 }
 
+/* Breadcrumb
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+#breadcrumb {
+
+    .breadcrumb {
+        background: none;
+        padding: 10px 0;
+        margin: 0;
+
+        li {
+            margin-right: 15px;
+
+            a {
+                margin-right: 12px;
+                font-size: 12px;
+
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+
+            i {
+                font-size: 10px;
+            }
+        }
+    }
+}
 
 /* Copy
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
@@ -154,6 +190,25 @@
 }
 
 
+/* Glossario
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.letter {
+    text-align: center;
+    padding: 40px 0 60px 0;
+
+    span {
+        font-size: 100px;
+        font-weight: 800;
+    }
+}
+
+.section--glossario {
+    .wrap--copy {
+        padding-bottom: 50px;
+    }
+}
+
+
 /* Paging
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .paging {
@@ -190,6 +245,14 @@
         line-height: 110%;
         padding-bottom: 30px;
         text-align: center;
+    }
+
+    .abstract {
+        font-size: 20px;
+        line-height: 140%;
+        color: #000;
+        text-align: center;
+        padding: 0 20% 30px 20%;
     }
 
     .form-page {
@@ -282,7 +345,7 @@
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--filtri {
     text-align: center;
-    padding: 60px 0;
+    padding: 15px 15px 30px 15px;
 
     @media (max-width: 1024px) {
         padding-bottom: 40px;
@@ -295,7 +358,7 @@
     //Dropdown
     .drop-filtri {
         display: inline-block;
-        margin: 0 12px;
+        margin: 0 12px 30px 0;
 
         @media (max-width: 767px) {
             margin: 0;
@@ -357,7 +420,7 @@
 
     .cta {
         display: inline-block;
-        margin: 0 12px;
+        margin: 0 12px 30px 0;
         position: relative;
 
         @media (max-width: 1024px) {
@@ -946,6 +1009,10 @@
                     color: #fff;
                     display: inline-block;
                     float: left;
+
+                    &.years-blog {
+                        display: none;
+                    }
                 }
             }
 

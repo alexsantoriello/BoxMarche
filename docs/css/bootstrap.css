@@ -14,8 +14,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -32,6 +34,10 @@
     color: #fd9e00; }
   .page-yellow .section--cover .wrap-cover {
     background: #fd9e00; }
+  .page-yellow #breadcrumb .breadcrumb li a {
+    color: #fd9e00; }
+  .page-yellow #breadcrumb .breadcrumb li i {
+    color: #fd9e00; }
   .page-yellow .section--mix .row a .tit {
     color: #fd9e00; }
   .page-yellow .section--foto ._txt ._wrap-copy .tit {
@@ -45,6 +51,8 @@
     outline: none; }
   .page-yellow .section--filtri .drop-filtri .dropdown-item:hover {
     background: #fd9e00; }
+  .page-yellow .letter {
+    color: #fd9e00; }
   .page-yellow .section--foto--color .wrap-cover {
     background: #fd9e00; }
     .page-yellow .section--foto--color .wrap-cover .years {
@@ -96,8 +104,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -114,6 +124,10 @@
     color: #0094b8; }
   .page-lightblue .section--cover .wrap-cover {
     background: #0094b8; }
+  .page-lightblue #breadcrumb .breadcrumb li a {
+    color: #0094b8; }
+  .page-lightblue #breadcrumb .breadcrumb li i {
+    color: #0094b8; }
   .page-lightblue .section--mix .row a .tit {
     color: #0094b8; }
   .page-lightblue .section--foto ._txt ._wrap-copy .tit {
@@ -127,6 +141,8 @@
     outline: none; }
   .page-lightblue .section--filtri .drop-filtri .dropdown-item:hover {
     background: #0094b8; }
+  .page-lightblue .letter {
+    color: #0094b8; }
   .page-lightblue .section--foto--color .wrap-cover {
     background: #0094b8; }
     .page-lightblue .section--foto--color .wrap-cover .years {
@@ -178,8 +194,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Dettaglio case history */
@@ -197,6 +215,10 @@
     color: #D11726; }
   .page-red .section--cover .wrap-cover {
     background: #D11726; }
+  .page-red #breadcrumb .breadcrumb li a {
+    color: #D11726; }
+  .page-red #breadcrumb .breadcrumb li i {
+    color: #D11726; }
   .page-red .section--mix .row a .tit {
     color: #D11726; }
   .page-red .section--foto ._txt ._wrap-copy .tit {
@@ -207,6 +229,8 @@
     background: #D11726 !important; }
   .page-red .section--filtri .drop-filtri .dropdown-item:hover {
     background: #D11726; }
+  .page-red .letter {
+    color: #D11726; }
   .page-red .section--foto--color .wrap-cover {
     background: #D11726; }
     .page-red .section--foto--color .wrap-cover .years {
@@ -260,8 +284,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -278,6 +304,10 @@
     color: #9b3b87; }
   .page-purple .section--cover .wrap-cover {
     background: #9b3b87; }
+  .page-purple #breadcrumb .breadcrumb li a {
+    color: #9b3b87; }
+  .page-purple #breadcrumb .breadcrumb li i {
+    color: #9b3b87; }
   .page-purple .section--mix .row a .tit {
     color: #9b3b87; }
   .page-purple .section--foto ._txt ._wrap-copy .tit {
@@ -288,6 +318,8 @@
     background: #9b3b87 !important; }
   .page-purple .section--filtri .drop-filtri .dropdown-item:hover {
     background: #9b3b87; }
+  .page-purple .letter {
+    color: #9b3b87; }
   .page-purple .section--foto--color .wrap-cover {
     background: #9b3b87; }
     .page-purple .section--foto--color .wrap-cover .years {
@@ -339,8 +371,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -357,6 +391,10 @@
     color: #003b89; }
   .page-blue .section--mix .row a .tit {
     color: #003b89; }
+  .page-blue #breadcrumb .breadcrumb li a {
+    color: #003b89; }
+  .page-blue #breadcrumb .breadcrumb li i {
+    color: #003b89; }
   .page-blue .section--cover .wrap-cover {
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
@@ -367,6 +405,8 @@
     background: #003b89 !important; }
   .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
     background: #003b89; }
+  .page-blue .letter {
+    color: #003b89; }
   .page-blue .section--foto--color .wrap-cover {
     background: #003b89; }
     .page-blue .section--foto--color .wrap-cover .years {

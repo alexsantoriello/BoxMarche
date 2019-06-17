@@ -314,6 +314,10 @@
 
         .nav-item.link-purple {
 
+            i.fas {
+                color: $purple !important;
+            }
+
             & .nav-link:hover {
                 color: $purple !important;
             }
@@ -321,6 +325,11 @@
         }
 
         .nav-item.link-blue {
+
+            i.fas {
+                color: $blue !important;
+                left: 57% !important;
+            }
 
             & .nav-link:hover {
                 color: $blue !important;

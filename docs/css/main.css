@@ -9,8 +9,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -27,6 +29,10 @@
     color: #fd9e00; }
   .page-yellow .section--cover .wrap-cover {
     background: #fd9e00; }
+  .page-yellow #breadcrumb .breadcrumb li a {
+    color: #fd9e00; }
+  .page-yellow #breadcrumb .breadcrumb li i {
+    color: #fd9e00; }
   .page-yellow .section--mix .row a .tit {
     color: #fd9e00; }
   .page-yellow .section--foto ._txt ._wrap-copy .tit {
@@ -40,6 +46,8 @@
     outline: none; }
   .page-yellow .section--filtri .drop-filtri .dropdown-item:hover {
     background: #fd9e00; }
+  .page-yellow .letter {
+    color: #fd9e00; }
   .page-yellow .section--foto--color .wrap-cover {
     background: #fd9e00; }
     .page-yellow .section--foto--color .wrap-cover .years {
@@ -91,8 +99,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -109,6 +119,10 @@
     color: #0094b8; }
   .page-lightblue .section--cover .wrap-cover {
     background: #0094b8; }
+  .page-lightblue #breadcrumb .breadcrumb li a {
+    color: #0094b8; }
+  .page-lightblue #breadcrumb .breadcrumb li i {
+    color: #0094b8; }
   .page-lightblue .section--mix .row a .tit {
     color: #0094b8; }
   .page-lightblue .section--foto ._txt ._wrap-copy .tit {
@@ -122,6 +136,8 @@
     outline: none; }
   .page-lightblue .section--filtri .drop-filtri .dropdown-item:hover {
     background: #0094b8; }
+  .page-lightblue .letter {
+    color: #0094b8; }
   .page-lightblue .section--foto--color .wrap-cover {
     background: #0094b8; }
     .page-lightblue .section--foto--color .wrap-cover .years {
@@ -173,8 +189,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Dettaglio case history */
@@ -192,6 +210,10 @@
     color: #D11726; }
   .page-red .section--cover .wrap-cover {
     background: #D11726; }
+  .page-red #breadcrumb .breadcrumb li a {
+    color: #D11726; }
+  .page-red #breadcrumb .breadcrumb li i {
+    color: #D11726; }
   .page-red .section--mix .row a .tit {
     color: #D11726; }
   .page-red .section--foto ._txt ._wrap-copy .tit {
@@ -202,6 +224,8 @@
     background: #D11726 !important; }
   .page-red .section--filtri .drop-filtri .dropdown-item:hover {
     background: #D11726; }
+  .page-red .letter {
+    color: #D11726; }
   .page-red .section--foto--color .wrap-cover {
     background: #D11726; }
     .page-red .section--foto--color .wrap-cover .years {
@@ -255,8 +279,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -273,6 +299,10 @@
     color: #9b3b87; }
   .page-purple .section--cover .wrap-cover {
     background: #9b3b87; }
+  .page-purple #breadcrumb .breadcrumb li a {
+    color: #9b3b87; }
+  .page-purple #breadcrumb .breadcrumb li i {
+    color: #9b3b87; }
   .page-purple .section--mix .row a .tit {
     color: #9b3b87; }
   .page-purple .section--foto ._txt ._wrap-copy .tit {
@@ -283,6 +313,8 @@
     background: #9b3b87 !important; }
   .page-purple .section--filtri .drop-filtri .dropdown-item:hover {
     background: #9b3b87; }
+  .page-purple .letter {
+    color: #9b3b87; }
   .page-purple .section--foto--color .wrap-cover {
     background: #9b3b87; }
     .page-purple .section--foto--color .wrap-cover .years {
@@ -334,8 +366,10 @@
   /* Cta */
   /* Copy */
   /* Cover pagine interne */
+  /*Breadcrumb */
   /* Foto pagine interne */
   /* Filtri */
+  /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
   /* Paging */
@@ -352,6 +386,10 @@
     color: #003b89; }
   .page-blue .section--mix .row a .tit {
     color: #003b89; }
+  .page-blue #breadcrumb .breadcrumb li a {
+    color: #003b89; }
+  .page-blue #breadcrumb .breadcrumb li i {
+    color: #003b89; }
   .page-blue .section--cover .wrap-cover {
     background: #003b89; }
   .page-blue .section--foto ._txt ._wrap-copy .tit {
@@ -362,6 +400,8 @@
     background: #003b89 !important; }
   .page-blue .section--filtri .drop-filtri .dropdown-item:hover {
     background: #003b89; }
+  .page-blue .letter {
+    color: #003b89; }
   .page-blue .section--foto--color .wrap-cover {
     background: #003b89; }
     .page-blue .section--foto--color .wrap-cover .years {
@@ -685,8 +725,13 @@ h6 {
       background: #D11726; }
     .wrap-header .header .nav-item.link-red.show .nav-link {
       color: #D11726 !important; }
+    .wrap-header .header .nav-item.link-purple i.fas {
+      color: #9b3b87 !important; }
     .wrap-header .header .nav-item.link-purple .nav-link:hover {
       color: #9b3b87 !important; }
+    .wrap-header .header .nav-item.link-blue i.fas {
+      color: #003b89 !important;
+      left: 57% !important; }
     .wrap-header .header .nav-item.link-blue .nav-link:hover {
       color: #003b89 !important; }
 
@@ -1464,7 +1509,7 @@ h6 {
           padding: 60px 50px 50px 0; } }
       @media (max-width: 1400px) {
         .section--cover ._sx ._wrap-copy {
-          padding: 40px 40px 0 0; } }
+          padding: 70px 40px 0 0; } }
       @media (max-width: 768px) {
         .section--cover ._sx ._wrap-copy {
           position: relative;
@@ -1473,6 +1518,11 @@ h6 {
       @media (max-width: 767px) {
         .section--cover ._sx ._wrap-copy {
           padding-bottom: 20px !important; } }
+      .section--cover ._sx ._wrap-copy .year {
+        font-size: 13px;
+        line-height: 140%;
+        font-weight: 300;
+        margin-bottom: 20px; }
       .section--cover ._sx ._wrap-copy .cat {
         font-size: 20px;
         line-height: 140%;
@@ -1492,6 +1542,23 @@ h6 {
       .section--cover ._sx ._wrap-copy .abstract {
         font-size: 20px;
         line-height: 140%; }
+
+/* Breadcrumb
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+#breadcrumb .breadcrumb {
+  background: none;
+  padding: 10px 0;
+  margin: 0; }
+  #breadcrumb .breadcrumb li {
+    margin-right: 15px; }
+    #breadcrumb .breadcrumb li a {
+      margin-right: 12px;
+      font-size: 12px; }
+      #breadcrumb .breadcrumb li a:hover, #breadcrumb .breadcrumb li a:focus {
+        text-decoration: none;
+        color: #000; }
+    #breadcrumb .breadcrumb li i {
+      font-size: 10px; }
 
 /* Copy
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
@@ -1520,6 +1587,18 @@ h6 {
       .section--copy .wrap--copy {
         padding: 10px 0 20px 0; } }
 
+/* Glossario
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.letter {
+  text-align: center;
+  padding: 40px 0 60px 0; }
+  .letter span {
+    font-size: 100px;
+    font-weight: 800; }
+
+.section--glossario .wrap--copy {
+  padding-bottom: 50px; }
+
 /* Paging
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .paging {
@@ -1545,6 +1624,13 @@ h6 {
   line-height: 110%;
   padding-bottom: 30px;
   text-align: center; }
+
+.section--formpage .abstract {
+  font-size: 20px;
+  line-height: 140%;
+  color: #000;
+  text-align: center;
+  padding: 0 20% 30px 20%; }
 
 .section--formpage .form-page {
   padding: 0 200px; }
@@ -1608,7 +1694,7 @@ h6 {
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
 .section--filtri {
   text-align: center;
-  padding: 60px 0; }
+  padding: 15px 15px 30px 15px; }
   @media (max-width: 1024px) {
     .section--filtri {
       padding-bottom: 40px; } }
@@ -1617,7 +1703,7 @@ h6 {
       padding: 10px 35px 25px 35px; } }
   .section--filtri .drop-filtri {
     display: inline-block;
-    margin: 0 12px; }
+    margin: 0 12px 30px 0; }
     @media (max-width: 767px) {
       .section--filtri .drop-filtri {
         margin: 0;
@@ -1660,7 +1746,7 @@ h6 {
           color: #fff; }
   .section--filtri .cta {
     display: inline-block;
-    margin: 0 12px;
+    margin: 0 12px 30px 0;
     position: relative; }
     @media (max-width: 1024px) {
       .section--filtri .cta {
@@ -2041,6 +2127,8 @@ h6 {
           color: #fff;
           display: inline-block;
           float: left; }
+          .section--mix .thumb .wrap-thumb .wrap-label .years.years-blog {
+            display: none; }
       .section--mix .thumb .wrap-thumb-content {
         text-align: left; }
         .section--mix .thumb .wrap-thumb-content .tit {
@@ -2738,6 +2826,20 @@ footer {
   color: #fff;
   padding: 10px 0;
   font-size: 13px; }
+
+#menu-menu-footer {
+  display: none;
+  /*display: flex;*/
+  list-style: none; }
+  #menu-menu-footer li a {
+    font-size: 21px;
+    line-height: 120%;
+    color: #000;
+    font-weight: 800;
+    padding-bottom: 22px; }
+  #menu-menu-footer li ul {
+    padding: 10px 0;
+    list-style: none; }
 
 html,
 body {

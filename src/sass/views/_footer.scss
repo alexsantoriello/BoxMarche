@@ -264,3 +264,25 @@ footer {
     padding: 10px 0;
     font-size: 13px;
 }
+
+#menu-menu-footer {
+    display: none;
+    /*display: flex;*/
+    list-style: none;
+
+    li {
+        a {
+            font-size: 21px;
+            line-height: 120%;
+            color: #000;
+            font-weight: 800;
+            padding-bottom: 22px;
+        }
+
+        ul {
+            padding: 10px 0;
+            list-style: none;
+        }
+
+    }
+}
