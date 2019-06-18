@@ -20,6 +20,7 @@
   /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
+  /* Dettaglio case history */
   /* Paging */
   /* Form di Pagina */ }
   .page-yellow .wrap-title:after {
@@ -72,6 +73,8 @@
     background: #cc8000; }
   .page-yellow .section--mix .tag {
     background: #fd9e00; }
+  .page-yellow .tech-details {
+    color: #fd9e00; }
   .page-yellow .paging .page-link {
     color: #fd9e00; }
   .page-yellow .paging .page-item.active .page-link {
@@ -110,6 +113,8 @@
   /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
+  /* Barrette showreel */
+  /* Dettaglio case history */
   /* Paging */
   /* Form di Pagina */ }
   .page-lightblue .wrap-title:after {
@@ -162,6 +167,15 @@
     background: #026780; }
   .page-lightblue .section--mix .tag {
     background: #0094b8; }
+  .page-lightblue .showreel.showreel-detail .swiper-pagination-bullet {
+    border-bottom: 3px solid #0094b8 !important; }
+  .page-lightblue .showreel.showreel-detail .swiper-pagination-bullet-active {
+    border-bottom: 6px solid #0094b8 !important; }
+  .page-lightblue .showreel.showreel-detail .swiper-pagination-bullet:focus,
+  .page-lightblue .showreel.showreel-detail .swiper-pagination-bullet:hover {
+    border-bottom: 6px solid #0094b8 !important; }
+  .page-lightblue .tech-details {
+    color: #0094b8; }
   .page-lightblue .paging .page-link {
     color: #0094b8; }
   .page-lightblue .paging .page-item.active .page-link {
@@ -290,6 +304,7 @@
   /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
+  /* Dettaglio case history */
   /* Paging */
   /* Form di Pagina */ }
   .page-purple .wrap-title:after {
@@ -339,6 +354,8 @@
     background: #85126d; }
   .page-purple .section--mix .tag {
     background: #9b3b87; }
+  .page-purple .tech-details {
+    color: #9b3b87; }
   .page-purple .paging .page-link {
     color: #9b3b87; }
   .page-purple .paging .page-item.active .page-link {
@@ -377,6 +394,7 @@
   /* Glossario */
   /* Foto pagine interne colorate */
   /* Sezione listing */
+  /* Dettaglio case history */
   /* Paging */
   /* Form di Pagina */ }
   .page-blue .wrap-title:after {
@@ -426,6 +444,8 @@
     background: #002960; }
   .page-blue .section--mix .tag {
     background: #003b89; }
+  .page-blue .tech-details {
+    color: #003b89; }
   .page-blue .paging .page-link {
     color: #003b89; }
   .page-blue .paging .page-item.active .page-link {

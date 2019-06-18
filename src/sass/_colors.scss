@@ -185,6 +185,11 @@ $blue-dark: #002960;
         }
     }
 
+    /* Dettaglio case history */
+    .tech-details {
+        color: $yellow;
+    }
+
     /* Paging */
     .paging {
 
@@ -388,6 +393,25 @@ $blue-dark: #002960;
         .tag {
             background: $lightblue;
         }
+    }
+
+    /* Barrette showreel */
+    .showreel.showreel-detail .swiper-pagination-bullet {
+        border-bottom: 3px solid $lightblue !important;
+    }
+
+    .showreel.showreel-detail .swiper-pagination-bullet-active {
+        border-bottom: 6px solid $lightblue !important;
+    }
+
+    .showreel.showreel-detail .swiper-pagination-bullet:focus,
+    .showreel.showreel-detail .swiper-pagination-bullet:hover {
+        border-bottom: 6px solid $lightblue !important;
+    }
+
+    /* Dettaglio case history */
+    .tech-details {
+        color: $lightblue;
     }
 
     /* Paging */
@@ -786,6 +810,11 @@ $blue-dark: #002960;
 
     }
 
+    /* Dettaglio case history */
+    .tech-details {
+        color: $purple;
+    }
+
     /* Paging */
     .paging {
 
@@ -980,6 +1009,11 @@ $blue-dark: #002960;
         .tag {
             background: $blue;
         }
+    }
+
+    /* Dettaglio case history */
+    .tech-details {
+        color: $blue;
     }
 
     /* Paging */

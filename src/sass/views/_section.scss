@@ -78,10 +78,10 @@
             }
 
             .year {
-                font-size: 13px;
+                font-size: 11px;
                 line-height: 140%;
                 font-weight: 300;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
             }
 
             .cat {
@@ -512,6 +512,10 @@
             top: 0;
             width: 100%;
             padding: 135px 50px 50px 0;
+
+            .cta {
+                margin-top: 30px;
+            }
 
             @media (max-width: 1800px) {
                 padding: 80px 50px 50px 0;
@@ -1032,6 +1036,30 @@
 
 }
 
+
+/* Risultati ricerca
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - */
+.section--result {
+
+    .tit {
+        margin-bottom: 35px;
+        font-size: 18px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            padding-bottom: 55px;
+
+            .cta {
+                margin-top: 15px;
+            }
+        }
+    }
+}
 
 
 /* Foto
