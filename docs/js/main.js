@@ -176,6 +176,7 @@ function () {
       var Hheader = $('.header__logo').outerHeight();
       var screen = $(window);
       $('.section--filtri a').click(function (e) {
+        $('.section--filtri a').removeClass('active');
         $(this).toggleClass('active');
 
         if (screen.width() < 767) {

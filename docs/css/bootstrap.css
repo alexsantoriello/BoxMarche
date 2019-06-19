@@ -25,9 +25,9 @@
   /* Form di Pagina */ }
   .page-yellow .wrap-title:after {
     background: #fd9e00; }
-  .page-yellow .wrap-title h3 {
+  .page-yellow .wrap-title .tit {
     color: #fd9e00; }
-    .page-yellow .wrap-title h3:after {
+    .page-yellow .wrap-title .tit:after {
       background: #fd9e00; }
   .page-yellow .btn {
     background: #fd9e00 !important; }
@@ -119,9 +119,9 @@
   /* Form di Pagina */ }
   .page-lightblue .wrap-title:after {
     background: #0094b8; }
-  .page-lightblue .wrap-title h3 {
+  .page-lightblue .wrap-title .tit {
     color: #0094b8; }
-    .page-lightblue .wrap-title h3:after {
+    .page-lightblue .wrap-title .tit:after {
       background: #0094b8; }
   .page-lightblue .btn {
     background: #0094b8 !important; }
@@ -219,9 +219,9 @@
   /* Form di Pagina */ }
   .page-red .wrap-title:after {
     background: #D11726; }
-  .page-red .wrap-title h3 {
+  .page-red .wrap-title .tit {
     color: #D11726; }
-    .page-red .wrap-title h3:after {
+    .page-red .wrap-title .tit:after {
       background: #D11726; }
   .page-red .btn {
     background: #D11726 !important; }
@@ -309,9 +309,9 @@
   /* Form di Pagina */ }
   .page-purple .wrap-title:after {
     background: #9b3b87; }
-  .page-purple .wrap-title h3 {
+  .page-purple .wrap-title .tit {
     color: #9b3b87; }
-    .page-purple .wrap-title h3:after {
+    .page-purple .wrap-title .tit:after {
       background: #9b3b87; }
   .page-purple .btn {
     background: #9b3b87 !important; }
@@ -399,9 +399,9 @@
   /* Form di Pagina */ }
   .page-blue .wrap-title:after {
     background: #003b89; }
-  .page-blue .wrap-title h3 {
+  .page-blue .wrap-title .tit {
     color: #003b89; }
-    .page-blue .wrap-title h3:after {
+    .page-blue .wrap-title .tit:after {
       background: #003b89; }
   .page-blue .btn {
     background: #003b89 !important; }

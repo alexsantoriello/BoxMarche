@@ -153,6 +153,7 @@ export default class App {
         var screen = $(window);
 
         $('.section--filtri a').click(function (e) {
+            $('.section--filtri a').removeClass('active');
             $(this).toggleClass('active');
 
             if (screen.width() < 767) {

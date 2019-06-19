@@ -41,7 +41,7 @@
     .container-title {
         position: relative;
 
-        h3 {
+        .tit {
             font-size: 81px;
             line-height: 110%;
             font-weight: 800;
@@ -101,7 +101,7 @@
         .container-title {
             text-align: right;
 
-            h3 {
+            .tit {
                 @media (max-width: 767px) {
                     padding-right: 5px;
                     padding-left: 0;
@@ -122,7 +122,7 @@
             background: $red;
         }
 
-        h3 {
+        .tit {
             color: $red;
 
             &:after {
@@ -136,7 +136,7 @@
             background: $purple;
         }
 
-        h3 {
+        .tit {
             color: $purple;
 
             &:after {
@@ -150,7 +150,7 @@
             background: $blue;
         }
 
-        h3 {
+        .tit {
             color: $blue;
 
             &:after {
@@ -165,7 +165,7 @@
             background: $yellow;
         }
 
-        h3 {
+        .tit {
             color: $yellow;
 
             &:after {
@@ -180,7 +180,7 @@
             background: #003b89;
         }
 
-        h3 {
+        .tit {
             color: #003b89;
 
             &:after {
