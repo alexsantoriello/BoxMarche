@@ -71,10 +71,12 @@
                 position: relative;
                 padding-bottom: 30px;
                 padding-right: 0;
+                padding-top: 40px;
             }
 
             @media (max-width: 767px) {
                 padding-bottom: 20px !important;
+                padding-top: 35px;
             }
 
             .year {
@@ -146,6 +148,10 @@
                 font-size: 10px;
             }
         }
+    }
+
+    @media (max-width: 767px) {
+        display: none;
     }
 }
 
@@ -245,6 +251,10 @@
         line-height: 110%;
         padding-bottom: 30px;
         text-align: center;
+
+        @media (max-width: 767px) {
+            padding-bottom: 10px;
+        }
     }
 
     .abstract {
@@ -253,6 +263,11 @@
         color: #000;
         text-align: center;
         padding: 0 20% 30px 20%;
+
+        @media (max-width: 767px) {
+            padding: 0 0 30px 0;
+        }
+
     }
 
     .form-page {
@@ -1053,6 +1068,12 @@
 
         li {
             padding-bottom: 55px;
+
+            .tit {
+                padding-bottom: 10px;
+                margin: 0;
+                width: 100%;
+            }
 
             .cta {
                 margin-top: 15px;

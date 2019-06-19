@@ -7,6 +7,10 @@
         padding-bottom: 80px;
     }
 
+    @media (max-width: 768px) {
+        padding-bottom: 40px;
+    }
+
     @media (max-width: 767px) {
         padding-bottom: 20px;
     }
@@ -16,7 +20,7 @@
         padding: 0;
 
         @media (max-width: 768px) {
-            padding: 40px 0;
+            padding: 0 0 40px 0;
         }
 
         @media (max-width: 767px) {
@@ -146,6 +150,10 @@
             .job-list {
                 padding-bottom: 30px;
 
+                @media (max-width: 768px) {
+                    padding-bottom: 30px !important;
+                }
+
                 .tit {
                     font-size: 18px;
                     padding-bottom: 10px;
@@ -178,5 +186,12 @@
 
         }
 
+    }
+}
+
+.section-joblist {
+
+    @media (max-width: 768px) {
+        padding-bottom: 60px !important;
     }
 }
