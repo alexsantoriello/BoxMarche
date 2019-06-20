@@ -1609,6 +1609,8 @@ h6 {
       @media (max-width: 767px) {
         .section--copy .wrap--copy .corpo {
           text-align: left; } }
+      .section--copy .wrap--copy .corpo .cta {
+        margin-top: 20px; }
     @media (max-width: 1024px) {
       .section--copy .wrap--copy {
         padding: 10px 0 20px 0; } }
@@ -2727,6 +2729,9 @@ Timeline section
 .section--job .wrap--copy {
   padding-bottom: 0; }
 
+.section--job.section--candidatura {
+  padding-bottom: 120px; }
+
 .accordion .card {
   border-radius: 0;
   background: none;
@@ -2779,9 +2784,11 @@ Timeline section
   .accordion .card .btn-link:hover {
     text-decoration: none; }
 
-@media (max-width: 768px) {
-  .section-joblist {
-    padding-bottom: 60px !important; } }
+.section-joblist {
+  padding-bottom: 25px; }
+  @media (max-width: 768px) {
+    .section-joblist {
+      padding-bottom: 25px !important; } }
 
 .section--contattaci {
   padding-bottom: 30px; }
