@@ -109,7 +109,6 @@
             a {
                 font-size: 15px;
                 line-height: 120%;
-                color: #575757;
                 font-weight: 600;
                 padding-bottom: 22px;
                 display: inline-block;
@@ -123,7 +122,11 @@
     }
 
     &__sx {
-        padding: 0;
+        /*padding: 0;*/
+
+        @media (max-width: 767px) {
+            padding: 0;
+        }
 
         .link-yellow {
             color: $yellow;
@@ -166,39 +169,6 @@
             .link-default {
                 font-size: 18px;
             }
-        }
-
-        .social {
-
-            h6 {
-                font-size: 15px;
-                line-height: 120%;
-                color: #575757;
-                font-weight: 600;
-                padding-bottom: 12px;
-                display: inline-block;
-                width: 100%;
-            }
-
-            a {
-                display: inline-block;
-                padding: 12px 17px;
-                color: #fff;
-                font-size: 16px;
-
-                &.linkedin {
-                    background: #0084b1;
-                }
-
-                &.skype {
-                    background: #40bbf0;
-                }
-
-                &:hover {
-                    background: #000;
-                }
-            }
-
         }
 
     }
@@ -266,23 +236,115 @@ footer {
 }
 
 #menu-menu-footer {
-    display: none;
-    /*display: flex;*/
     list-style: none;
 
     li {
+
+        &.menu-column {
+            float: left;
+            width: 20%;
+            padding-right: 20px;
+            /*column-count: 5;
+            column-gap: 40px;*/
+
+            &.menu-column:last-child {
+                padding-right: 0;
+            }
+
+            @media (max-width: 1024px) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+
+
+        &.link-yellow>a {
+            color: $yellow;
+        }
+
+        &.link-lightblue>a {
+            color: $lightblue;
+        }
+
+        &.link-red>a {
+            color: $red;
+        }
+
+        &.link-purple>a {
+            color: $purple;
+        }
+
+        &.link-blue>a {
+            color: $blue;
+        }
+
         a {
             font-size: 21px;
             line-height: 120%;
-            color: #000;
             font-weight: 800;
-            padding-bottom: 22px;
+            padding-bottom: 10px;
+
+            &:hover {
+                color: #000;
+            }
         }
 
         ul {
             padding: 10px 0;
             list-style: none;
+
+            li {
+                a {
+                    font-size: 15px;
+                    line-height: 120%;
+                    font-weight: 600;
+                    padding-bottom: 22px;
+                    display: inline-block;
+                    width: 100%;
+                }
+
+            }
         }
 
     }
+
+}
+
+.social {
+
+    h6 {
+        font-size: 15px;
+        line-height: 120%;
+        color: #575757;
+        font-weight: 600;
+        padding-bottom: 12px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    a {
+        display: inline-block;
+        padding: 12px 17px;
+        color: #fff;
+        font-size: 16px;
+
+        &.linkedin {
+            background: #0084b1;
+        }
+
+        &.skype {
+            background: #40bbf0;
+        }
+
+        &:hover {
+            background: #000;
+        }
+    }
+
+    @media (max-width: 767px) {
+        margin: 0;
+        margin-top: 25px;
+        padding: 0;
+    }
+
 }
